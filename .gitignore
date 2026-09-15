@@ -1,0 +1,10 @@
+# Original article PDFs are copyrighted — keep them local, share the notes.
+articles/*/source.*
+articles/inbox/*
+!articles/inbox/.gitkeep
+
+# Local scratch
+*.zip
+.claude/settings.local.json
+.DS_Store
+Thumbs.db

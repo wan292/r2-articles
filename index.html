@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ortho Study Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="app-header">
+  <h1>Ortho Study Hub</h1>
+  <p>Articles turned into summaries, numbers, conflicts, questions and flashcards.</p>
+</header>
+
+<nav class="nav-tabs">
+  <button class="nav-tab active" data-view="dashboard">Dashboard</button>
+  <button class="nav-tab" data-view="review">Review</button>
+  <button class="nav-tab" data-view="browse">Browse</button>
+  <button class="nav-tab" data-view="library">Library</button>
+</nav>
+
+<main id="app"></main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.7/marked.min.js"></script>
+<script src="data/cards.js"></script>
+<script src="data/articles.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
