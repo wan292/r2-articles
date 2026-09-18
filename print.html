@@ -7,25 +7,28 @@
 <!--
   Print view: renders one study document as a clean A4 page for PDF export.
   Usage: print.html?slug=<slug>&doc=handout
-  PDF:   msedge --headless=new --print-to-pdf=out.pdf --no-pdf-header-footer "http://localhost:8765/print.html?slug=...&doc=handout"
+  PDF:   chrome --headless=new --disable-gpu --no-pdf-header-footer --virtual-time-budget=10000 --print-to-pdf=out.pdf "http://localhost:8765/print.html?slug=...&doc=handout"  (Edge headless fails on this machine; see CLAUDE.md)
 -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
-  @page { size: A4; margin: 13mm 14mm 14mm; }
+  @page { size: A4; margin: 9mm 10mm 9mm; }
   * { box-sizing: border-box; }
   html, body { margin: 0; background: #fff; color: #111; }
-  body { font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif; font-size: 9.6pt; line-height: 1.38; padding: 0; }
-  .sheet { max-width: 182mm; margin: 0 auto; }
-  .top { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #111; padding-bottom: 3pt; margin-bottom: 6pt; font-family: 'JetBrains Mono', monospace; font-size: 7.5pt; color: #444; }
-  h1 { font-family: 'Fraunces', Georgia, serif; font-size: 15pt; line-height: 1.2; margin: 0 0 4pt; letter-spacing: -0.01em; }
-  h2 { font-family: 'Fraunces', Georgia, serif; font-size: 11pt; margin: 9pt 0 3pt; padding-top: 4pt; border-top: 1px solid #ccc; break-after: avoid; }
-  h3 { font-size: 9.6pt; margin: 6pt 0 2pt; break-after: avoid; }
-  p { margin: 2pt 0 4pt; }
-  ul, ol { margin: 2pt 0 4pt; padding-left: 14pt; }
+  body { font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif; font-size: 8.3pt; line-height: 1.28; padding: 0; }
+  .sheet { max-width: 190mm; margin: 0 auto; }
+  .top { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #111; padding-bottom: 2pt; margin-bottom: 4pt; font-family: 'JetBrains Mono', monospace; font-size: 7.5pt; color: #444; }
+  h1 { font-family: 'Fraunces', Georgia, serif; font-size: 12.5pt; line-height: 1.2; margin: 0 0 3pt; letter-spacing: -0.01em; }
+  h2 { font-family: 'Fraunces', Georgia, serif; font-size: 9.8pt; margin: 5.5pt 0 2pt; padding-top: 2.5pt; border-top: 1px solid #ccc; break-after: avoid; }
+  h3 { font-size: 9pt; margin: 5pt 0 1.5pt; break-after: avoid; }
+  p { margin: 1.5pt 0 3.5pt; }
+  ul, ol { margin: 1.5pt 0 3.5pt; padding-left: 13pt; }
   li { margin: 1pt 0; }
   li p { margin: 0; }
-  table { border-collapse: collapse; width: 100%; margin: 3pt 0 5pt; font-size: 8.6pt; break-inside: avoid; }
-  th, td { border: 1px solid #bbb; padding: 2.5pt 4pt; text-align: left; vertical-align: top; }
+  table { border-collapse: collapse; width: 100%; margin: 2.5pt 0 3.5pt; font-size: 7.6pt; break-inside: auto; }
+  tr { break-inside: avoid; }
+  thead { display: table-header-group; }
+  td:first-child { white-space: normal; min-width: 28mm; }
+  th, td { border: 1px solid #bbb; padding: 1.6pt 3pt; text-align: left; vertical-align: top; }
   th { background: #eee; font-weight: 600; }
   tr:nth-child(even) td { background: #f7f7f7; }
   strong { font-weight: 650; }
