@@ -8,7 +8,9 @@ A study system for an orthodontic residency year built around article reviews: e
 
 | File | What it is for |
 |------|----------------|
-| `handout.md` / `handout.pdf` | The two pages you hold in the room: 30-second opening, eight numbers, what each arm did, strengths and weaknesses, three questions to ask, five you'll be asked, exam radar, prep timeline |
+| `handout.md` / `handout.pdf` | The two pages handed to consultants: bottom line, what was done, mechanism figure, results table and chart, strengths, limitations, points for discussion, clinical implications, how it sits with previous evidence |
+| `prep.md` / `prep.pdf` | Your private two pages: 30-second opening, eight numbers, what each arm did, three questions to ask, five you'll be asked, exam radar, prep timeline |
+| `figures/` | SVG figures used by the handout (mechanism schematic, results by arm) |
 | `summary.md` | Bottom line, what they did, what they found, why it matters, mechanism table |
 | `key-numbers.md` | Every important number in one place, all tables reproduced, derived numbers, literature numbers beside them |
 | `conflicts.md` | The paper vs itself, vs other studies, vs Proffit; open questions; verdict |
@@ -20,7 +22,7 @@ A study system for an orthodontic residency year built around article reviews: e
 Plus 10–20 flashcards, lines in `registry/claims.md` (so the next article is checked against this one), and a line in `progress.md`.
 
 ## The app
-- **Library** (home) — cards due today, every article with its study files as colour-coded chips, per-article progress, Practise and Handout PDF buttons
+- **Library** (home) — cards due today, every article with its study files as colour-coded chips, per-article progress, Practise, Handout PDF and Prep sheet PDF buttons
 - **Review** — tap-to-flip cards on a 5-box spaced-repetition schedule (Again / Good / Easy; keyboard: space, 1, 2, 3); practise a single article any time
 - **Cards** — search every card by text, tag or article
 - **Reader** — every study file rendered in-app with a contents list; deep links work: `#read/<slug>/<doc>`

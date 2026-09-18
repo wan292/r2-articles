@@ -1,6 +1,6 @@
 ---
 name: process-article
-description: Process a new orthodontic journal article into the study hub. Reads the article fully, researches the surrounding literature and Proffit, audits the paper against itself, then generates the seven study files (summary, key numbers, conflicts, critical appraisal, discussion questions, exam questions, clinical implications), distils them into a two-page discussion handout with an exam radar (markdown + PDF), writes flashcards, files everything under articles/<slug>/, and updates the Library manifest, the claims registry and progress.md. Use whenever the user adds a file to articles/inbox/, or asks to process, add, study, or file a new article.
+description: Process a new orthodontic journal article into the study hub. Reads the article fully, researches the surrounding literature and Proffit, audits the paper against itself, then generates the seven study files (summary, key numbers, conflicts, critical appraisal, discussion questions, exam questions, clinical implications), distils them into a private two-page prep sheet (exam radar, questions to ask) and a neutral consultant-facing handout with two SVG figures (both as markdown + PDF), writes flashcards, files everything under articles/<slug>/, and updates the Library manifest, the claims registry and progress.md. Use whenever the user adds a file to articles/inbox/, or asks to process, add, study, or file a new article.
 argument-hint: [optional filename in articles/inbox/]
 ---
 
@@ -50,16 +50,23 @@ Write for a resident preparing for a group discussion and a promotion exam. Prec
 ## 6. Verify adversarially before filing
 For every file, run a hostile fact-check against the article text and the page images: every number, group attribution, direction of effect, table reference; every MCQ has exactly one defensible answer and the key matches; flashcard backs are exact. Then a completeness pass across all files: contradictions between files, table numbers missing from key-numbers, conflicts from the research not in conflicts.md, discussion questions whose answer is plainly in the paper. Patch what it finds.
 
-## 7. Distil the handout (after the seven files are final)
-**`handout.md`** — the two-page discussion brief, distilled from the seven files only, under 1100 words outside tables, with exactly these sections: 30-second opening; bottom line; eight numbers to remember (table); what each arm/group did (table); strengths and weaknesses (three each); what it changes at the chair (five); three questions to ask (with a one-line "why it lands"); five questions you will be asked (with one-line answers); exam radar (ten facts most likely tested, three likely MCQ stems with answers, one likely oral question with a model answer); before the session (prep timeline table); verdict in one line. Verify it with two independent hostile checks (numbers; usefulness in the room) and merge. Integrity findings go in one neutral weakness line pointing to `conflicts.md`.
+## 7. Distil the two short documents (after the seven files are final)
 
-**`handout.pdf`** — export through `print.html` with headless Chrome (the local server from `.claude/launch.json` must be running on port 8765; Edge headless does not work on this machine):
+**`prep.md`** — the resident's PRIVATE two-page prep sheet, distilled from the seven files only, under 1100 words outside tables, with exactly these sections: 30-second opening; bottom line; eight numbers to remember (table); what each arm/group did (table); strengths and weaknesses (three each); what it changes at the chair (five); three questions to ask (with a one-line "why it lands"); five questions you will be asked (with one-line answers); exam radar (ten facts most likely tested, three likely MCQ stems with answers, one likely oral question with a model answer); before the session (prep timeline table); verdict in one line. Verify it with two independent hostile checks (numbers; usefulness in the room) and merge. Integrity findings go in one neutral weakness line pointing to `conflicts.md`.
+
+**`figures/mechanism.svg` and `figures/results.svg`** — two figures for the consultant handout. Mechanism: one panel per arm, schematic lateral view (teeth as rounded rectangles, turbo in black, coloured arrows for the reported movements, three short annotation lines and a bold numbers line per panel). Results: small multiples, one panel per key outcome (bars = mean, whiskers = ± 1 SD, direct value labels, the paper's between-group test as a footnote, legend on top). Arm colours I `#B7791F`, II `#0F8F7A`, III `#6D4FD1`; text in greys, never in the arm colour. Inline presentation attributes only (no `<style>` classes, no `context-stroke`); render with a headless Chrome `--screenshot` to check for clipped labels before use. Adapt panel count and outcomes to the paper.
+
+**`handout.md`** — the CONSULTANT-FACING two-page brief, 750–900 words outside tables, neutral third person, no coaching or exam material, with exactly these sections: H1 title; citation line; design line; bottom line; what was done; `![Figure 1. …](figures/mechanism.svg)`; what was found (paragraph + compact results table with a between-groups column); `![Figure 2. …](figures/results.svg)`; strengths; limitations; points for discussion (neutral issues with their numbers); clinical implications (bullets + decision table); how it sits with previous evidence (cited one-liners, VERIFIED items only); reporting notes (printed text-vs-table discrepancies, factual). Data-overlap and unequal-arm findings are excluded. Verify with two independent hostile checks (numbers; consultant tone) and merge.
+
+**`handout.pdf` and `prep.pdf`** — export each through `print.html` with headless Chrome (local server on port 8765; Edge headless does not work; write to a space-free scratch path with a fresh throwaway profile and a cache-busting query, then copy into the article folder):
 
 ```bash
-"/c/Program Files/Google/Chrome/Application/chrome.exe" --headless=new --disable-gpu --no-pdf-header-footer --virtual-time-budget=10000 --print-to-pdf="H:\DRIVE\SBO\R2 Articles\articles\<slug>\handout.pdf" "http://localhost:8765/print.html?slug=<slug>&doc=handout"
+SCR='C:\Users\<user>\AppData\Local\Temp\claude\...\scratchpad'; rm -rf "$SCR/chrome-profile"
+"/c/Program Files/Google/Chrome/Application/chrome.exe" --headless=new --disable-gpu --no-first-run --user-data-dir="$SCR\\chrome-profile" --no-pdf-header-footer --virtual-time-budget=10000 --print-to-pdf="$SCR\\out.pdf" "http://localhost:8765/print.html?slug=<slug>&doc=handout&v=$(date +%s)"
+cp "$SCR/out.pdf" "articles/<slug>/handout.pdf"
 ```
 
-Check the page count (target 2, never more than 3) and render page 1 to PNG to eyeball it.
+Check the page count with pypdf (target 2, never more than 3) and render the pages to PNG with PyMuPDF to eyeball them; tighten `print.html` only if the content genuinely needs it.
 
 ## 8. Flashcards
 10–20 new cards appended to `CARDS` in `data/cards.js`:
@@ -72,7 +79,7 @@ One fact per card, back ≤ 40 words, exact numbers. Reuse an existing `topic`; 
 
 ## 9. File the source and register the article
 - Move the original file from `articles/inbox/` to `articles/<slug>/source.<ext>` (git-ignored while the repo is public).
-- Append an object to `ARTICLES` in `data/articles.js`: `slug, short ("Firstauthor Year"), title, authors, journal, year, citation, topics, tags, processed (date), discussion (date or null), note (one line), docs (all eight keys, handout first), pdf: true`.
+- Append an object to `ARTICLES` in `data/articles.js`: `slug, short ("Firstauthor Year"), title, authors, journal, year, citation, topics, tags, processed (date), discussion (date or null), note (one line), docs (all nine keys: handout, prep, summary, key-numbers, conflicts, critical-appraisal, discussion-questions, exam-questions, clinical-implications), pdfs: ["handout", "prep"]`.
 - Append the article's key claims (8–12 lines, each with the number and unit) to `registry/claims.md`, filling "Conflicts with" from what the research found.
 - Append one line to `progress.md`: date, title, slug, topic(s), one-sentence note.
 

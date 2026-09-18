@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" width="720" height="250" font-family="Inter, 'Segoe UI', Arial, sans-serif" role="img" aria-label="Schematic of how each arm opened the bite">
+  <defs>
+    <marker id="ahA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B7791F"/></marker>
+    <marker id="ahT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F8F7A"/></marker>
+    <marker id="ahV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6D4FD1"/></marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="250" fill="#ffffff"/>
+
+  <!-- ===================== Panel I ===================== -->
+  <g transform="translate(0,0)">
+    <rect x="4" y="4" width="232" height="226" rx="8" fill="#ffffff" stroke="#DDDDDD"/>
+    <text x="12" y="20" font-size="11" font-weight="700" fill="#B7791F">I · Turbos + reverse-curve NiTi wire</text>
+    <!-- upper arch -->
+    <rect x="26" y="36" width="16" height="66" rx="6" fill="#EDEDEB" stroke="#9A9A96" transform="rotate(14 34 36)"/>
+    <rect x="80" y="40" width="20" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="104" y="40" width="20" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="130" y="40" width="30" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="166" y="40" width="30" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <!-- bite turbo on the palatal of the upper incisor -->
+    <path d="M44,80 a8,8 0 0 1 8,8 v4 h-8 z" fill="#222222"/>
+    <!-- lower arch -->
+    <rect x="46" y="92" width="14" height="64" rx="6" fill="#EDEDEB" stroke="#9A9A96" transform="rotate(-6 53 156)"/>
+    <rect x="80" y="112" width="20" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="104" y="112" width="20" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="130" y="112" width="30" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="166" y="112" width="30" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <!-- reverse-curve wire through the lower brackets -->
+    <path d="M52,120 Q124,148 194,120" fill="none" stroke="#333333" stroke-width="1.6"/>
+    <!-- arrows -->
+    <path d="M68,100 v28" fill="none" stroke="#B7791F" stroke-width="1.8" marker-end="url(#ahA)"/>
+    <path d="M47,96 q-8,-4 -16,-1" fill="none" stroke="#B7791F" stroke-width="1.8" marker-end="url(#ahA)"/>
+    <path d="M90,176 v-13" fill="none" stroke="#B7791F" stroke-width="1.8" marker-end="url(#ahA)"/>
+    <path d="M114,176 v-13" fill="none" stroke="#B7791F" stroke-width="1.8" marker-end="url(#ahA)"/>
+    <path d="M140,106 q22,-12 44,0" fill="none" stroke="#B7791F" stroke-width="1.8" marker-end="url(#ahA)"/>
+    <!-- annotations -->
+    <text x="12" y="188" font-size="8.2" fill="#333333">Incisor: ~1 mm intrusion (Point I), +7.5° flare</text>
+    <text x="12" y="199" font-size="8.2" fill="#333333">Premolars extrude 1.05 mm</text>
+    <text x="12" y="210" font-size="8.2" fill="#333333">Molars tip back 6–9° (cinched wire)</text>
+    <text x="12" y="223" font-size="9" font-weight="700" fill="#222222">55.7 d · LI-CA +7.46° · Point I 0.99 mm</text>
+  </g>
+
+  <!-- ===================== Panel II ===================== -->
+  <g transform="translate(240,0)">
+    <rect x="4" y="4" width="232" height="226" rx="8" fill="#ffffff" stroke="#DDDDDD"/>
+    <text x="12" y="20" font-size="11" font-weight="700" fill="#0F8F7A">II · Turbos + posterior box elastics</text>
+    <rect x="26" y="36" width="16" height="66" rx="6" fill="#EDEDEB" stroke="#9A9A96" transform="rotate(14 34 36)"/>
+    <rect x="80" y="40" width="20" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="104" y="40" width="20" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="130" y="40" width="30" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="166" y="40" width="30" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <path d="M44,80 a8,8 0 0 1 8,8 v4 h-8 z" fill="#222222"/>
+    <rect x="46" y="92" width="14" height="64" rx="6" fill="#EDEDEB" stroke="#9A9A96" transform="rotate(-6 53 156)"/>
+    <rect x="80" y="112" width="20" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="104" y="112" width="20" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="130" y="112" width="30" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="166" y="112" width="30" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <!-- box elastic spanning premolars and molars in both arches -->
+    <rect x="84" y="66" width="118" height="68" rx="6" fill="none" stroke="#0F8F7A" stroke-width="2"/>
+    <!-- arrows: upper posteriors move down, lower posteriors move up -->
+    <path d="M114,26 v11" fill="none" stroke="#0F8F7A" stroke-width="1.8" marker-end="url(#ahT)"/>
+    <path d="M166,26 v11" fill="none" stroke="#0F8F7A" stroke-width="1.8" marker-end="url(#ahT)"/>
+    <path d="M114,176 v-13" fill="none" stroke="#0F8F7A" stroke-width="1.8" marker-end="url(#ahT)"/>
+    <path d="M166,176 v-13" fill="none" stroke="#0F8F7A" stroke-width="1.8" marker-end="url(#ahT)"/>
+    <!-- mandibular rotation hint -->
+    <path d="M14,144 q4,16 22,18" fill="none" stroke="#0F8F7A" stroke-width="1.8" marker-end="url(#ahT)"/>
+    <text x="12" y="188" font-size="8.2" fill="#333333">Lower posteriors extrude 0.9–1.2 mm</text>
+    <text x="12" y="199" font-size="8.2" fill="#333333">Upper posteriors extrude 0.3–0.4 mm</text>
+    <text x="12" y="210" font-size="8.2" fill="#333333">Incisors +3.5°; Mn-Mx opens 1.8° (largest)</text>
+    <text x="12" y="223" font-size="9" font-weight="700" fill="#222222">44.4 d · Mn-Mx +1.84° · LFH +1.56 %</text>
+  </g>
+
+  <!-- ===================== Panel III ===================== -->
+  <g transform="translate(480,0)">
+    <rect x="4" y="4" width="232" height="226" rx="8" fill="#ffffff" stroke="#DDDDDD"/>
+    <text x="12" y="20" font-size="11" font-weight="700" fill="#6D4FD1">III · Turbos alone (0.014 NiTi)</text>
+    <rect x="26" y="36" width="16" height="66" rx="6" fill="#EDEDEB" stroke="#9A9A96" transform="rotate(14 34 36)"/>
+    <rect x="80" y="40" width="20" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="104" y="40" width="20" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="130" y="40" width="30" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="166" y="40" width="30" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <path d="M44,80 a8,8 0 0 1 8,8 v4 h-8 z" fill="#222222"/>
+    <rect x="46" y="92" width="14" height="64" rx="6" fill="#EDEDEB" stroke="#9A9A96" transform="rotate(-6 53 156)"/>
+    <rect x="80" y="112" width="20" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="104" y="112" width="20" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="130" y="112" width="30" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="166" y="112" width="30" height="48" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <text x="138" y="104" font-size="8" fill="#6D4FD1" text-anchor="middle">posterior disocclusion</text>
+    <path d="M90,176 v-13" fill="none" stroke="#6D4FD1" stroke-width="1.8" marker-end="url(#ahV)"/>
+    <path d="M145,176 v-13" fill="none" stroke="#6D4FD1" stroke-width="1.8" marker-end="url(#ahV)"/>
+    <path d="M181,176 v-13" fill="none" stroke="#6D4FD1" stroke-width="1.8" marker-end="url(#ahV)"/>
+    <text x="12" y="188" font-size="8.2" fill="#333333">Turbo disoccludes the posterior teeth</text>
+    <text x="12" y="199" font-size="8.2" fill="#333333">Lower posteriors erupt 0.9–1.3 mm</text>
+    <text x="12" y="210" font-size="8.2" fill="#333333">Incisors +1.6°; Mn-Mx +0.7° (smallest)</text>
+    <text x="12" y="223" font-size="9" font-weight="700" fill="#222222">94.2 d · LI-CA +1.55° · Mn-Mx +0.69°</text>
+  </g>
+
+  <text x="8" y="244" font-size="8" fill="#666666">Schematic lateral view, anterior to the left. Black = bite turbo bonded to the palatal of the upper central incisor. Arrows = main tooth movements reported (Tables 3–5).</text>
+</svg>

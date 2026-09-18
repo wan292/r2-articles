@@ -21,7 +21,7 @@ const ARTICLES = [
     processed: "2026-09-16",
     discussion: null,
     note: "Prospective non-randomised trial (n = 80): anterior bite turbos alone vs turbos + RCOS NiTi wire vs turbos + posterior box elastics. Elastics fastest (44 d), RCOS 56 d, turbos alone 94 d; RCOS proclines lower incisors 7.5°.",
-    docs: ["handout", "summary", "key-numbers", "conflicts", "critical-appraisal", "discussion-questions", "exam-questions", "clinical-implications"],
-    pdf: true,
+    docs: ["handout", "prep", "summary", "key-numbers", "conflicts", "critical-appraisal", "discussion-questions", "exam-questions", "clinical-implications"],
+    pdfs: ["handout", "prep"],
   },
 ];

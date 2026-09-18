@@ -7,6 +7,7 @@ const THEME_KEY = 'orthoTheme';
 // Keys match the file names under articles/<slug>/<key>.md and the .c-<key> colour classes in style.css.
 const DOC_TYPES = [
   { key: 'handout', label: 'Handout' },
+  { key: 'prep', label: 'Prep sheet' },
   { key: 'summary', label: 'Summary' },
   { key: 'key-numbers', label: 'Key numbers' },
   { key: 'conflicts', label: 'Conflicts' },
@@ -231,7 +232,7 @@ function renderLibrary() {
           <div class="article-actions">
             ${s.total ? `<button class="btn-ghost" data-practice="${escapeHtml(a.slug)}">Practise ${s.total} cards</button>` : ''}
             ${s.total ? `<button class="btn-ghost" data-browse="${escapeHtml(a.slug)}">Browse cards</button>` : ''}
-            ${a.pdf ? `<a class="btn-ghost" href="articles/${encodeURIComponent(a.slug)}/handout.pdf" target="_blank" rel="noopener">Handout PDF</a>` : ''}
+            ${(a.pdfs || []).map(k => { const d = DOC_TYPES.find(x => x.key === k); return `<a class="btn-ghost" href="articles/${encodeURIComponent(a.slug)}/${encodeURIComponent(k)}.pdf" target="_blank" rel="noopener">${d ? d.label : k} PDF</a>`; }).join('')}
           </div>
           ${a.tags && a.tags.length ? `<div class="tag-row">${a.tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>` : ''}
         </article>`;
@@ -397,6 +398,27 @@ function renderMarkdown(md) {
   return `<pre class="md-fallback">${escapeHtml(md)}</pre>`;
 }
 
+// Relative image paths in a study file are relative to articles/<slug>/, but the page lives at the site root.
+// Also turns `![caption](src)` into a figure with a visible caption.
+function localiseFigures(root, slug) {
+  root.querySelectorAll('img').forEach(img => {
+    const src = img.getAttribute('src') || '';
+    if (src && !/^(https?:|data:|\/)/.test(src)) img.src = `articles/${encodeURIComponent(slug)}/${src}`;
+    img.loading = 'lazy';
+    const alt = img.getAttribute('alt');
+    const p = img.parentElement;
+    if (alt && p && p.tagName === 'P' && p.childNodes.length === 1) {
+      const fig = document.createElement('figure');
+      fig.className = 'md-figure';
+      p.replaceWith(fig);
+      fig.appendChild(img);
+      const cap = document.createElement('figcaption');
+      cap.textContent = alt;
+      fig.appendChild(cap);
+    }
+  });
+}
+
 function buildToc(body) {
   const h2s = [...body.querySelectorAll('h2')];
   if (h2s.length < 3) return '';
@@ -426,7 +448,7 @@ async function renderReader() {
       </nav>
       <div class="reader-actions">
         ${n ? `<button class="btn-ghost" id="reader-practice">Practise ${n} cards</button>` : ''}
-        ${docType.key === 'handout' && article && article.pdf ? `<a class="btn-ghost" href="articles/${encodeURIComponent(slug)}/handout.pdf" target="_blank" rel="noopener">Download PDF</a>` : ''}
+        ${article && (article.pdfs || []).includes(docType.key) ? `<a class="btn-ghost" href="articles/${encodeURIComponent(slug)}/${encodeURIComponent(docType.key)}.pdf" target="_blank" rel="noopener">Download PDF</a>` : ''}
         ${typeof SITE !== 'undefined' && SITE.repo ? `<a class="btn-ghost" href="${escapeHtml(SITE.repo)}/blob/main/articles/${encodeURIComponent(slug)}/${docType.key}.md" target="_blank" rel="noopener">On GitHub</a>` : ''}
       </div>
       <div id="reader-toc"></div>
@@ -449,6 +471,7 @@ async function renderReader() {
     if (!readerTarget || readerTarget.slug !== slug || readerTarget.doc !== docType.key) return;
     body.innerHTML = renderMarkdown(md);
     body.querySelectorAll('a[href^="http"]').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
+    localiseFigures(body, slug);
     tocEl.innerHTML = buildToc(body);
     tocEl.querySelectorAll('[data-scroll]').forEach(a => a.addEventListener('click', (e) => {
       e.preventDefault();

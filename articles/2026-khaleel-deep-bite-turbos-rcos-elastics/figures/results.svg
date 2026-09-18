@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 212" width="720" height="212" font-family="Inter, 'Segoe UI', Arial, sans-serif" role="img" aria-label="Results by arm: days to correction, lower incisor proclination, Point I change, mandibular plane change">
+  <rect x="0" y="0" width="720" height="212" fill="#ffffff"/>
+
+  <!-- legend -->
+  <g transform="translate(12,10)">
+    <rect x="0" y="0" width="10" height="10" rx="2" fill="#B7791F"/><text x="15" y="9" font-size="8.8" fill="#333333">I · Turbos + RCOS wire</text>
+    <rect x="130" y="0" width="10" height="10" rx="2" fill="#0F8F7A"/><text x="145" y="9" font-size="8.8" fill="#333333">II · Turbos + box elastics</text>
+    <rect x="275" y="0" width="10" height="10" rx="2" fill="#6D4FD1"/><text x="290" y="9" font-size="8.8" fill="#333333">III · Turbos alone</text>
+    <text x="400" y="9" font-size="7.8" fill="#666666">Bars = mean; whiskers = ± 1 SD (Tables 2–5); tests as printed.</text>
+  </g>
+
+  <!-- ===== Panel a: days to correction ===== -->
+  <g transform="translate(10,0)">
+    <text x="24" y="40" font-size="10" font-weight="600" fill="#222222">Days to overbite &lt; 30 %</text>
+    <text x="24" y="51" font-size="8" fill="#777777">days</text>
+    <line x1="24" y1="175" x2="150" y2="175" stroke="#BBBBBB" stroke-width="1"/>
+    <path d="M34,175 V118.2 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V175 z" fill="#B7791F"/>
+    <line x1="45" y1="102.7" x2="45" y2="125.7" stroke="#444444" stroke-width="1"/>
+    <text x="45" y="97" font-size="9" font-weight="600" fill="#222222" text-anchor="middle">55.7</text>
+    <path d="M72,175 V130.5 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V175 z" fill="#0F8F7A"/>
+    <line x1="83" y1="114.6" x2="83" y2="138.4" stroke="#444444" stroke-width="1"/>
+    <text x="83" y="109" font-size="9" font-weight="600" fill="#222222" text-anchor="middle">44.4</text>
+    <path d="M110,175 V76.3 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V175 z" fill="#6D4FD1"/>
+    <line x1="121" y1="64.6" x2="121" y2="80.0" stroke="#444444" stroke-width="1"/>
+    <text x="121" y="59" font-size="9" font-weight="600" fill="#222222" text-anchor="middle">94.2</text>
+    <text x="45" y="186" font-size="8.6" fill="#444444" text-anchor="middle">I</text>
+    <text x="83" y="186" font-size="8.6" fill="#444444" text-anchor="middle">II</text>
+    <text x="121" y="186" font-size="8.6" fill="#444444" text-anchor="middle">III</text>
+    <text x="24" y="200" font-size="7.8" fill="#666666">All pairs differ (P &lt; .001); I vs II P = .010</text>
+  </g>
+
+  <!-- ===== Panel b: lower incisor proclination ===== -->
+  <g transform="translate(188,0)">
+    <text x="24" y="40" font-size="10" font-weight="600" fill="#222222">Lower incisor proclination (LI-CA)</text>
+    <text x="24" y="51" font-size="8" fill="#777777">degrees</text>
+    <line x1="24" y1="175" x2="150" y2="175" stroke="#BBBBBB" stroke-width="1"/>
+    <path d="M34,175 V97.6 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V175 z" fill="#B7791F"/>
+    <line x1="45" y1="66.1" x2="45" y2="121.1" stroke="#444444" stroke-width="1"/>
+    <text x="45" y="61" font-size="9" font-weight="600" fill="#222222" text-anchor="middle">7.46°</text>
+    <path d="M72,175 V141.3 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V175 z" fill="#0F8F7A"/>
+    <line x1="83" y1="94.9" x2="83" y2="179.7" stroke="#444444" stroke-width="1"/>
+    <text x="83" y="89" font-size="9" font-weight="600" fill="#222222" text-anchor="middle">3.46°</text>
+    <path d="M110,175 V162.1 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V175 z" fill="#6D4FD1"/>
+    <line x1="121" y1="142.9" x2="121" y2="173.3" stroke="#444444" stroke-width="1"/>
+    <text x="121" y="137" font-size="9" font-weight="600" fill="#222222" text-anchor="middle">1.55°</text>
+    <text x="45" y="186" font-size="8.6" fill="#444444" text-anchor="middle">I</text>
+    <text x="83" y="186" font-size="8.6" fill="#444444" text-anchor="middle">II</text>
+    <text x="121" y="186" font-size="8.6" fill="#444444" text-anchor="middle">III</text>
+    <text x="24" y="200" font-size="7.8" fill="#666666">I vs II and III: P &lt; .001</text>
+  </g>
+
+  <!-- ===== Panel c: Point I vertical change ===== -->
+  <g transform="translate(366,0)">
+    <text x="24" y="40" font-size="10" font-weight="600" fill="#222222">Point I change ("true" intrusion)</text>
+    <text x="24" y="51" font-size="8" fill="#777777">mm</text>
+    <line x1="24" y1="175" x2="150" y2="175" stroke="#BBBBBB" stroke-width="1"/>
+    <path d="M34,175 V99.8 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V175 z" fill="#B7791F"/>
+    <line x1="45" y1="65.4" x2="45" y2="126.2" stroke="#444444" stroke-width="1"/>
+    <text x="45" y="60" font-size="9" font-weight="600" fill="#222222" text-anchor="middle">0.99</text>
+    <path d="M72,175 V122.2 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V175 z" fill="#0F8F7A"/>
+    <line x1="83" y1="83.0" x2="83" y2="153.4" stroke="#444444" stroke-width="1"/>
+    <text x="83" y="77" font-size="9" font-weight="600" fill="#222222" text-anchor="middle">0.71</text>
+    <path d="M110,175 V110.2 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V175 z" fill="#6D4FD1"/>
+    <line x1="121" y1="73.4" x2="121" y2="139.0" stroke="#444444" stroke-width="1"/>
+    <text x="121" y="68" font-size="9" font-weight="600" fill="#222222" text-anchor="middle">0.86</text>
+    <text x="45" y="186" font-size="8.6" fill="#444444" text-anchor="middle">I</text>
+    <text x="83" y="186" font-size="8.6" fill="#444444" text-anchor="middle">II</text>
+    <text x="121" y="186" font-size="8.6" fill="#444444" text-anchor="middle">III</text>
+    <text x="24" y="200" font-size="7.8" fill="#666666">No between-group test reported</text>
+  </g>
+
+  <!-- ===== Panel d: Mn-Mx change ===== -->
+  <g transform="translate(544,0)">
+    <text x="24" y="40" font-size="10" font-weight="600" fill="#222222">Mn-Mx change</text>
+    <text x="24" y="51" font-size="8" fill="#777777">degrees (mandibular plane angle)</text>
+    <line x1="24" y1="175" x2="150" y2="175" stroke="#BBBBBB" stroke-width="1"/>
+    <path d="M34,175 V138.5 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V175 z" fill="#B7791F"/>
+    <line x1="45" y1="95.5" x2="45" y2="173.5" stroke="#444444" stroke-width="1"/>
+    <text x="45" y="90" font-size="9" font-weight="600" fill="#222222" text-anchor="middle">1.35°</text>
+    <path d="M72,175 V123.8 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V175 z" fill="#0F8F7A"/>
+    <line x1="83" y1="72.1" x2="83" y2="167.5" stroke="#444444" stroke-width="1"/>
+    <text x="83" y="67" font-size="9" font-weight="600" fill="#222222" text-anchor="middle">1.84°</text>
+    <path d="M110,175 V158.3 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V175 z" fill="#6D4FD1"/>
+    <line x1="121" y1="127.3" x2="121" y2="181.3" stroke="#444444" stroke-width="1"/>
+    <text x="121" y="122" font-size="9" font-weight="600" fill="#222222" text-anchor="middle">0.69°</text>
+    <text x="45" y="186" font-size="8.6" fill="#444444" text-anchor="middle">I</text>
+    <text x="83" y="186" font-size="8.6" fill="#444444" text-anchor="middle">II</text>
+    <text x="121" y="186" font-size="8.6" fill="#444444" text-anchor="middle">III</text>
+    <text x="24" y="200" font-size="7.8" fill="#666666">Only II vs III differs (P = .011)</text>
+  </g>
+</svg>

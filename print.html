@@ -24,11 +24,11 @@
   ul, ol { margin: 1.5pt 0 3.5pt; padding-left: 13pt; }
   li { margin: 1pt 0; }
   li p { margin: 0; }
-  table { border-collapse: collapse; width: 100%; margin: 2.5pt 0 3.5pt; font-size: 7.6pt; break-inside: auto; }
+  table { border-collapse: collapse; width: 100%; margin: 2.5pt 0 3.5pt; font-size: 7.3pt; break-inside: auto; }
   tr { break-inside: avoid; }
   thead { display: table-header-group; }
   td:first-child { white-space: normal; min-width: 28mm; }
-  th, td { border: 1px solid #bbb; padding: 1.6pt 3pt; text-align: left; vertical-align: top; }
+  th, td { border: 1px solid #bbb; padding: 1.3pt 2.6pt; text-align: left; vertical-align: top; }
   th { background: #eee; font-weight: 600; }
   tr:nth-child(even) td { background: #f7f7f7; }
   strong { font-weight: 650; }
@@ -36,6 +36,9 @@
   code { font-family: 'JetBrains Mono', monospace; font-size: 8.4pt; }
   blockquote { margin: 3pt 0; padding: 2pt 8pt; border-left: 2px solid #999; color: #333; }
   hr { border: none; border-top: 1px solid #ccc; margin: 6pt 0; }
+  figure { margin: 4pt 0 5pt; break-inside: avoid; }
+  figure img { display: block; width: 88%; height: auto; margin: 0 auto; }
+  figcaption { font-size: 7.4pt; color: #555; margin-top: 2pt; }
   .foot { margin-top: 8pt; border-top: 1px solid #ccc; padding-top: 3pt; font-size: 7pt; color: #666; font-family: 'JetBrains Mono', monospace; }
   .error { color: #b00; font-weight: 600; }
   @media screen { body { background: #ddd; padding: 20px; } .sheet { background: #fff; padding: 14mm; box-shadow: 0 2px 12px rgba(0,0,0,.2); } }
@@ -65,6 +68,22 @@
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const md = await res.text();
     el.innerHTML = marked.parse(md, { gfm: true });
+    // Relative images live under articles/<slug>/; wrap captioned images in a figure.
+    el.querySelectorAll('img').forEach(img => {
+      const src = img.getAttribute('src') || '';
+      if (src && !/^(https?:|data:|\/)/.test(src)) img.src = `articles/${encodeURIComponent(slug)}/${src}`;
+      const alt = img.getAttribute('alt');
+      const p = img.parentElement;
+      if (alt && p && p.tagName === 'P') {
+        const f = document.createElement('figure');
+        p.replaceWith(f);
+        f.appendChild(img);
+        const c = document.createElement('figcaption');
+        c.textContent = alt;
+        f.appendChild(c);
+      }
+    });
+    await Promise.all([...el.querySelectorAll('img')].map(i => i.complete ? null : new Promise(r => { i.onload = i.onerror = r; })));
     document.body.setAttribute('data-ready', '1');
   } catch (e) {
     el.innerHTML = `<p class="error">Could not load ${slug}/${doc}.md (${e.message})</p>`;
