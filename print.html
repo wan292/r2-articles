@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Handout</title>
+<!--
+  Print view: renders one study document as a clean A4 page for PDF export.
+  Usage: print.html?slug=<slug>&doc=handout
+  PDF:   msedge --headless=new --print-to-pdf=out.pdf --no-pdf-header-footer "http://localhost:8765/print.html?slug=...&doc=handout"
+-->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 13mm 14mm 14mm; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #fff; color: #111; }
+  body { font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif; font-size: 9.6pt; line-height: 1.38; padding: 0; }
+  .sheet { max-width: 182mm; margin: 0 auto; }
+  .top { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #111; padding-bottom: 3pt; margin-bottom: 6pt; font-family: 'JetBrains Mono', monospace; font-size: 7.5pt; color: #444; }
+  h1 { font-family: 'Fraunces', Georgia, serif; font-size: 15pt; line-height: 1.2; margin: 0 0 4pt; letter-spacing: -0.01em; }
+  h2 { font-family: 'Fraunces', Georgia, serif; font-size: 11pt; margin: 9pt 0 3pt; padding-top: 4pt; border-top: 1px solid #ccc; break-after: avoid; }
+  h3 { font-size: 9.6pt; margin: 6pt 0 2pt; break-after: avoid; }
+  p { margin: 2pt 0 4pt; }
+  ul, ol { margin: 2pt 0 4pt; padding-left: 14pt; }
+  li { margin: 1pt 0; }
+  li p { margin: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 3pt 0 5pt; font-size: 8.6pt; break-inside: avoid; }
+  th, td { border: 1px solid #bbb; padding: 2.5pt 4pt; text-align: left; vertical-align: top; }
+  th { background: #eee; font-weight: 600; }
+  tr:nth-child(even) td { background: #f7f7f7; }
+  strong { font-weight: 650; }
+  em { color: #333; }
+  code { font-family: 'JetBrains Mono', monospace; font-size: 8.4pt; }
+  blockquote { margin: 3pt 0; padding: 2pt 8pt; border-left: 2px solid #999; color: #333; }
+  hr { border: none; border-top: 1px solid #ccc; margin: 6pt 0; }
+  .foot { margin-top: 8pt; border-top: 1px solid #ccc; padding-top: 3pt; font-size: 7pt; color: #666; font-family: 'JetBrains Mono', monospace; }
+  .error { color: #b00; font-weight: 600; }
+  @media screen { body { background: #ddd; padding: 20px; } .sheet { background: #fff; padding: 14mm; box-shadow: 0 2px 12px rgba(0,0,0,.2); } }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="top"><span id="top-left">Ortho Study Hub</span><span id="top-right"></span></div>
+  <div id="content"><p>Loading…</p></div>
+  <div class="foot" id="foot"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.7/marked.min.js"></script>
+<script src="data/articles.js"></script>
+<script>
+(async function () {
+  const q = new URLSearchParams(location.search);
+  const slug = q.get('slug');
+  const doc = q.get('doc') || 'handout';
+  const a = (typeof ARTICLES !== 'undefined' ? ARTICLES : []).find(x => x.slug === slug);
+  const el = document.getElementById('content');
+  document.getElementById('top-right').textContent = a ? `${a.authors} · ${a.journal} ${a.year}` : (slug || '');
+  document.getElementById('top-left').textContent = `Ortho Study Hub · ${doc.replace(/-/g, ' ')}`;
+  document.getElementById('foot').textContent = a ? `${a.citation} · ${slug}/${doc}.md` : '';
+  document.title = a ? `${a.short || slug} — ${doc}` : doc;
+  try {
+    const res = await fetch(`articles/${encodeURIComponent(slug)}/${encodeURIComponent(doc)}.md`, { cache: 'no-cache' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const md = await res.text();
+    el.innerHTML = marked.parse(md, { gfm: true });
+    document.body.setAttribute('data-ready', '1');
+  } catch (e) {
+    el.innerHTML = `<p class="error">Could not load ${slug}/${doc}.md (${e.message})</p>`;
+  }
+})();
+</script>
+</body>
+</html>
