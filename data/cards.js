@@ -164,4 +164,254 @@ const CARDS = [
     tags: ["study design", "critical appraisal"],
     source: "2026-khaleel-deep-bite-turbos-rcos-elastics"
   },
+
+  // --- Topic 1: Superimposition methods (Nielsen 1989, Doppel 1994, Nguyen 2018) ---
+  {
+    id: "1994-doppel-maxillary-superimposition-implants-1",
+    front: "Doppel 1994: what was the design and sample?",
+    back: "50 implanted adolescents (23 M, 27 F) from ≈ 700 University of Washington implant records; serial cephalograms ≥ 3 y apart, mean 4.2 ± 0.96 y; T1 11.9 ± 1.4 y, T2 16.0 ± 1.7 y; mostly treated (Table I).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "cephalometrics", "implants", "maxilla", "study design"],
+    source: "1994-doppel-maxillary-superimposition-implants"
+  },
+  {
+    id: "1994-doppel-maxillary-superimposition-implants-2",
+    front: "Doppel 1994: what was the reference standard and what was measured against it?",
+    back: "Three tantalum implants per subject (below ANS, zygomatic process, palate medial to the first molar); T1 and T2 tracings registered on all three, then the maximum T1–T2 deviation of each of the 17 Table II entries measured in mm.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "implants", "maxilla", "cephalometrics"],
+    source: "1994-doppel-maxillary-superimposition-implants"
+  },
+  {
+    id: "1994-doppel-maxillary-superimposition-implants-3",
+    front: "Doppel 1994: which maxillary structures deviated least after implant superimposition (Table II)?",
+    back: "Internal palate 0.85 ± 0.43 mm (lowest mean), anterior zygomatic process 0.95 ± 0.57 mm (traceable in 80 %), posterior zygomatic process (key ridge) 0.97 ± 0.43 mm (traceable in 100 %); palatal borders next at 1.05 and 1.14 mm.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "implants", "growth"],
+    source: "1994-doppel-maxillary-superimposition-implants"
+  },
+  {
+    id: "1994-doppel-maxillary-superimposition-implants-4",
+    front: "Doppel 1994: how far did the classic maxillary point landmarks drift from the implant fit over ≈ 4 years (Table II)?",
+    back: "ANS 1.29 vertical / 1.43 horizontal; PTM 2.39 vertical / 1.52 horizontal; infraorbital foramen 1.67 ± 1.31 (n = 34); A point 2.13 ± 1.63; PNS 2.27 ± 1.75 mm (n = 27): all too unreliable for clinical use.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "implants", "growth", "cephalometrics"],
+    source: "1994-doppel-maxillary-superimposition-implants"
+  },
+  {
+    id: "1994-doppel-maxillary-superimposition-implants-5",
+    front: "Doppel 1994: in which direction did the two zygomatic surfaces change relative to the implants?",
+    back: "Posterior zygomatic surface moved posteriorly (apposition) in all 50 cases; anterior zygomatic surface (40 films traceable): 27.5 % anterior, 35 % posterior, 37.5 % no mean change.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "growth", "implants"],
+    source: "1994-doppel-maxillary-superimposition-implants"
+  },
+  {
+    id: "1994-doppel-maxillary-superimposition-implants-6",
+    front: "Doppel 1994: how much did the palatal plane and SN rotate relative to the implant line (Table III)?",
+    back: "Palatal plane (ANS–PNS) +0.92° ± 2.10°, range −5° to +8°; SN −0.56° ± 2.19°, range −6° to +9°; positive = downward-and-backward rotation relative to the lateral–anterior implant line (Table III, text).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "growth", "cephalometrics"],
+    source: "1994-doppel-maxillary-superimposition-implants"
+  },
+  {
+    id: "1994-doppel-maxillary-superimposition-implants-7",
+    front: "Doppel 1994 (Fig. 1): what does registering on the palatal plane at ANS do to the apparent movement of the implants and teeth?",
+    back: "The implants appear to move posteriorly and superiorly; incisors appear to move lingually and molars to descend vertically; the occlusal plane appears to rotate up and forward (Fig. 1).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "cephalometrics"],
+    source: "1994-doppel-maxillary-superimposition-implants"
+  },
+  {
+    id: "1994-doppel-maxillary-superimposition-implants-8",
+    front: "Doppel 1994: what did the authors conclude about the reliability of maxillary structures for superimposition?",
+    back: "No maxillary area was completely reliable; the posterior and anterior zygomatic process were the most reliable; ANS, PNS, PTM, A point, infraorbital foramen and the palatal borders were unreliable; the internal palate was of limited value.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "implants", "cephalometrics"],
+    source: "1994-doppel-maxillary-superimposition-implants"
+  },
+  {
+    id: "1994-doppel-maxillary-superimposition-implants-9",
+    front: "Doppel 1994: what maxillary superimposition method did the authors recommend?",
+    back: "Superimpose on the anterior and posterior contours of the zygomatic process, letting the orbital floor rise 1.5 mm for every 1 mm the palatal plane lowers (1.5 : 1; Discussion and Fig. 7; the ratio is Conclusion 2).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "growth", "cephalometrics"],
+    source: "1994-doppel-maxillary-superimposition-implants"
+  },
+  {
+    id: "1994-doppel-maxillary-superimposition-implants-10",
+    front: "Doppel 1994: what is the main limitation of calling a structure 'reliable' in this study?",
+    back: "Tracing error 0.5 mm (10 films retraced at 2 weeks) against best mean deviations of 0.85–0.97 mm; no inferential statistics or stated threshold, so 'reliable' is one operator's descriptive judgement of best fit (Methods, Discussion).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "study design", "cephalometrics", "implants"],
+    source: "1994-doppel-maxillary-superimposition-implants"
+  },
+  {
+    id: "1989-nielsen-maxillary-superimposition-three-methods-1",
+    front: "Nielsen 1989: what was the design and sample?",
+    back: "Retrospective comparison of three maxillary superimpositions on the same serial cephalograms of 18 implanted subjects (6 boys, 12 girls; usable of 35), T1 10 ± 0.37 y, interval 4 ± 0.56 y; treated and untreated, mostly Class II.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "cephalometrics", "implants", "maxilla", "study design"],
+    source: "1989-nielsen-maxillary-superimposition-three-methods"
+  },
+  {
+    id: "1989-nielsen-maxillary-superimposition-three-methods-2",
+    front: "Nielsen 1989: what were the three superimposition methods compared?",
+    back: "(1) Best fit: hard palate and nasal floor aligned, registered at ANS; (2) implant (reference); (3) structural (Björk–Skieller): anterior surface of the zygomatic process, with orbital-floor apposition set equal to nasal-floor resorption.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "cephalometrics"],
+    source: "1989-nielsen-maxillary-superimposition-three-methods"
+  },
+  {
+    id: "1989-nielsen-maxillary-superimposition-three-methods-3",
+    front: "Nielsen 1989: what was the reference standard, and how was bias at the superimposition step limited?",
+    back: "Metallic implants placed surgically in the maxilla; a film pair was used only if at least 3–4 stable implants in the zygomatic process showed on both films; best-fit and structural tracings omitted the implants to avoid bias (Methods).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "implants", "maxilla", "study design"],
+    source: "1989-nielsen-maxillary-superimposition-three-methods"
+  },
+  {
+    id: "1989-nielsen-maxillary-superimposition-three-methods-4",
+    front: "Nielsen 1989: how much did best fit underestimate the vertical displacement of skeletal landmarks compared with implants (Table III, implant minus best fit)?",
+    back: "PNS 1.08 mm, ANS (Harvold) 1.87 mm, ANS 1.88 mm, A point 2.24 mm over 4 years, all P < .001; best fit even showed ANS and PNS moving slightly upward (Table I).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "growth", "implants", "cephalometrics"],
+    source: "1989-nielsen-maxillary-superimposition-three-methods"
+  },
+  {
+    id: "1989-nielsen-maxillary-superimposition-three-methods-5",
+    front: "Nielsen 1989: by how much did best fit underestimate vertical tooth displacement (Table IV, implant minus best fit)?",
+    back: "U6 cusp 1.33 mm, U6 apex 1.46 mm, U1 edge 1.84 mm, U1 apex 1.71 mm over 4 years (P < .0001): about 30 % of molar eruption and 50 % of incisor eruption missed.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "growth", "implants", "cephalometrics"],
+    source: "1989-nielsen-maxillary-superimposition-three-methods"
+  },
+  {
+    id: "1989-nielsen-maxillary-superimposition-three-methods-6",
+    front: "Nielsen 1989: with implant superimposition, how did the vertical descent of ANS compare with PNS over 4 years (Table I)?",
+    back: "ANS descended 1.62 mm and PNS 0.70 mm: about twice as much anteriorly, so resorptive lowering of the nasal floor is greater anteriorly than posteriorly (agrees with Björk & Skieller).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "growth", "implants"],
+    source: "1989-nielsen-maxillary-superimposition-three-methods"
+  },
+  {
+    id: "1989-nielsen-maxillary-superimposition-three-methods-7",
+    front: "Nielsen 1989: how much growth in maxillary length did best fit miss (Table I, PNS horizontal)?",
+    back: "PNS moved 2.34 mm posteriorly with implants versus 1.18 mm with best fit, so best fit underestimated maxillary growth in length (sutural growth plus tuberosity apposition) by about 50 %.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "growth", "implants"],
+    source: "1989-nielsen-maxillary-superimposition-three-methods"
+  },
+  {
+    id: "1989-nielsen-maxillary-superimposition-three-methods-8",
+    front: "Nielsen 1989: how did the structural (Björk–Skieller) method compare with implants?",
+    back: "Vertical differences not significant (implant minus structural −0.33 to −0.04 mm skeletal, −0.29 to −0.20 mm dental); horizontal differences small but systematic, 0.41–0.66 mm (P < .01 skeletal, P < .001 dental; A point 0.41 not significant).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "implants", "cephalometrics"],
+    source: "1989-nielsen-maxillary-superimposition-three-methods"
+  },
+  {
+    id: "1989-nielsen-maxillary-superimposition-three-methods-9",
+    front: "Nielsen 1989: how reproducible was the structural method between two observers?",
+    back: "Significant interobserver differences only in the vertical plane at ANS (0.88 mm), A point (0.77 mm) and the upper incisor (edge 0.86, apex 0.52 mm); none horizontally; variability attributed mainly to landmark location, not the method.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "cephalometrics", "study design"],
+    source: "1989-nielsen-maxillary-superimposition-three-methods"
+  },
+  {
+    id: "1989-nielsen-maxillary-superimposition-three-methods-10",
+    front: "Nielsen 1989: what was the conclusion, and why were PTM and infratemporal-fossa registrations rejected?",
+    back: "The structural (Björk–Skieller) method is valid and reliable; best fit at ANS underestimates vertical change; PTM and infratemporal-fossa registrations also err because the maxilla lengthens at PNS and the posterior zygomatic surface is appositional.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "maxilla", "growth", "cephalometrics"],
+    source: "1989-nielsen-maxillary-superimposition-three-methods"
+  },
+  {
+    id: "1989-nielsen-maxillary-superimposition-three-methods-11",
+    front: "Nielsen 1989: name a key limitation of the study.",
+    back: "Only 18 of 35 implant subjects were usable, chosen on film quality (clear zygomatic process, matched double contours); treated and untreated pooled without counts; no method error reported despite double determinations.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "study design", "implants", "cephalometrics"],
+    source: "1989-nielsen-maxillary-superimposition-three-methods"
+  },
+  {
+    id: "2018-nguyen-3d-mandibular-regional-superimposition-1",
+    front: "Nguyen 2018: what served as the reference standard for testing regional stability, and in whom?",
+    back: "Bone plates and screws placed around the lower incisor apices (between lateral incisor and canine) for Class III bone-anchor treatment in 20 patients (T1 12.1 ± 1.3 y, T2 13.3 ± 1.1 y), used as regional implants.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "mandible", "3d", "cbct", "implants", "study design"],
+    source: "2018-nguyen-3d-mandibular-regional-superimposition"
+  },
+  {
+    id: "2018-nguyen-3d-mandibular-regional-superimposition-2",
+    front: "Nguyen 2018: what imaging and registration method was used?",
+    back: "CBCT (i-CAT or NewTom 3G, 0.3 mm voxels, same machine at T1 and T2); voxel-based registration in Slicer CMF after rough manual approximation; segmentation by thresholding, refined in ITK-SNAP; error = absolute mean surface distance between T1 and T2 models.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "3d", "cbct", "mandible"],
+    source: "2018-nguyen-3d-mandibular-regional-superimposition"
+  },
+  {
+    id: "2018-nguyen-3d-mandibular-regional-superimposition-3",
+    front: "Nguyen 2018: what were the registration errors of the three candidate regions after plate registration (Table)?",
+    back: "Anterior chin 0.37 ± 0.16 mm (P = .765); internal symphysis 0.40 ± 0.14 mm (P = .698; text prints SD 0.15); third-molar crypt contour 1.94 ± 0.06 mm (P = .0025, significant) (Table).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "mandible", "3d", "cbct", "growth"],
+    source: "2018-nguyen-3d-mandibular-regional-superimposition"
+  },
+  {
+    id: "2018-nguyen-3d-mandibular-regional-superimposition-4",
+    front: "Nguyen 2018: which mandibular regions were concluded to be stable and reliable for 3D regional superimposition in growing patients?",
+    back: "Anterior chin (pogonion to B point) plus the internal cortical bone of the lingual symphysis (inferior border to the level of the mental foramina); near-identical errors, so the two were merged into one registration region.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "mandible", "3d", "cbct", "growth"],
+    source: "2018-nguyen-3d-mandibular-regional-superimposition"
+  },
+  {
+    id: "2018-nguyen-3d-mandibular-regional-superimposition-5",
+    front: "Nguyen 2018: which of Björk's 2D mandibular reference structures were rejected for 3D voxel registration, and why?",
+    back: "The third-molar crypt (largest error of the three regions; Ruellas 2016: 16 of 18 registrations failed when crypts were included) and the mandibular canal (excluded a priori because it changes with growth, Krarup 2005).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "mandible", "3d", "growth"],
+    source: "2018-nguyen-3d-mandibular-regional-superimposition"
+  },
+  {
+    id: "2018-nguyen-3d-mandibular-regional-superimposition-6",
+    front: "Nguyen 2018: who were the 25 subjects in the reproducibility sample, and what did the observers do?",
+    back: "10 Class II Herbst, 10 Class II elastics, 5 Class III bone-anchor patients; mean age 12.7 ± 1.4 y; CVM stages 2–5; T1–T2 interval 12.6 ± 0.9 months; two observers independently registered T2 to T1 on chin + symphysis.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "mandible", "3d", "cbct", "study design"],
+    source: "2018-nguyen-3d-mandibular-regional-superimposition"
+  },
+  {
+    id: "2018-nguyen-3d-mandibular-regional-superimposition-7",
+    front: "Nguyen 2018: how reproducible was chin + symphysis registration between two observers?",
+    back: "Absolute mean interobserver error 0.12 ± 0.11 mm (Results; the abstract misprints ± 1.1), below the 0.3 mm voxel size; ICC 0.998 (95 % CI 0.995–1.000).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "mandible", "3d", "cbct"],
+    source: "2018-nguyen-3d-mandibular-regional-superimposition"
+  },
+  {
+    id: "2018-nguyen-3d-mandibular-regional-superimposition-8",
+    front: "Nguyen 2018 (Figs 7–8): for the illustrated subject, how large was the interexaminer difference across the mandibular surface?",
+    back: "Less than 0.25 mm over the entire mandibular surface, and within 0.12 mm for 75 % of the surface (one subject's colour map, not a group statistic).",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "mandible", "3d", "cbct"],
+    source: "2018-nguyen-3d-mandibular-regional-superimposition"
+  },
+  {
+    id: "2018-nguyen-3d-mandibular-regional-superimposition-9",
+    front: "Nguyen 2018: what remodelling pattern was seen on the registered models, and does it agree with Björk?",
+    back: "Chin contour at pogonion stable, deposition at the inferior symphysis (about 2 mm near menton, Fig 4) and resorption posteroinferiorly, as Björk described; ramus resorbed anteriorly and deposited posteriorly (Fig 6), as Enlow & Harris described.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "mandible", "growth", "3d"],
+    source: "2018-nguyen-3d-mandibular-regional-superimposition"
+  },
+  {
+    id: "2018-nguyen-3d-mandibular-regional-superimposition-10",
+    front: "Nguyen 2018: name a key limitation of the stability (aim 1) evidence.",
+    back: "Plates judged immobile clinically only; they lie near the chin and symphysis but far from the third-molar crypts (a proximity argument the authors raise and rebut); all 20 were Class III bone-anchor patients in active treatment.",
+    topic: "Diagnosis & Cephalometrics",
+    tags: ["superimposition", "mandible", "3d", "implants", "study design"],
+    source: "2018-nguyen-3d-mandibular-regional-superimposition"
+  },
 ];

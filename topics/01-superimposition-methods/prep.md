@@ -46,8 +46,8 @@ Weaknesses
 ## Three questions to ask
 
 1. "Doppel ranks structures by how far they moved, not by whether they moved consistently; the posterior key ridge moved back in 50 of 50 and is still called most reliable. Should we read 'reliable' there as 'small consistent bias'?" Why it lands: it separates bias from noise, the methodological centre of the paper.
-2. "Nielsen's 30 to 50 % is four years of pubertal growth. When we superimpose a three-month progress film on the palate in a 16-year-old, how much of that bias survives?" Why it lands: it moves the paper to the chair; the honest answer is a few hundredths of a millimetre, below tracing error.
-3. "Nguyen drops the canal and the crypt that the ABO still lists. Should our 2D mandibular superimposition change, or is that a 3D-only finding?" Why it lands: it sets the board convention against the newest evidence and invites the seniors to defend it.
+2. "Nielsen's 30 to 50 % is four years of pubertal growth. When we superimpose a three-month progress film on the palate in a 16-year-old, how much of that bias survives?" Why it lands: it moves the paper to the chair; the honest answer is ≈ 0.1 mm or less, below tracing error.
+3. "Nguyen drops the canal and the crypt that the ABO still lists. Should our 2D mandibular superimposition change, or is that a 3D-only finding?" Why it lands: it sets the board convention against the newest evidence.
 
 ## Five questions you will be asked
 
@@ -75,12 +75,12 @@ Ten facts
 MCQ stems
 
 1. Superimposing on the palatal plane registered at ANS in a growing patient will most likely: (A) over-read molar extrusion; (B) under-read molar extrusion; (C) over-read forward growth at PNS; (D) have no systematic effect. Answer B (Nielsen: ≈ 30 % under-read).
-2. In Doppel 1994 the maxillary structure traceable in 100 % of films with the smallest SD was: (A) ANS; (B) internal palate; (C) posterior zygomatic surface; (D) orbital floor. Answer C (0.97 ± 0.43 mm).
+2. In Doppel 1994 the structure that moved posteriorly in all 50 cases yet was named most reliable was: (A) ANS; (B) internal palate; (C) posterior zygomatic surface; (D) orbital floor. Answer C (0.97 ± 0.43 mm; the internal palate had the same SD but was judged a poor fit).
 3. In Nguyen 2018 the region with the largest error against bone plates was: (A) anterior chin; (B) inner symphysis; (C) third-molar crypt; (D) mandibular canal. Answer C (1.94 ± 0.06 mm; the canal was excluded, not measured).
 
 Oral question
 
-"A paper reports 0.3 mm of upper molar extrusion over three months on a palatal superimposition. How do you read it?" Model answer: "Direction first: a palatal fit under-reads descent, so the true extrusion is if anything larger, but over three months in a late adolescent the hidden descent is a few hundredths of a millimetre (scaled from Nielsen's 0.3–0.6 mm per year at 10–14 y). The real problem is resolution: Doppel's tracing error is 0.5 mm, so 0.3 mm sits inside the noise. Direction plausible, magnitude unmeasured; ask for the method error."
+"A paper reports 0.3 mm of upper molar extrusion over three months on a palatal superimposition. How do you read it?" Model answer: "Direction first: a palatal fit under-reads descent, so the true extrusion is if anything larger, but over three months the hidden descent is ≈ 0.1 mm at Nielsen's pubertal rate (0.3–0.6 mm per year) and less at 16. The real problem is resolution: Doppel's tracing error is 0.5 mm, so 0.3 mm sits inside the noise. Direction plausible, magnitude unmeasured; ask for the method error."
 
 ## Before the session
 

@@ -13,11 +13,11 @@ A cephalogram measures change only by superimposition, and a superimposition is 
 | 1959 | Palatal plane at PTM | Moore | PTM | Rejected by both: PTM vertical drift 2.39 ± 1.69 mm (Doppel Table II); PNS moves back 2.34 mm in 4 y (Nielsen Table I) |
 | 1963–1983 | Mandibular stable structures | Björk; Björk & Skieller | Anterior chin, inner symphyseal cortex, canal, third-molar germ before roots | Nguyen: chin and symphysis hold (0.37 / 0.40 mm); crypt fails (1.94 mm); canal excluded |
 | 1967 | Infraorbital foramen | Moss & Greenberg | The foramen | Doppel: traceable in 34 of 50, drift 1.67 ± 1.31 mm; rejected |
-| 1974 | Infratemporal fossa | Riedel | Posterior zygomatic surface + posterior palate | Abandoned: the surface is appositional (both papers); Doppel Fig 3 rotates markedly down and back |
+| 1974 | Infratemporal fossa | Riedel | Posterior zygomatic surface + posterior palate | Abandoned: the surface is appositional (both papers); Doppel Fig 3: implants appear to move down and back, occlusal plane rotates markedly down and back |
 | 1976–77 | Structural method | Björk & Skieller | Anterior zygomatic surface; orbital-floor apposition : nasal-floor resorption 3 : 2 | Nielsen: no vertical bias vs implants; Doppel: 1.5 : 1 confirmed and recommended; the ABO method today |
 | 1981 | Internal palate best fit | McNamara | Internal palatal structures | Doppel: smallest drift (0.85 ± 0.43 mm) but poor empirical fit, "of limited value" |
 | 1981 | Key-ridge tip | Luder | Anterior contour at the key-ridge tip | Nielsen: under-reads eruption (the ridge lowers by apposition); Doppel Fig 5: slight downward drift only |
-| Ricketts (date UNVERIFIED) | Corpus axis | Ricketts | Xi–Pm registered at Pm | Springate & Jones 1998 (registry): usually < 2 mm, ≥ 4 mm in ≈ 10 % at molars and incisors |
+| 1960 (literature, UNVERIFIED) | Corpus axis | Ricketts | Xi–Pm registered at Pm | Springate & Jones 1998 (registry): usually < 2 mm, ≥ 4 mm in ≈ 10 % at molars and incisors |
 | 2005–2009 | 3D voxel cranial-base registration | Cevidanes et al. | Anterior cranial base voxels | Nguyen's pipeline (Slicer CMF, ITK-SNAP) |
 | 2016 | 3D regional mandible | Koerich; Ruellas | Whole mandible; Björk-structure masks | Ruellas (literature): Björk mask completed in 2 of 16 (Nguyen prints "16 of 18") |
 | 2018 | 3D regional mandible on plates | Nguyen et al. | Chin + inner symphysis | 0.12 ± 0.11 mm between observers; ICC 0.998 |
@@ -26,7 +26,7 @@ A cephalogram measures change only by superimposition, and a superimposition is 
 
 | Paper | Design | n | Gold standard | Headline finding | Headline number |
 |---|---|---|---|---|---|
-| Doppel 1994, AJODO 105:161-168 | Retrospective drift table: 17 structures after implant registration, 2D; T1 11.9 ± 1.4 y, interval 4.2 ± 0.96 y; mostly treated | 50 of ≈ 700 records (23 M, 27 F) | 3 tantalum implants (below ANS, zygomatic process, palate medial to U6) | Both zygomatic surfaces drift least; ANS, PNS, PTM, A point unreliable; no area completely reliable | Posterior key ridge 0.97 ± 0.43 mm, anterior 0.95 ± 0.57 mm; A point 2.13 ± 1.63 mm (Table II) |
+| Doppel 1994, AJODO 105:161-168 | Retrospective drift table: 17 structures after implant registration, 2D; T1 11.9 ± 1.4 y, interval 4.2 ± 0.96 y; mostly treated | 50 of ≈ 700 records (23 M, 27 F) | 3 tantalum implants (below ANS, zygomatic process, palate medial to U6) | Both zygomatic surfaces drift ≈ 1 mm and are named most reliable; ANS, PNS, PTM, A point unreliable; no area completely reliable | Posterior key ridge 0.97 ± 0.43 mm, anterior 0.95 ± 0.57 mm; A point 2.13 ± 1.63 mm (Table II) |
 | Nielsen 1989, AJODO 95:422-431 | Retrospective method comparison: 3 superimpositions on the same films, Downs occlusal-plane grid; T1 10 ± 0.37 y, 4 ± 0.56 y; treated + untreated | 18 of 35 (6 M, 12 F) | ≥ 3–4 stable zygomatic implants | Best fit hides 30–50 % of eruption; structural method has no vertical bias | Implant minus best fit, vertical: A point 2.24, UIE 1.84 mm (Tables III–IV); structural horizontal offset 0.53–0.66 mm |
 | Nguyen 2018, AJODO 153:747-754 | Retrospective 3D CBCT, voxel registration, 0.3 mm voxels; aim 1 stability, aim 2 reliability; 12–13 y, ≈ 1 y interval; all treated | 20 (aim 1) + 25 (aim 2) | Bone-anchor plates and screws at the incisor apices | Chin + inner symphysis stable and reproducible; third-molar crypt fails; canal excluded | Chin 0.37 ± 0.16, symphysis 0.40 ± 0.14, crypt 1.94 ± 0.06 mm; observers 0.12 ± 0.11 mm, ICC 0.998 |
 
@@ -41,11 +41,11 @@ A cephalogram measures change only by superimposition, and a superimposition is 
 
 ## Where they disagree or differ
 
-- **Is the anterior zygomatic surface stable?** Björk & Skieller: stable in 9 of 9 (literature). Nielsen: no resorption seen. Doppel (n = 40 traceable): anterior change 27.5 %, posterior 35 %, none 37.5 %.
+- **Is the anterior zygomatic surface stable?** Björk & Skieller: stable in 9 of 9 (as cited by Doppel). Nielsen's Introduction repeats Björk's finding that the anterior surface is unchanged except at the key ridge and orbital floor, against Enlow's resorptive view, but reports no observation of his own. Doppel (n = 40 traceable): anterior change 27.5 %, posterior 35 %, none 37.5 %.
 - **What to do with the posterior zygomatic surface.** Both agree it apposes. Nielsen rejects any registration on it (Riedel's method). Doppel finds it the most traceable structure (100 %), 0.97 ± 0.43 mm, posterior in every case, and keeps it as a guide.
 - **The vertical ratio.** Doppel recommends 1.5 : 1. Nielsen set apposition equal to resorption (1 : 1) and concedes a slight vertical over-read (implant minus structural −0.04 to −0.33 mm, NS) plus a horizontal offset of 0.53–0.66 mm (P < .01), whose direction his Discussion and Tables I–II state differently.
 - **The internal palate.** Doppel's smallest number (0.85 ± 0.43 mm) is overruled by eye as "of limited value"; Nielsen rejects palatal methods outright. They reconcile: a maximum-contour metric cannot see a palate descending en bloc; landmark displacement can.
-- **How strong a verdict.** Doppel: no maxillary area is completely reliable; Nielsen: "valid and reliable"; Nguyen: stable. Doppel reports maxima that include a 0.5 mm tracing error; the others report means.
+- **How strong a verdict.** Doppel: no maxillary area is completely reliable; Nielsen: "valid and reliable"; Nguyen: stable. Doppel's metric is the maximum deviation per case (averaged across cases), which includes a 0.5 mm tracing error; the others report mean displacements or mean surface errors.
 - **Björk's 2D mandibular list versus 3D.** The ABO deck keeps the canal and the third-molar bud before root formation. Nguyen excludes the canal a priori (Krarup 2005, literature) and measures the crypt at 1.94 ± 0.06 mm, five times the chin error (derived).
 
 ## Stable and unstable structures
@@ -84,7 +84,7 @@ From the Proffit study pages (7th-edition numbering): three superimpositions (cr
 
 ## How this affects reading the other articles this year
 
-Khaleel & Al-Nimri 2026 (registry) superimposed the maxilla on "the palatal vault (Broadbent)" and the mandible on the Ricketts corpus axis at Pm. Broadbent's registration is the best fit Nielsen condemned, so upper posterior extrusion is under-read and upper-incisor intrusion over-read; over 44–94 d at 15.8–17.4 y the size is about 0.05 mm (derived from Nielsen's 0.27–0.56 mm per year; UNVERIFIED), negligible. The real problem is resolution: Doppel's 0.5 mm tracing error exceeds Khaleel's upper posterior values (0.07–0.42 mm) and between-arm differences (0.2–0.35 mm). In the mandible, Pm sits in Nguyen's stable chin region but Xi in remodelling ramus bone; Springate & Jones 1998 (registry) found errors ≥ 4 mm in ≈ 10 % with this method, though over 6–13 weeks the rotation is probably ≤ 0.2° (≤ 0.15 mm at the molars, derived). Khaleel's intra-examiner ICC 0.92–0.98 is repeatability of measurement, not validity of the superimposition.
+Khaleel & Al-Nimri 2026 (registry) superimposed the maxilla on "the palatal vault (Broadbent)" and the mandible on the Ricketts corpus axis at Pm. Broadbent's registration is the best fit Nielsen condemned, so upper posterior extrusion is under-read and upper-incisor intrusion over-read; over 44–94 d at 15.8–17.4 y the hidden descent would be 0.03–0.14 mm even at Nielsen's pubertal rate (0.27–0.56 mm per year, derived) and less in late adolescence (UNVERIFIED), negligible. The real problem is resolution: Doppel's 0.5 mm tracing error exceeds Khaleel's upper posterior values (0.07–0.42 mm) and between-arm differences (0.2–0.35 mm). In the mandible, Pm sits in Nguyen's stable chin region but Xi in remodelling ramus bone; Springate & Jones 1998 (registry) found errors ≥ 4 mm in ≈ 10 % with this method over ≈ 2 y of treatment, and over 6–13 weeks any such rotation is small (a 0.2° rotation moves a molar 40 mm from Xi by ≈ 0.14 mm, derived illustration). Khaleel's intra-examiner ICC 0.92–0.98 is repeatability of measurement, not validity of the superimposition.
 
 ## Exam radar for the topic
 
@@ -97,7 +97,7 @@ Khaleel & Al-Nimri 2026 (registry) superimposed the maxilla on "the palatal vaul
 7. Björk's 2D mandibular structures: anterior chin, inner symphyseal cortex, canal, third-molar germ before root formation.
 8. Nguyen 2018: chin 0.37 ± 0.16, symphysis 0.40 ± 0.14, crypt 1.94 ± 0.06 mm against bone plates; voxel 0.3 mm; canal excluded.
 9. Nguyen reliability: 25 patients, 12.6 ± 0.9 months; 0.12 ± 0.11 mm; ICC 0.998 (0.995–1.000).
-10. The ABO requires three structural superimpositions, citing Doppel and Nielsen; Graf 2022 (literature) rated 25 of 27 superimposition studies high risk of bias.
+10. The ABO requires three structural superimpositions; its superimposition web page cites Doppel and Nielsen as validation; Graf 2022 (literature) rated 25 of 27 superimposition studies high risk of bias.
 
 ## One-paragraph verdict
 
