@@ -22,6 +22,15 @@ Continuous-learning system for orthodontic residency: every journal article beco
   - `exam-questions.md` — MCQs + short answers + one case-based oral prompt, with answer key
   - `clinical-implications.md` — what changes at the chair, decision table by patient scenario, protocol notes, what the paper does not tell you
   - `checks.py` (when the appraisal recomputed statistics) — the arithmetic behind any recomputed P value, standard error or effect size, so a claim in `conflicts.md` can be rerun
+- `Literature Review/` — the year's 19 numbered topic folders with their PDFs (git-ignored: copyrighted). Each folder is one group session: the resident presents the topic's papers, consultants question.
+- `data/topics.js` — the topic manifest. One object per topic folder: `n, slug, name, folder, articles (slugs, in presentation order), docs, pdfs, deck, presenter, date, note`. A topic with an empty `articles` list is unprocessed and shows under "Upcoming topics" in the Library.
+- `topics/<nn-slug>/` — one folder per processed topic:
+  - `overview.md` — the synthesis the resident studies from: the question, timeline of methods/ideas, the papers in one table, agreements, disagreements, structure/evidence tables, Proffit mapping, registry cross-check, exam radar, verdict
+  - `handout.md` and `handout.pdf` — the CONSULTANT-FACING two-page topic brief (same rules as the article handout) with two figures
+  - `prep.md` and `prep.pdf` — the resident's PRIVATE sheet for the session (same rules as the article prep sheet)
+  - `deck-outline.md` — slide-by-slide outline (layout, content, figure, speaker notes, time) and `deck.pptx` built from it with the pptx skill
+  - `figures/` — SVG figures referenced from `handout.md`
+- `topics/how-to-present.md` — a general guide to article-review sessions and presenting one (written once, reused).
 - `registry/claims.md` — cross-article claims registry: one line per key claim/number from every article. Read it when processing a new article to find conflicts with articles already in the hub.
 - `progress.md` — running index of every article processed (date, title, slug, topics, one-line note). Read this first in any new session.
 
@@ -39,6 +48,10 @@ Continuous-learning system for orthodontic residency: every journal article beco
 ## Processing a new article
 
 Use the `process-article` skill (`.claude/skills/process-article/SKILL.md`) rather than improvising — it keeps the eight files, the PDF, the manifest, the registry, and the deck consistent. It runs automatically when relevant, or invoke it with `/process-article`.
+
+## Processing a topic folder ("do folder N")
+
+A topic folder is processed as one unit (see the "Topic folders" section of the skill): every paper in the folder gets the seven study files and cards (the article-level handout and prep sheet are skipped, the topic-level ones replace them), one shared research pack serves all papers, and the topic gets `overview.md`, `handout.md/pdf` with two figures, `prep.md/pdf`, `deck-outline.md` and `deck.pptx`. Then: manifest entries in `data/articles.js` (one per paper) and `data/topics.js` (articles list, docs, pdfs, deck), registry lines, `progress.md`, commit, push. Older papers are often OCR'd scans: "±" may print as "6", "k", "-'-" or "+-"; always confirm numbers on the page images. The PPTX is built with pptxgenjs installed in the scratch area (`scratchpad/pptx-tools`), exported to PDF with PowerPoint COM automation (LibreOffice is not installed), and checked page by page.
 
 ## Exam question style
 

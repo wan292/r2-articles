@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" font-family="Inter, 'Segoe UI', Arial, sans-serif" role="img" aria-label="Stable and unstable structures for maxillary and mandibular superimposition, with numbered callouts">
+  <rect x="0" y="0" width="720" height="300" fill="#ffffff"/>
+
+  <!-- legend -->
+  <g transform="translate(12,12)">
+    <rect x="0" y="0" width="12" height="12" rx="3" fill="#0F8F7A"/><text x="17" y="10" font-size="9" fill="#333333">Stable: register here</text>
+    <rect x="130" y="0" width="12" height="12" rx="3" fill="#D23F3F"/><text x="147" y="10" font-size="9" fill="#333333">Unreliable: do not register here</text>
+    <rect x="330" y="0" width="12" height="12" rx="3" fill="#B7791F"/><text x="347" y="10" font-size="9" fill="#333333">Remodels with growth (apposition or resorption)</text>
+  </g>
+
+  <!-- ===================== Maxilla ===================== -->
+  <g transform="translate(8,30)">
+    <rect x="0" y="0" width="348" height="262" rx="8" fill="#ffffff" stroke="#DDDDDD"/>
+    <text x="10" y="18" font-size="11" font-weight="700" fill="#222222">Maxilla (lateral view, anterior to the left)</text>
+    <!-- orbit -->
+    <circle cx="110" cy="80" r="32" fill="none" stroke="#9A9A96" stroke-width="1.4"/>
+    <text x="110" y="76" font-size="8" fill="#888888" text-anchor="middle">orbit</text>
+    <!-- 1 orbital floor: apposition -->
+    <path d="M80,110 Q110,118 140,110" fill="none" stroke="#B7791F" stroke-width="2.4"/>
+    <!-- 2 anterior zygomatic surface (stable) and 3 posterior surface (appositional) -->
+    <path d="M140,112 C132,140 126,165 130,190" fill="none" stroke="#0F8F7A" stroke-width="3.4"/>
+    <path d="M168,112 C166,140 164,165 168,190" fill="none" stroke="#B7791F" stroke-width="2.2"/>
+    <!-- 4 nasal floor / palatal plane: resorption, more anteriorly -->
+    <path d="M40,190 L192,188" fill="none" stroke="#B7791F" stroke-width="2.4"/>
+    <path d="M56,176 v8" fill="none" stroke="#B7791F" stroke-width="1.6"/><path d="M53,184 l3,6 l3,-6 z" fill="#B7791F"/>
+    <path d="M170,181 v4" fill="none" stroke="#B7791F" stroke-width="1.2"/><path d="M168,185 l2,4 l2,-4 z" fill="#B7791F"/>
+    <!-- 5 unreliable landmarks -->
+    <circle cx="40" cy="190" r="4" fill="#D23F3F"/>
+    <circle cx="44" cy="206" r="4" fill="#D23F3F"/>
+    <circle cx="192" cy="188" r="4" fill="#D23F3F"/>
+    <path d="M198,146 q8,18 0,38" fill="none" stroke="#D23F3F" stroke-width="2"/>
+    <circle cx="110" cy="124" r="3.5" fill="none" stroke="#D23F3F" stroke-width="1.6"/>
+    <!-- 6 palate borders ("best fit") -->
+    <path d="M50,200 L186,200" fill="none" stroke="#D23F3F" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <!-- teeth -->
+    <rect x="52" y="210" width="12" height="36" rx="5" fill="#EDEDEB" stroke="#9A9A96" transform="rotate(12 58 210)"/>
+    <rect x="88" y="214" width="16" height="30" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="110" y="214" width="16" height="30" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="132" y="214" width="24" height="30" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <rect x="162" y="214" width="24" height="30" rx="4" fill="#EDEDEB" stroke="#9A9A96"/>
+    <!-- callout markers -->
+    <g font-size="8" font-weight="700" text-anchor="middle">
+      <circle cx="152" cy="104" r="7" fill="#ffffff" stroke="#B7791F" stroke-width="1.5"/><text x="152" y="107" fill="#B7791F">1</text>
+      <circle cx="118" cy="150" r="7" fill="#ffffff" stroke="#0F8F7A" stroke-width="1.5"/><text x="118" y="153" fill="#0F8F7A">2</text>
+      <circle cx="182" cy="150" r="7" fill="#ffffff" stroke="#B7791F" stroke-width="1.5"/><text x="182" y="153" fill="#B7791F">3</text>
+      <circle cx="100" cy="176" r="7" fill="#ffffff" stroke="#B7791F" stroke-width="1.5"/><text x="100" y="179" fill="#B7791F">4</text>
+      <circle cx="28" cy="176" r="7" fill="#ffffff" stroke="#D23F3F" stroke-width="1.5"/><text x="28" y="179" fill="#D23F3F">5</text>
+      <circle cx="198" cy="212" r="7" fill="#ffffff" stroke="#D23F3F" stroke-width="1.5"/><text x="198" y="215" fill="#D23F3F">6</text>
+    </g>
+    <!-- side legend -->
+    <g font-size="7.6" fill="#333333">
+      <text x="214" y="50.0" font-weight="700" fill="#B7791F">1 Orbital floor</text>
+      <text x="214" y="59.5">apposition with growth</text>
+      <text x="214" y="76.0" font-weight="700" fill="#0F8F7A">2 Anterior zygomatic surface</text>
+      <text x="214" y="85.5">key ridge: STABLE (Björk)</text>
+      <text x="214" y="95.0">no resorption (Nielsen)</text>
+      <text x="214" y="104.5">drift 0.95 mm (Doppel)</text>
+      <text x="214" y="121.0" font-weight="700" fill="#B7791F">3 Posterior zygomatic surface</text>
+      <text x="214" y="130.5">appositional; drift 0.97 mm</text>
+      <text x="214" y="147.0" font-weight="700" fill="#B7791F">4 Nasal floor / palatal plane</text>
+      <text x="214" y="156.5">resorbs; ANS ≈ 2× PNS</text>
+      <text x="214" y="166.0">3:2 (Björk); 1.5:1 (Doppel)</text>
+      <text x="214" y="182.5" font-weight="700" fill="#D23F3F">5 ANS, A point, PNS, PTM,</text>
+      <text x="214" y="192.0">infraorbital foramen: unreliable</text>
+      <text x="214" y="201.5">drift 1.3–2.4 mm</text>
+      <text x="214" y="218.0" font-weight="700" fill="#D23F3F">6 Palate / best fit at ANS</text>
+      <text x="214" y="227.5">eruption under-read 30–50 %</text>
+      <text x="214" y="237.0">(Nielsen 1989)</text>
+    </g>
+    <text x="10" y="257" font-size="7.6" fill="#666666">Mean maximum deviation from implant superimposition (Doppel 1994, Table II, n = 50).</text>
+  </g>
+
+  <!-- ===================== Mandible ===================== -->
+  <g transform="translate(364,30)">
+    <rect x="0" y="0" width="348" height="262" rx="8" fill="#ffffff" stroke="#DDDDDD"/>
+    <text x="10" y="18" font-size="11" font-weight="700" fill="#222222">Mandible (lateral view, anterior to the left)</text>
+    <!-- outline -->
+    <path d="M178,66 C186,96 190,150 184,196 C176,222 120,230 62,224 C48,222 44,200 50,178 C54,168 56,160 58,160 L150,150 C156,120 158,96 160,80 C166,70 172,64 178,66 Z" fill="#F6F6F4" stroke="#9A9A96" stroke-width="1.4"/>
+    <ellipse cx="178" cy="66" rx="9" ry="6" fill="#EDEDEB" stroke="#9A9A96"/>
+    <!-- 1 chin anterior contour -->
+    <path d="M52,176 C46,195 48,212 62,224" fill="none" stroke="#0F8F7A" stroke-width="3.6"/>
+    <!-- 2 inner cortex of symphysis -->
+    <path d="M74,166 C66,185 68,205 80,222" fill="none" stroke="#0F8F7A" stroke-width="2.6"/>
+    <!-- 3 inferior border deposition -->
+    <path d="M62,224 C80,229 100,230 120,229" fill="none" stroke="#B7791F" stroke-width="2.4"/>
+    <!-- 4 third molar crypt -->
+    <circle cx="140" cy="180" r="13" fill="none" stroke="#D23F3F" stroke-width="2" stroke-dasharray="4 3"/>
+    <!-- 5 mandibular canal -->
+    <path d="M172,152 C150,170 120,186 92,194" fill="none" stroke="#B7791F" stroke-width="1.6" stroke-dasharray="5 3"/>
+    <!-- 6 anterior ramus resorption, 7 posterior ramus deposition -->
+    <path d="M154,148 C160,120 162,96 164,82" fill="none" stroke="#B7791F" stroke-width="2"/>
+    <path d="M183,72 C191,100 195,150 189,196" fill="none" stroke="#B7791F" stroke-width="2"/>
+    <!-- callout markers -->
+    <g font-size="8" font-weight="700" text-anchor="middle">
+      <circle cx="36" cy="198" r="7" fill="#ffffff" stroke="#0F8F7A" stroke-width="1.5"/><text x="36" y="201" fill="#0F8F7A">1</text>
+      <circle cx="88" cy="186" r="7" fill="#ffffff" stroke="#0F8F7A" stroke-width="1.5"/><text x="88" y="189" fill="#0F8F7A">2</text>
+      <circle cx="92" cy="242" r="7" fill="#ffffff" stroke="#B7791F" stroke-width="1.5"/><text x="92" y="245" fill="#B7791F">3</text>
+      <circle cx="140" cy="206" r="7" fill="#ffffff" stroke="#D23F3F" stroke-width="1.5"/><text x="140" y="209" fill="#D23F3F">4</text>
+      <circle cx="118" cy="170" r="7" fill="#ffffff" stroke="#B7791F" stroke-width="1.5"/><text x="118" y="173" fill="#B7791F">5</text>
+      <circle cx="146" cy="112" r="7" fill="#ffffff" stroke="#B7791F" stroke-width="1.5"/><text x="146" y="115" fill="#B7791F">6</text>
+      <circle cx="202" cy="130" r="7" fill="#ffffff" stroke="#B7791F" stroke-width="1.5"/><text x="202" y="133" fill="#B7791F">7</text>
+    </g>
+    <text x="178" y="52" font-size="7.6" fill="#777777" text-anchor="middle">condyle</text>
+    <!-- side legend -->
+    <g font-size="7.6" fill="#333333">
+      <text x="214" y="50.0" font-weight="700" fill="#0F8F7A">1 Chin anterior contour</text>
+      <text x="214" y="59.5">STABLE (Björk)</text>
+      <text x="214" y="69.0">3D error 0.37 ± 0.16 mm</text>
+      <text x="214" y="85.5" font-weight="700" fill="#0F8F7A">2 Inner cortex of symphysis</text>
+      <text x="214" y="95.0">STABLE; 3D error 0.40 ± 0.14 mm</text>
+      <text x="214" y="111.5" font-weight="700" fill="#B7791F">3 Inferior border</text>
+      <text x="214" y="121.0">deposition ≈ 2 mm near menton</text>
+      <text x="214" y="137.5" font-weight="700" fill="#D23F3F">4 Third-molar crypt</text>
+      <text x="214" y="147.0">3D error 1.94 ± 0.06 mm</text>
+      <text x="214" y="156.5">fails 16 of 18 (Ruellas 2016)</text>
+      <text x="214" y="173.0" font-weight="700" fill="#B7791F">5 Mandibular canal</text>
+      <text x="214" y="182.5">moves with growth; excluded</text>
+      <text x="214" y="199.0" font-weight="700" fill="#B7791F">6 Anterior ramus: resorption</text>
+      <text x="214" y="215.5" font-weight="700" fill="#B7791F">7 Posterior ramus: deposition</text>
+      <text x="214" y="232.0">Observers on 1+2: 0.12 mm,</text>
+      <text x="214" y="241.5">ICC 0.998 (Nguyen, n = 25)</text>
+    </g>
+    <text x="10" y="257" font-size="7.6" fill="#666666">Absolute mean error vs bone plates (Nguyen 2018, n = 20, 1 y). Register on 1 + 2; avoid 4 and 5.</text>
+  </g>
+</svg>

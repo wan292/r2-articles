@@ -83,5 +83,17 @@ One fact per card, back ≤ 40 words, exact numbers. Reuse an existing `topic`; 
 - Append the article's key claims (8–12 lines, each with the number and unit) to `registry/claims.md`, filling "Conflicts with" from what the research found.
 - Append one line to `progress.md`: date, title, slug, topic(s), one-sentence note.
 
+## Topic folders (the year's literature-review programme)
+
+When the request is "do folder N" or names a topic from `Literature Review/`, process the whole folder as one topic:
+
+1. Extract every PDF in the folder (text + page PNGs). Confirm authors, journal, year and volume from page 1; make one slug per paper. Older scans garble symbols: check every number on the page images.
+2. One workflow for the topic: research (one literature map for the topic, one Proffit map, one cross-paper + registry comparison, one audit per paper that returns inconsistencies, appraisal and full key numbers), then drafting in three bundles per paper (A: summary + key-numbers + clinical-implications; B: conflicts + critical-appraisal; C: discussion-questions + exam-questions), topic documents (overview, consultant handout with two figure lines, prep sheet), deck outline + presenting guide, and cards; then one hostile verifier per bundle. Skip the article-level handout and prep sheet; the topic-level ones replace them.
+3. Figures for the topic handout: a structures/mechanism schematic and a numbers chart, as SVG with inline attributes, checked with a headless Chrome screenshot.
+4. File everything: `articles/<slug>/` (seven files, source.pdf git-ignored), `topics/<nn-slug>/` (overview, handout, prep, deck-outline, figures), cards appended, `data/articles.js` entries (docs = the seven keys, pdfs = []), `data/topics.js` entry (articles in presentation order, docs, pdfs, deck), registry lines per paper, `progress.md` lines per paper.
+5. Export `handout.pdf` and `prep.pdf` through `print.html?kind=topic&slug=<topic-slug>&doc=...` (same Chrome command, with `kind=topic`).
+6. Build `deck.pptx` from `deck-outline.md` with pptxgenjs (installed under the scratch `pptx-tools` folder; `require` it from there), as a structured deck (theme, layouts, sections, placeholders, speaker notes from the outline), export to PDF with PowerPoint COM (`New-Object -ComObject PowerPoint.Application` → `SaveAs(..., 32)`), render the pages and inspect every slide for overflow and collisions before shipping.
+7. Commit and push; confirm the topic card, reader and PDFs on the live site.
+
 ## 10. Report back, commit, push
 Summarize what was created — slug, topics used, number of cards added, the number of internal inconsistencies and literature conflicts found, the handout page count — and flag if any topic now looks ready to split per the categorization rule in CLAUDE.md. Commit and push so the Library updates, then confirm the handout PDF and the reader load on the live site.

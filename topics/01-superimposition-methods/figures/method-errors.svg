@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 262" width="720" height="262" font-family="Inter, 'Segoe UI', Arial, sans-serif" role="img" aria-label="How much each superimposition method misses: Doppel 1994 landmark deviations, Nielsen 1989 vertical displacement by method, Nguyen 2018 3D registration errors">
+  <rect x="0" y="0" width="720" height="262" fill="#ffffff"/>
+
+  <!-- ===== Panel a: Doppel 1994, deviation from implant superimposition ===== -->
+  <g transform="translate(10,0)">
+    <text x="0" y="20" font-size="10" font-weight="600" fill="#222222">Doppel 1994: how far each structure drifts from the implants</text>
+    <text x="0" y="31" font-size="7.8" fill="#777777">mean maximum deviation, mm (Table II; n = 50, 4.2 y apart)</text>
+    <!-- rows: label x=0..96, bar from x=100, scale 72 px/mm -->
+    <g font-size="8" fill="#444444">
+      <text x="96" y="47" text-anchor="end">anterior key ridge</text>
+      <text x="96" y="64" text-anchor="end">posterior key ridge</text>
+      <text x="96" y="81" text-anchor="end">palate, superior</text>
+      <text x="96" y="98" text-anchor="end">palate, inferior</text>
+      <text x="96" y="115" text-anchor="end">ANS, vertical</text>
+      <text x="96" y="132" text-anchor="end">orbital floor</text>
+      <text x="96" y="149" text-anchor="end">PTM, horizontal</text>
+      <text x="96" y="166" text-anchor="end">infraorbital foramen</text>
+      <text x="96" y="183" text-anchor="end">A point</text>
+      <text x="96" y="200" text-anchor="end">PNS</text>
+      <text x="96" y="217" text-anchor="end">PTM, vertical</text>
+    </g>
+    <g fill="#0F8F7A">
+      <rect x="100" y="39" width="68.4" height="11" rx="3"/>
+      <rect x="100" y="56" width="69.8" height="11" rx="3"/>
+      <rect x="100" y="73" width="75.6" height="11" rx="3"/>
+      <rect x="100" y="90" width="82.1" height="11" rx="3"/>
+      <rect x="100" y="107" width="92.9" height="11" rx="3"/>
+      <rect x="100" y="124" width="100.8" height="11" rx="3"/>
+      <rect x="100" y="141" width="109.4" height="11" rx="3"/>
+      <rect x="100" y="158" width="120.2" height="11" rx="3"/>
+      <rect x="100" y="175" width="153.4" height="11" rx="3"/>
+      <rect x="100" y="192" width="163.4" height="11" rx="3"/>
+      <rect x="100" y="209" width="172.1" height="11" rx="3"/>
+    </g>
+    <g font-size="8" font-weight="600" fill="#222222">
+      <text x="172" y="48">0.95</text>
+      <text x="174" y="65">0.97</text>
+      <text x="180" y="82">1.05</text>
+      <text x="186" y="99">1.14</text>
+      <text x="197" y="116">1.29</text>
+      <text x="205" y="133">1.40</text>
+      <text x="213" y="150">1.52</text>
+      <text x="224" y="167">1.67</text>
+      <text x="257" y="184">2.13</text>
+      <text x="267" y="201">2.27</text>
+      <text x="276" y="218">2.39</text>
+    </g>
+    <!-- 1 mm reference -->
+    <line x1="172" y1="36" x2="172" y2="224" stroke="#D23F3F" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="172" y="234" font-size="7.6" fill="#D23F3F" text-anchor="middle">≈ 1 mm: clinically acceptable (authors)</text>
+    <text x="0" y="252" font-size="7.6" fill="#666666">Key ridges and palate borders ≈ 1 mm; ANS, A point, PNS and PTM 1.3–2.4 mm.</text>
+  </g>
+
+  <!-- ===== Panel b: Nielsen 1989, vertical displacement by method ===== -->
+  <g transform="translate(316,0)">
+    <text x="0" y="20" font-size="10" font-weight="600" fill="#222222">Nielsen 1989: eruption read by three methods</text>
+    <text x="0" y="31" font-size="7.8" fill="#777777">vertical displacement over 4 y, mm (Table II; n = 18)</text>
+    <!-- legend -->
+    <g transform="translate(0,38)">
+      <rect x="0" y="0" width="9" height="9" rx="2" fill="#6D4FD1"/><text x="12" y="8" font-size="7.8" fill="#333333">implants (reference)</text>
+      <rect x="92" y="0" width="9" height="9" rx="2" fill="#B7791F"/><text x="104" y="8" font-size="7.8" fill="#333333">best fit (palatal plane at ANS)</text>
+      <rect x="0" y="13" width="9" height="9" rx="2" fill="#0F8F7A"/><text x="12" y="21" font-size="7.8" fill="#333333">structural (Björk–Skieller)</text>
+    </g>
+    <!-- baseline y=200, scale 26 px/mm; groups at x = 12, 62, 112, 162; bar w=12 gap 2 -->
+    <line x1="6" y1="200" x2="214" y2="200" stroke="#BBBBBB"/>
+    <!-- U6 cusp: 4.15 / 3.40 / 4.99 -->
+    <rect x="12" y="92.1" width="12" height="107.9" rx="2" fill="#6D4FD1"/>
+    <rect x="26" y="111.6" width="12" height="88.4" rx="2" fill="#B7791F"/>
+    <rect x="40" y="70.3" width="12" height="129.7" rx="2" fill="#0F8F7A"/>
+    <!-- U6 apex: 3.80 / 2.33 / 4.02 -->
+    <rect x="62" y="101.2" width="12" height="98.8" rx="2" fill="#6D4FD1"/>
+    <rect x="76" y="139.4" width="12" height="60.6" rx="2" fill="#B7791F"/>
+    <rect x="90" y="95.5" width="12" height="104.5" rx="2" fill="#0F8F7A"/>
+    <!-- U1 edge: 3.39 / 1.40 / 3.39 -->
+    <rect x="112" y="111.9" width="12" height="88.1" rx="2" fill="#6D4FD1"/>
+    <rect x="126" y="163.6" width="12" height="36.4" rx="2" fill="#B7791F"/>
+    <rect x="140" y="111.9" width="12" height="88.1" rx="2" fill="#0F8F7A"/>
+    <!-- U1 apex: 4.36 / 2.60 / 4.48 -->
+    <rect x="162" y="86.6" width="12" height="113.4" rx="2" fill="#6D4FD1"/>
+    <rect x="176" y="132.4" width="12" height="67.6" rx="2" fill="#B7791F"/>
+    <rect x="190" y="83.5" width="12" height="116.5" rx="2" fill="#0F8F7A"/>
+    <!-- group labels and best-fit shortfall -->
+    <g font-size="8" fill="#444444" text-anchor="middle">
+      <text x="32" y="211">U6 cusp</text><text x="82" y="211">U6 apex</text><text x="132" y="211">U1 edge</text><text x="182" y="211">U1 apex</text>
+    </g>
+    <g font-size="8" font-weight="600" fill="#B7791F" text-anchor="middle">
+      <text x="32" y="223">−18 %</text><text x="82" y="223">−39 %</text><text x="132" y="223">−59 %</text><text x="182" y="223">−40 %</text>
+    </g>
+    <text x="0" y="238" font-size="7.6" fill="#666666">Best fit under-reads eruption vs implants (derived from Table II);</text>
+    <text x="0" y="248" font-size="7.6" fill="#666666">paper: ≈ 30 % molars, ≈ 50 % incisors. Structural ≈ implants vertically.</text>
+  </g>
+
+  <!-- ===== Panel c: Nguyen 2018, 3D registration error ===== -->
+  <g transform="translate(548,0)">
+    <text x="0" y="20" font-size="10" font-weight="600" fill="#222222">Nguyen 2018: 3D error by region</text>
+    <text x="0" y="31" font-size="7.8" fill="#777777">absolute mean error vs bone plates, mm (n = 20)</text>
+    <!-- baseline y=200, scale 55 px/mm -->
+    <line x1="4" y1="200" x2="164" y2="200" stroke="#BBBBBB"/>
+    <!-- chin 0.37 ± 0.16 -->
+    <rect x="14" y="179.6" width="28" height="20.4" rx="3" fill="#0F8F7A"/>
+    <line x1="28" y1="170.8" x2="28" y2="188.4" stroke="#444444"/>
+    <text x="28" y="165" font-size="8.6" font-weight="600" fill="#222222" text-anchor="middle">0.37</text>
+    <!-- symphysis 0.40 ± 0.14 -->
+    <rect x="64" y="178" width="28" height="22" rx="3" fill="#0F8F7A"/>
+    <line x1="78" y1="170.3" x2="78" y2="185.7" stroke="#444444"/>
+    <text x="78" y="165" font-size="8.6" font-weight="600" fill="#222222" text-anchor="middle">0.40</text>
+    <!-- third molar 1.94 ± 0.06 -->
+    <rect x="114" y="93.3" width="28" height="106.7" rx="3" fill="#D23F3F"/>
+    <line x1="128" y1="90" x2="128" y2="96.6" stroke="#444444"/>
+    <text x="128" y="84" font-size="8.6" font-weight="600" fill="#222222" text-anchor="middle">1.94</text>
+    <!-- reference lines -->
+    <line x1="4" y1="183.5" x2="164" y2="183.5" stroke="#777777" stroke-width="1" stroke-dasharray="3 3"/>
+    <g font-size="8" fill="#444444" text-anchor="middle">
+      <text x="28" y="211">chin</text><text x="78" y="211">symphysis</text><text x="128" y="211">3rd-molar crypt</text>
+    </g>
+    <text x="0" y="226" font-size="7.6" fill="#666666">Dashed = 0.3 mm voxel. P = .765 / .698 / .0025. Whiskers = SD.</text>
+    <text x="0" y="238" font-size="7.6" fill="#666666">Two observers on chin + symphysis:</text>
+    <text x="0" y="248" font-size="7.6" fill="#666666">0.12 ± 0.11 mm, ICC 0.998 (n = 25).</text>
+  </g>
+</svg>

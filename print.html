@@ -52,26 +52,30 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.7/marked.min.js"></script>
 <script src="data/articles.js"></script>
+<script src="data/topics.js"></script>
 <script>
 (async function () {
   const q = new URLSearchParams(location.search);
   const slug = q.get('slug');
   const doc = q.get('doc') || 'handout';
-  const a = (typeof ARTICLES !== 'undefined' ? ARTICLES : []).find(x => x.slug === slug);
+  const isTopic = q.get('kind') === 'topic';
+  const base = `${isTopic ? 'topics' : 'articles'}/${encodeURIComponent(slug)}/`;
+  const a = isTopic ? null : (typeof ARTICLES !== 'undefined' ? ARTICLES : []).find(x => x.slug === slug);
+  const t = isTopic ? (typeof TOPICS !== 'undefined' ? TOPICS : []).find(x => x.slug === slug) : null;
   const el = document.getElementById('content');
-  document.getElementById('top-right').textContent = a ? `${a.authors} · ${a.journal} ${a.year}` : (slug || '');
+  document.getElementById('top-right').textContent = a ? `${a.authors} · ${a.journal} ${a.year}` : (t ? `Literature review · Topic ${t.n}` : (slug || ''));
   document.getElementById('top-left').textContent = `Ortho Study Hub · ${doc.replace(/-/g, ' ')}`;
-  document.getElementById('foot').textContent = a ? `${a.citation} · ${slug}/${doc}.md` : '';
-  document.title = a ? `${a.short || slug} — ${doc}` : doc;
+  document.getElementById('foot').textContent = a ? `${a.citation} · ${slug}/${doc}.md` : (t ? `${t.name} · topics/${slug}/${doc}.md` : '');
+  document.title = a ? `${a.short || slug} — ${doc}` : (t ? `${t.name} — ${doc}` : doc);
   try {
-    const res = await fetch(`articles/${encodeURIComponent(slug)}/${encodeURIComponent(doc)}.md`, { cache: 'no-cache' });
+    const res = await fetch(`${base}${encodeURIComponent(doc)}.md`, { cache: 'no-cache' });
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const md = await res.text();
     el.innerHTML = marked.parse(md, { gfm: true });
     // Relative images live under articles/<slug>/; wrap captioned images in a figure.
     el.querySelectorAll('img').forEach(img => {
       const src = img.getAttribute('src') || '';
-      if (src && !/^(https?:|data:|\/)/.test(src)) img.src = `articles/${encodeURIComponent(slug)}/${src}`;
+      if (src && !/^(https?:|data:|\/)/.test(src)) img.src = `${base}${src}`;
       const alt = img.getAttribute('alt');
       const p = img.parentElement;
       if (alt && p && p.tagName === 'P') {

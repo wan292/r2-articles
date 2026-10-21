@@ -17,6 +17,27 @@ const DOC_TYPES = [
   { key: 'clinical-implications', label: 'Clinical implications' },
 ];
 
+// Topic-level documents under topics/<slug>/<key>.md (one topic = one literature-review session).
+const TOPIC_DOC_TYPES = [
+  { key: 'overview', label: 'Overview' },
+  { key: 'handout', label: 'Handout' },
+  { key: 'prep', label: 'Prep sheet' },
+  { key: 'deck-outline', label: 'Slides outline' },
+];
+
+function getTopics() {
+  return (typeof TOPICS !== 'undefined' && Array.isArray(TOPICS)) ? TOPICS.slice().sort((a, b) => a.n - b.n) : [];
+}
+
+function getTopic(slug) {
+  return getTopics().find(t => t.slug === slug) || null;
+}
+
+function topicDocsFor(topic) {
+  const list = topic && topic.docs ? topic.docs : [];
+  return TOPIC_DOC_TYPES.filter(d => list.includes(d.key));
+}
+
 // ---- State ----
 let currentView = 'library';
 let reviewQueue = [];
@@ -136,7 +157,10 @@ function routeFromHash() {
   if (!h) return { view: 'library' };
   const parts = h.split('/');
   if (parts[0] === 'read' && parts[1]) {
-    return { view: 'reader', slug: decodeURIComponent(parts[1]), doc: parts[2] ? decodeURIComponent(parts[2]) : 'summary' };
+    return { view: 'reader', kind: 'article', slug: decodeURIComponent(parts[1]), doc: parts[2] ? decodeURIComponent(parts[2]) : 'summary' };
+  }
+  if (parts[0] === 'topic' && parts[1]) {
+    return { view: 'reader', kind: 'topic', slug: decodeURIComponent(parts[1]), doc: parts[2] ? decodeURIComponent(parts[2]) : 'overview' };
   }
   if (parts[0] === 'dashboard' || parts[0] === 'browse') return { view: parts[0] === 'browse' ? 'cards' : 'library' };
   if (['library', 'review', 'cards'].includes(parts[0])) return { view: parts[0] };
@@ -157,10 +181,13 @@ function setView(view, opts = {}) {
   currentView = view;
   if (view !== 'review') reviewSource = null;
   if (view === 'cards') browseFilter = opts.filter || '';
-  if (view === 'reader') readerTarget = { slug: opts.slug, doc: opts.doc || 'summary' };
+  if (view === 'reader') {
+    const kind = opts.kind === 'topic' ? 'topic' : 'article';
+    readerTarget = { kind, slug: opts.slug, doc: opts.doc || (kind === 'topic' ? 'overview' : 'summary') };
+  }
   const navView = view === 'reader' ? 'library' : view;
   navButtons.forEach(b => b.classList.toggle('active', b.dataset.view === navView));
-  if (view === 'reader') updateHash(`read/${encodeURIComponent(opts.slug)}/${encodeURIComponent(opts.doc || 'summary')}`);
+  if (view === 'reader') updateHash(`${readerTarget.kind === 'topic' ? 'topic' : 'read'}/${encodeURIComponent(readerTarget.slug)}/${encodeURIComponent(readerTarget.doc)}`);
   else updateHash(view);
   render();
   if (view !== 'reader') window.scrollTo({ top: 0 });
@@ -182,6 +209,56 @@ function bindOpenButtons() {
     setView('review');
   }));
   document.querySelectorAll('[data-browse]').forEach(btn => btn.addEventListener('click', () => setView('cards', { filter: btn.dataset.browse })));
+  document.querySelectorAll('[data-open-topic]').forEach(btn => {
+    btn.addEventListener('click', () => setView('reader', { kind: 'topic', slug: btn.dataset.openTopic, doc: btn.dataset.doc || 'overview' }));
+  });
+}
+
+// ---- Topics (one literature-review session each) ----
+function topicChipClass(key) {
+  return { overview: 'c-summary', handout: 'c-handout', prep: 'c-prep', 'deck-outline': 'c-exam-questions' }[key] || '';
+}
+
+function topicCard(t) {
+  const processed = !!(t.articles && t.articles.length);
+  const docs = topicDocsFor(t);
+  const meta = [t.presenter, t.date].filter(Boolean).map(escapeHtml).join(' · ');
+  return `
+    <section class="card topic-card${processed ? '' : ' pending'}">
+      <div class="topic-head">
+        <span class="topic-n">Topic ${t.n}</span>
+        <h3 class="topic-name">${escapeHtml(t.name)}</h3>
+        ${meta ? `<span class="topic-meta">${meta}</span>` : ''}
+      </div>
+      ${t.note ? `<p class="article-note">${escapeHtml(t.note)}</p>` : ''}
+      ${processed ? `
+      <div class="doc-links">
+        ${docs.map(d => `<button class="chip ${topicChipClass(d.key)}" data-open-topic="${escapeHtml(t.slug)}" data-doc="${d.key}"><span class="dot"></span>${d.label}</button>`).join('')}
+      </div>
+      <div class="article-actions">
+        ${(t.pdfs || []).map(k => { const d = TOPIC_DOC_TYPES.find(x => x.key === k); return `<a class="btn-ghost" href="topics/${encodeURIComponent(t.slug)}/${encodeURIComponent(k)}.pdf" target="_blank" rel="noopener">${d ? d.label : k} PDF</a>`; }).join('')}
+        ${t.deck ? `<a class="btn-ghost" href="topics/${encodeURIComponent(t.slug)}/${encodeURIComponent(t.deck)}" target="_blank" rel="noopener">Slides (pptx)</a>` : ''}
+      </div>` : `<p class="topic-pending">Not processed yet${t.folder ? ` · folder "${escapeHtml(t.folder)}"` : ''}</p>`}
+    </section>`;
+}
+
+function libraryBody(articles, articleCard) {
+  const topics = getTopics();
+  const inTopic = new Set(topics.flatMap(t => t.articles || []));
+  const processedTopics = topics.filter(t => t.articles && t.articles.length);
+  const pendingTopics = topics.filter(t => !(t.articles && t.articles.length));
+  let html = '';
+  for (const t of processedTopics) {
+    html += topicCard(t);
+    html += (t.articles || []).map(s => getArticle(s)).filter(Boolean).map(articleCard).join('');
+  }
+  const loose = articles.filter(a => !inTopic.has(a.slug));
+  if (loose.length) html += `<h2 class="section-title">Other articles</h2>` + loose.map(articleCard).join('');
+  if (!processedTopics.length && !loose.length) html += `<p class="empty-note">No articles yet. Drop a PDF in <code>articles/inbox/</code> and run the process-article skill.</p>`;
+  if (pendingTopics.length) {
+    html += `<details class="toc upcoming"><summary>Upcoming topics · ${pendingTopics.length} of ${topics.length}</summary><ol>${pendingTopics.map(t => `<li>${escapeHtml(t.name)}</li>`).join('')}</ol></details>`;
+  }
+  return html;
 }
 
 // ---- Library (home) ----
@@ -205,9 +282,7 @@ function renderLibrary() {
       <div class="stat"><span class="stat-value">${stats.mastered}</span><span class="stat-label">mastered</span></div>
     </section>`;
 
-  const list = articles.length === 0
-    ? `<p class="empty-note">No articles yet. Drop a PDF in <code>articles/inbox/</code> and run the process-article skill.</p>`
-    : articles.map(a => {
+  const articleCard = a => {
       const s = articleStats(a.slug);
       const pct = s.total ? Math.round((s.mastered / s.total) * 100) : 0;
       return `
@@ -236,9 +311,9 @@ function renderLibrary() {
           </div>
           ${a.tags && a.tags.length ? `<div class="tag-row">${a.tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>` : ''}
         </article>`;
-    }).join('');
+  };
 
-  app.innerHTML = hero + `<h2 class="section-title">Articles</h2>` + list;
+  app.innerHTML = hero + `<h2 class="section-title">Library</h2>` + libraryBody(articles, articleCard);
   const startBtn = document.getElementById('start-review');
   if (startBtn) startBtn.addEventListener('click', () => setView('review'));
   bindOpenButtons();
@@ -400,10 +475,10 @@ function renderMarkdown(md) {
 
 // Relative image paths in a study file are relative to articles/<slug>/, but the page lives at the site root.
 // Also turns `![caption](src)` into a figure with a visible caption.
-function localiseFigures(root, slug) {
+function localiseFigures(root, base) {
   root.querySelectorAll('img').forEach(img => {
     const src = img.getAttribute('src') || '';
-    if (src && !/^(https?:|data:|\/)/.test(src)) img.src = `articles/${encodeURIComponent(slug)}/${src}`;
+    if (src && !/^(https?:|data:|\/)/.test(src)) img.src = `${base}${src}`;
     img.loading = 'lazy';
     const alt = img.getAttribute('alt');
     const p = img.parentElement;
@@ -431,38 +506,62 @@ function buildToc(body) {
 }
 
 async function renderReader() {
-  const { slug, doc } = readerTarget || {};
-  const article = getArticle(slug);
-  const docType = DOC_TYPES.find(d => d.key === doc) || DOC_TYPES[1];
-  const docs = docsFor(article);
-  const n = cardsForSource(slug).length;
+  const { kind, slug, doc } = readerTarget || {};
+  const isTopic = kind === 'topic';
+  const article = isTopic ? null : getArticle(slug);
+  const topic = isTopic ? getTopic(slug) : null;
+  const types = isTopic ? TOPIC_DOC_TYPES : DOC_TYPES;
+  const docType = types.find(d => d.key === doc) || types[isTopic ? 0 : 1];
+  const docs = isTopic ? topicDocsFor(topic) : docsFor(article);
+  const base = `${isTopic ? 'topics' : 'articles'}/${encodeURIComponent(slug)}/`;
+  const n = isTopic
+    ? (topic ? (topic.articles || []).reduce((sum, s) => sum + cardsForSource(s).length, 0) : 0)
+    : cardsForSource(slug).length;
+  const hasPdf = isTopic ? !!(topic && (topic.pdfs || []).includes(docType.key)) : !!(article && (article.pdfs || []).includes(docType.key));
+  const chipClass = d => isTopic ? topicChipClass(d.key) : `c-${d.key}`;
+  const accentClass = isTopic ? topicChipClass(docType.key) : `c-${docType.key}`;
+
+  let heading;
+  if (isTopic) {
+    heading = topic
+      ? `<div class="article-meta"><span>Topic ${escapeHtml(topic.n)}</span>${topic.articles ? `<span>${topic.articles.length} papers</span>` : ''}${topic.date ? `<span>${escapeHtml(topic.date)}</span>` : ''}</div><h2 class="reader-title">${escapeHtml(topic.name)}</h2>`
+      : `<h2 class="reader-title">${escapeHtml(slug)}</h2>`;
+  } else {
+    heading = article
+      ? `<div class="article-meta"><span>${escapeHtml(article.authors)}</span><span>${escapeHtml(article.journal)} ${escapeHtml(article.year)}</span></div><h2 class="reader-title">${escapeHtml(article.title)}</h2>`
+      : `<h2 class="reader-title">${escapeHtml(slug)}</h2>`;
+  }
 
   app.innerHTML = `
-    <section class="reader c-${docType.key}">
+    <section class="reader ${accentClass}">
       <button class="btn-back" id="reader-back">← Library</button>
-      ${article ? `
-        <div class="article-meta"><span>${escapeHtml(article.authors)}</span><span>${escapeHtml(article.journal)} ${escapeHtml(article.year)}</span></div>
-        <h2 class="reader-title">${escapeHtml(article.title)}</h2>` : `<h2 class="reader-title">${escapeHtml(slug)}</h2>`}
+      ${heading}
       <nav class="doc-tabs" aria-label="Study documents">
-        ${docs.map(d => `<button class="chip c-${d.key} ${d.key === docType.key ? 'active' : ''}" data-doc="${d.key}"><span class="dot"></span>${d.label}</button>`).join('')}
+        ${docs.map(d => `<button class="chip ${chipClass(d)} ${d.key === docType.key ? 'active' : ''}" data-doc="${d.key}"><span class="dot"></span>${d.label}</button>`).join('')}
       </nav>
       <div class="reader-actions">
-        ${n ? `<button class="btn-ghost" id="reader-practice">Practise ${n} cards</button>` : ''}
-        ${article && (article.pdfs || []).includes(docType.key) ? `<a class="btn-ghost" href="articles/${encodeURIComponent(slug)}/${encodeURIComponent(docType.key)}.pdf" target="_blank" rel="noopener">Download PDF</a>` : ''}
-        ${typeof SITE !== 'undefined' && SITE.repo ? `<a class="btn-ghost" href="${escapeHtml(SITE.repo)}/blob/main/articles/${encodeURIComponent(slug)}/${docType.key}.md" target="_blank" rel="noopener">On GitHub</a>` : ''}
+        ${n && !isTopic ? `<button class="btn-ghost" id="reader-practice">Practise ${n} cards</button>` : ''}
+        ${hasPdf ? `<a class="btn-ghost" href="${base}${encodeURIComponent(docType.key)}.pdf" target="_blank" rel="noopener">Download PDF</a>` : ''}
+        ${isTopic && topic && topic.deck ? `<a class="btn-ghost" href="${base}${encodeURIComponent(topic.deck)}" target="_blank" rel="noopener">Slides (pptx)</a>` : ''}
+        ${typeof SITE !== 'undefined' && SITE.repo ? `<a class="btn-ghost" href="${escapeHtml(SITE.repo)}/blob/main/${base}${docType.key}.md" target="_blank" rel="noopener">On GitHub</a>` : ''}
       </div>
+      ${isTopic && topic && topic.articles && topic.articles.length ? `
+      <div class="topic-papers">
+        ${topic.articles.map(s => getArticle(s)).filter(Boolean).map(a => `<button class="chip" data-open="${escapeHtml(a.slug)}" data-doc="summary"><span class="dot"></span>${escapeHtml(a.short || a.slug)}</button>`).join('')}
+      </div>` : ''}
       <div id="reader-toc"></div>
       <article class="md-body" id="reader-body"><p class="loading">Loading…</p></article>
     </section>
   `;
   document.getElementById('reader-back').addEventListener('click', () => setView('library'));
-  document.querySelectorAll('.doc-tabs [data-doc]').forEach(btn => btn.addEventListener('click', () => setView('reader', { slug, doc: btn.dataset.doc })));
+  document.querySelectorAll('.doc-tabs [data-doc]').forEach(btn => btn.addEventListener('click', () => setView('reader', { kind, slug, doc: btn.dataset.doc })));
   const practiceBtn = document.getElementById('reader-practice');
   if (practiceBtn) practiceBtn.addEventListener('click', () => { reviewSource = slug; setView('review'); });
+  bindOpenButtons();
 
   const body = document.getElementById('reader-body');
   const tocEl = document.getElementById('reader-toc');
-  const path = `articles/${encodeURIComponent(slug)}/${encodeURIComponent(docType.key)}.md`;
+  const path = `${base}${encodeURIComponent(docType.key)}.md`;
   try {
     const res = await fetch(path, { cache: 'no-cache' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -471,7 +570,7 @@ async function renderReader() {
     if (!readerTarget || readerTarget.slug !== slug || readerTarget.doc !== docType.key) return;
     body.innerHTML = renderMarkdown(md);
     body.querySelectorAll('a[href^="http"]').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
-    localiseFigures(body, slug);
+    localiseFigures(body, base);
     tocEl.innerHTML = buildToc(body);
     tocEl.querySelectorAll('[data-scroll]').forEach(a => a.addEventListener('click', (e) => {
       e.preventDefault();
@@ -480,7 +579,7 @@ async function renderReader() {
     }));
     window.scrollTo({ top: 0 });
   } catch (e) {
-    const gh = (typeof SITE !== 'undefined' && SITE.repo) ? `${SITE.repo}/blob/main/articles/${encodeURIComponent(slug)}/${docType.key}.md` : null;
+    const gh = (typeof SITE !== 'undefined' && SITE.repo) ? `${SITE.repo}/blob/main/${base}${docType.key}.md` : null;
     body.innerHTML = `
       <p class="empty-note">Could not load <code>${escapeHtml(path)}</code> (${escapeHtml(e.message)}).
       ${location.protocol === 'file:' ? 'Browsers block local file reads; open the site from its host or a local server.' : ''}
@@ -495,11 +594,11 @@ window.addEventListener('scroll', () => { toTopBtn.hidden = window.scrollY < 600
 toTopBtn.addEventListener('click', () => window.scrollTo({ top: 0 }));
 window.addEventListener('hashchange', () => {
   const r = routeFromHash();
-  if (r.view === 'reader') setView('reader', { slug: r.slug, doc: r.doc });
+  if (r.view === 'reader') setView('reader', { kind: r.kind, slug: r.slug, doc: r.doc });
   else if (r.view !== currentView) setView(r.view);
 });
 (function init() {
   const r = routeFromHash();
-  if (r.view === 'reader') setView('reader', { slug: r.slug, doc: r.doc });
+  if (r.view === 'reader') setView('reader', { kind: r.kind, slug: r.slug, doc: r.doc });
   else setView(r.view);
 })();

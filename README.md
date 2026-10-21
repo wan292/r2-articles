@@ -21,6 +21,9 @@ A study system for an orthodontic residency year built around article reviews: e
 
 Plus 10–20 flashcards, lines in `registry/claims.md` (so the next article is checked against this one), and a line in `progress.md`.
 
+## Topics (the year's literature-review programme)
+The year is organised as 19 topic folders of three to five papers each; every topic is one group session. The Library groups papers by topic, and each processed topic has its own overview, a consultant-facing handout with figures, a private prep sheet, a slide outline and a `.pptx` deck under `topics/<nn-slug>/`. `topics/how-to-present.md` explains how an article-review session works and how to present one. The PDFs themselves stay in the git-ignored `Literature Review/` folder.
+
 ## The app
 - **Library** (home) — cards due today, every article with its study files as colour-coded chips, per-article progress, Practise, Handout PDF and Prep sheet PDF buttons
 - **Review** — tap-to-flip cards on a 5-box spaced-repetition schedule (Again / Good / Easy; keyboard: space, 1, 2, 3); practise a single article any time

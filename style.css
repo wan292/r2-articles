@@ -337,6 +337,26 @@ main#app {
 
 .tag-row { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.8rem; }
 
+/* Topic cards (one literature-review session each) */
+.topic-card {
+  padding: 1.1rem 1.2rem 1rem;
+  margin: 1.5rem 0 0.9rem;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--sky) 14%, var(--surface)) 0%, color-mix(in srgb, var(--teal) 10%, var(--surface)) 100%);
+}
+.topic-card.pending { opacity: 0.75; }
+.topic-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4rem 0.75rem; margin-bottom: 0.4rem; }
+.topic-n {
+  font-family: var(--font-mono); font-size: 0.72rem; font-weight: 600; color: var(--sky);
+  background: color-mix(in srgb, var(--sky) 16%, transparent); border-radius: 6px; padding: 0.15rem 0.5rem;
+}
+.topic-name { font-family: var(--font-display); font-size: 1.2rem; font-weight: 700; margin: 0; letter-spacing: -0.01em; }
+.topic-meta { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-muted); }
+.topic-pending { color: var(--ink-faint); font-size: 0.85rem; margin: 0; }
+.topic-papers { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
+.upcoming { margin-top: 1.5rem; }
+.upcoming ol { columns: 2; column-gap: 1.5rem; }
+@media (max-width: 520px) { .upcoming ol { columns: 1; } }
+
 /* ==========================================================================
    Review
    ========================================================================== */
