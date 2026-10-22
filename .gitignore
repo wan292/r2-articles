@@ -12,3 +12,7 @@ Thumbs.db
 # Year literature-review folders: copyrighted PDFs, never committed
 Literature Review/
 *.bak
+
+# Colleagues' own summaries (their work, with figures from the papers): local copies only
+topics/*/colleague-summary.*
+topics/*/colleague/
