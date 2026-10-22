@@ -63,8 +63,8 @@
     </g>
     <!-- baseline y=200, scale 26 px/mm; groups at x = 12, 62, 112, 162; bar w=12 gap 2 -->
     <line x1="6" y1="200" x2="214" y2="200" stroke="#BBBBBB"/>
-    <!-- U6 cusp: 4.15 / 3.40 / 4.99 -->
-    <rect x="12" y="92.1" width="12" height="107.9" rx="2" fill="#6D4FD1"/>
+    <!-- U6 cusp: 4.75 / 3.40 / 4.99 -->
+    <rect x="12" y="76.5" width="12" height="123.5" rx="2" fill="#6D4FD1"/>
     <rect x="26" y="111.6" width="12" height="88.4" rx="2" fill="#B7791F"/>
     <rect x="40" y="70.3" width="12" height="129.7" rx="2" fill="#0F8F7A"/>
     <!-- U6 apex: 3.80 / 2.33 / 4.02 -->
@@ -84,7 +84,7 @@
       <text x="32" y="211">U6 cusp</text><text x="82" y="211">U6 apex</text><text x="132" y="211">U1 edge</text><text x="182" y="211">U1 apex</text>
     </g>
     <g font-size="8" font-weight="600" fill="#B7791F" text-anchor="middle">
-      <text x="32" y="223">−18 %</text><text x="82" y="223">−39 %</text><text x="132" y="223">−59 %</text><text x="182" y="223">−40 %</text>
+      <text x="32" y="223">−28 %</text><text x="82" y="223">−39 %</text><text x="132" y="223">−59 %</text><text x="182" y="223">−40 %</text>
     </g>
     <text x="0" y="238" font-size="7.6" fill="#666666">Best fit under-reads eruption vs implants (derived from Table II);</text>
     <text x="0" y="248" font-size="7.6" fill="#666666">paper: ≈ 30 % molars, ≈ 50 % incisors. Structural ≈ implants vertically.</text>
