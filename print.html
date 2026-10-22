@@ -41,6 +41,25 @@
   figcaption { font-size: 7.4pt; color: #555; margin-top: 2pt; }
   .foot { margin-top: 8pt; border-top: 1px solid #ccc; padding-top: 3pt; font-size: 7pt; color: #666; font-family: 'JetBrains Mono', monospace; }
   .error { color: #b00; font-weight: 600; }
+  /* style=sheet: colleague-style per-paper summary sheets (purple banner per paper, emoji headings) */
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body.sheet-style { font-size: 8.5pt; line-height: 1.3; }
+  body.sheet-style .top, body.sheet-style .foot { display: none; }
+  .banner { background: linear-gradient(135deg, #5B2A86, #7B3FB0); color: #fff; text-align: center; padding: 9pt 12pt 8pt; border-radius: 5pt; margin: 0 0 6pt; break-before: page; }
+  .banner.first { break-before: auto; }
+  .banner h1 { color: #fff; font-family: 'Fraunces', Georgia, serif; font-size: 13.5pt; margin: 0; line-height: 1.2; }
+  .banner p { margin: 3pt 0 0; font-size: 8.4pt; color: #EBDDF7; }
+  .banner b { color: #fff; }
+  body.sheet-style h2 { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 10.3pt; color: #3B1F5C; border-top: none; padding-top: 0; margin: 6.5pt 0 2pt; }
+  body.sheet-style h3 { color: #3B1F5C; font-size: 10pt; margin: 2pt 0 2pt; }
+  body.sheet-style th { background: #EFE6F7; color: #3B1F5C; }
+  body.sheet-style tr:nth-child(even) td { background: #FAF7FD; }
+  body.sheet-style td:first-child { min-width: 24mm; }
+  .good { color: #15803D; font-weight: 700; }
+  .bad { color: #C62828; font-weight: 600; }
+  mark { background: #FFF176; padding: 0 1pt; }
+  .connect { border: 1.5px solid #7B3FB0; background: #F7F1FC; border-radius: 6pt; padding: 3pt 9pt 2pt; margin-top: 7pt; break-inside: avoid; }
+  .connect.top-box { margin: 0 0 7pt; }
   @media screen { body { background: #ddd; padding: 20px; } .sheet { background: #fff; padding: 14mm; box-shadow: 0 2px 12px rgba(0,0,0,.2); } }
 </style>
 </head>
@@ -59,6 +78,7 @@
   const slug = q.get('slug');
   const doc = q.get('doc') || 'handout';
   const isTopic = q.get('kind') === 'topic';
+  if (q.get('style') === 'sheet') document.body.classList.add('sheet-style');
   const base = `${isTopic ? 'topics' : 'articles'}/${encodeURIComponent(slug)}/`;
   const a = isTopic ? null : (typeof ARTICLES !== 'undefined' ? ARTICLES : []).find(x => x.slug === slug);
   const t = isTopic ? (typeof TOPICS !== 'undefined' ? TOPICS : []).find(x => x.slug === slug) : null;

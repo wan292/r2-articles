@@ -30,6 +30,8 @@ Continuous-learning system for orthodontic residency: every journal article beco
   - `prep.md` and `prep.pdf` — the resident's PRIVATE sheet for the session (same rules as the article prep sheet)
   - `deck-outline.md` — slide-by-slide outline (layout, content, figure, speaker notes, time) and `deck.pptx` built from it with the pptx skill
   - `figures/` — SVG figures referenced from `handout.md`
+- `topics/<nn-slug>/present.md` and `present.pdf` — the PRESENTATION SUMMARY in the format the user's colleagues use (modelled on a colleague's summary the user shared): one page per paper, a purple title banner per paper, emoji section headings (study purpose, design, key results table, main conclusions, limitations, key numbers to memorise), green/red verdicts and yellow highlights; a "topic at a glance" box linking the papers sits at the top. Exported with `print.html?kind=topic&style=sheet&slug=<topic>&doc=present`. Target exactly one A4 page per paper.
+- `topics/<nn-slug>/explainer.md` and `explainer.pdf` — the plain-language explainer for the resident ("explain like I'm five"): the one question behind the topic, each paper in simple words, a "what is what" glossary, and "if a consultant asks" answers. Two pages, same `style=sheet` export.
 - `topics/how-to-present.md` — a general guide to article-review sessions and presenting one (written once, reused).
 - `registry/claims.md` — cross-article claims registry: one line per key claim/number from every article. Read it when processing a new article to find conflicts with articles already in the hub.
 - `progress.md` — running index of every article processed (date, title, slug, topics, one-line note). Read this first in any new session.

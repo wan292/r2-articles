@@ -19,6 +19,8 @@ const DOC_TYPES = [
 
 // Topic-level documents under topics/<slug>/<key>.md (one topic = one literature-review session).
 const TOPIC_DOC_TYPES = [
+  { key: 'present', label: 'Presentation summary' },
+  { key: 'explainer', label: 'Explained simply' },
   { key: 'overview', label: 'Overview' },
   { key: 'handout', label: 'Handout' },
   { key: 'prep', label: 'Prep sheet' },
@@ -216,11 +218,11 @@ function bindOpenButtons() {
 
 // ---- Topics (one literature-review session each) ----
 function topicChipClass(key) {
-  return { overview: 'c-summary', handout: 'c-handout', prep: 'c-prep', 'deck-outline': 'c-exam-questions' }[key] || '';
+  return { overview: 'c-summary', handout: 'c-handout', prep: 'c-prep', 'deck-outline': 'c-exam-questions', present: 'c-key-numbers', explainer: 'c-discussion-questions' }[key] || '';
 }
 
 function topicCard(t) {
-  const processed = !!(t.articles && t.articles.length);
+  const processed = !!((t.articles && t.articles.length) || (t.docs && t.docs.length));
   const docs = topicDocsFor(t);
   const meta = [t.presenter, t.date].filter(Boolean).map(escapeHtml).join(' · ');
   return `
@@ -245,8 +247,9 @@ function topicCard(t) {
 function libraryBody(articles, articleCard) {
   const topics = getTopics();
   const inTopic = new Set(topics.flatMap(t => t.articles || []));
-  const processedTopics = topics.filter(t => t.articles && t.articles.length);
-  const pendingTopics = topics.filter(t => !(t.articles && t.articles.length));
+  const isDone = t => !!((t.articles && t.articles.length) || (t.docs && t.docs.length));
+  const processedTopics = topics.filter(isDone);
+  const pendingTopics = topics.filter(t => !isDone(t));
   let html = '';
   for (const t of processedTopics) {
     html += topicCard(t);
