@@ -11,3 +11,4 @@ Thumbs.db
 
 # Year literature-review folders: copyrighted PDFs, never committed
 Literature Review/
+*.bak
