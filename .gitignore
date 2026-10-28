@@ -16,3 +16,12 @@ Literature Review/
 # Colleagues' own summaries (their work, with figures from the papers): local copies only
 topics/*/colleague-summary.*
 topics/*/colleague/
+
+# Article decks built with the paper's own figures (copyrighted): local copies only
+topics/*/*-deck.pptx
+topics/*/*-deck.pdf
+topics/*/*-script.pdf
+topics/*/kokich-figures/
+
+# Colleagues' summary PDFs shared with the user
+By Atheer*/
