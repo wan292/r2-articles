@@ -36,7 +36,7 @@ Usually not: the authors say the roots resorb as the 4 and 6 reach them and bone
 
 **Q. Patient 2: why extract at 8 and then reopen the space? Isn't that double work?**
 
-It's deliberate, and the paper admits it adds treatment time; the payoff is a robust ridge without a graft. The Es were ankylosed at 8 with growth ahead, so they came out; with no space maintainer, the 4 and 6 drifted together and their eruption lifted the bone and erased the vertical defect. The lower incisors were too lingual for the chin, so they were proclined and the 5 space reopened, and the separating roots left bone behind: <mark>orthodontic implant-site development</mark>. Only one of her two sites is shown, with no implant age.
+It's deliberate, and the paper admits it adds treatment time; the payoff is a robust ridge without a graft. The Es were ankylosed at 8 with growth ahead, so they came out; with no space maintainer, the 4 and 6 drifted together and their eruption lifted the bone and erased the vertical defect. On the ceph the lower incisors were positioned lingually relative to the chin, so they were proclined labially and the 5 space reopened, and the separating roots left bone behind: <mark>orthodontic implant-site development</mark>. Only one of her two sites is shown, with no implant age.
 
 <span class="src">Source: paper p437–438, Fig 2; p443</span>
 
