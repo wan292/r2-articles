@@ -49,23 +49,7 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 
 ## Early treatment of vertical skeletal dysplasias. the
 
-### Q4 · Promotion 2022
-
-> (Early treatment of vertical skeletal dysplasia: the hyperdivergent phenotype) Patient with hyperdivergent pattern treated with lip bumper, bonded expander, lip seal and headgear; what is the treatment effect?
-
-- **Per the paper:** A net orthopedic improvement. True forward mandibular rotation was 2.7 times controls (1.6° vs 0.6°). Condylar growth increased (3.8 vs 2.6 mm) and was redirected anterosuperiorly. The gonial angle decreased (-1.1°), the chin moved forward about twice as much as in controls, and posterior facial height increased. Upper molars were relatively intruded by 1.0 mm and lower molar eruption was controlled. Overbite rose 1.3 mm (2.7 mm in the open-bite subgroup) and overjet fell. Expansion did not raise the mandibular plane angle. (Abstract; Tables II-VI pp320-323; Discussion pp322-324; Conclusions pp324-325)
-- The stem says headgear, but the paper used a high-pull chincup (fitted in 30 of 38 patients, 79%), not headgear. The authors contrast their results with high-pull headgear, which lets the lower molars erupt. Patients started at 8.2 years and were treated for 1.3 years. Long-term stability was not tested.
-- *Source tag in the recall:* last year article: Early treatment of vertical skeletal dysplasia: the hyperdivergent phenotype, pg 147 in summary file; note: bonded palatal expander functioned as a posterior bite-block, fixed throughout treatment
-
-### Q5 · Promotion 2022
-
-> Chin cup with bonded expander, lip bumper and Herbst results in? (gonial angle, mandibular rotation and chin position)
-
-- **Per the paper:** The gonial angle decreased (-1.1°; -1.3° vs controls). The mandible rotated truly forward (1.6° vs 0.6°, 2.7 times controls). The chin (pogonion) moved forward about twice as much as in controls (1.7 vs 0.7 mm), with no difference in mandibular length. (Table III p321; Tables IV and V p322; Discussion p324; Conclusion 1)
-- No Herbst was used. The protocol was a bonded expander as bite-block, a Crozat/lip bumper, lip-seal exercises and a high-pull chincup; Herbst appears only as a cited reference for AP orthopedics. The chin came forward through forward rotation, not extra mandibular length (Co-Pg group difference 0.1 mm).
-- *Source tag in the recall:* marked '?'
-
-### Q6 · Promotion 2021
+### Q4 · Promotion 2021
 
 > Patient came with crossbite and hyperdivergent mandible, and was treated with expander and Crozat lip bumper and chin-cup. What's the expected outcome?
 >
@@ -77,7 +61,7 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 - Sankey's protocol combined a bonded expander used as a bite-block, a Crozat/lip bumper, lip-seal exercises and a high-pull chincup. True forward rotation was 2.7 times that of controls, the gonial angle closed, and condylar growth increased and turned anterosuperiorly. The highlighted option is right. The handwritten 'Backward' is wrong.
 - *Source tag in the recall:* numbered list 1–98, no header, article-based (p16–25)
 
-### Q7 · Promotion 2021
+### Q5 · Promotion 2021
 
 > Chin cup with bonded expander results in?
 
@@ -85,6 +69,22 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 - **Per the paper:** True FORWARD (closing, counterclockwise) mandibular rotation: 1.6° vs 0.6° in controls, 2.7 times as much. It came with a smaller gonial angle, more condylar growth and the chin moving forward. The mandibular plane angle barely changed. (Abstract; Results p321-322; Table V p322; Discussion p323-324)
 - The handwritten 'clockwise' is the opposite of the finding: the bite-block expander with the chincup rotated the mandible forward. The chincup and non-chincup patients did not differ significantly, so the authors credit the whole protocol rather than the chincup alone.
 - *Source tag in the recall:* short list 1–16 (p25–26) – same as S2-31
+
+### Q6 · Promotion 2022
+
+> (Early treatment of vertical skeletal dysplasia: the hyperdivergent phenotype) Patient with hyperdivergent pattern treated with lip bumper, bonded expander, lip seal and headgear; what is the treatment effect?
+
+- **Per the paper:** A net orthopedic improvement. True forward mandibular rotation was 2.7 times controls (1.6° vs 0.6°). Condylar growth increased (3.8 vs 2.6 mm) and was redirected anterosuperiorly. The gonial angle decreased (-1.1°), the chin moved forward about twice as much as in controls, and posterior facial height increased. Upper molars were relatively intruded by 1.0 mm and lower molar eruption was controlled. Overbite rose 1.3 mm (2.7 mm in the open-bite subgroup) and overjet fell. Expansion did not raise the mandibular plane angle. (Abstract; Tables II-VI pp320-323; Discussion pp322-324; Conclusions pp324-325)
+- The stem says headgear, but the paper used a high-pull chincup (fitted in 30 of 38 patients, 79%), not headgear. The authors contrast their results with high-pull headgear, which lets the lower molars erupt. Patients started at 8.2 years and were treated for 1.3 years. Long-term stability was not tested.
+- *Source tag in the recall:* last year article: Early treatment of vertical skeletal dysplasia: the hyperdivergent phenotype, pg 147 in summary file; note: bonded palatal expander functioned as a posterior bite-block, fixed throughout treatment
+
+### Q7 · Promotion 2022
+
+> Chin cup with bonded expander, lip bumper and Herbst results in? (gonial angle, mandibular rotation and chin position)
+
+- **Per the paper:** The gonial angle decreased (-1.1°; -1.3° vs controls). The mandible rotated truly forward (1.6° vs 0.6°, 2.7 times controls). The chin (pogonion) moved forward about twice as much as in controls (1.7 vs 0.7 mm), with no difference in mandibular length. (Table III p321; Tables IV and V p322; Discussion p324; Conclusion 1)
+- No Herbst was used. The protocol was a bonded expander as bite-block, a Crozat/lip bumper, lip-seal exercises and a high-pull chincup; Herbst appears only as a cited reference for AP orthopedics. The chin came forward through forward rotation, not extra mandibular length (Co-Pg group difference 0.1 mm).
+- *Source tag in the recall:* marked '?'
 
 ## Al-buraiki2005
 
@@ -139,24 +139,23 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 
 ## Topic-level questions (no single paper states the answer)
 
-### Q12 · R2 end-of-year exam
+### Q12 · R2 exam 2019
 
-> Apparent mandibular rotation of Houston
+> Invisalign can't be used in
 
-- **Per the paper:** Apparent rotation: the change in inclination of the mandibular plane (lower border) relative to the anterior cranial base, Björk's matrix rotation. It understates true rotation because remodelling of the lower border masks it (not stated in the paper; Solow & Houston 1988, UNVERIFIED from memory). (Methods p320; Discussion pp322-323 (bony remodelling masked the true rotation); Table II (MPA -0.3°) vs Table V (true rotation -1.6°))
-- Sankey illustrates the idea: the mandibular plane angle barely changed (-0.3°) while true rotation was -1.6°, because lower-border remodelling hid the forward rotation. The formal definition comes from Solow & Houston (ref 62), a growth-article topic.
+- **Recalled answer:** open bite ( poor ability in extrusion) · ⚠️ **differs from the paper**
+- **Per the paper:** Not settled by the paper. Khosravi does not support open bite as a contraindication. The best-supported reading is severe skeletal (surgical) open bite, or cases needing large extrusion, extraction space closure or a major AP or transverse change (not stated in the paper). (Abstract; Results p695 and Appendix Table III (open-bite group); Discussion p697-698; limitations p698 (surgical open-bite cases excluded))
+- The recalled 'open bite' is contradicted: overbite improved in every one of the 12 open-bite adults (median +1.5 mm), mainly by incisor extrusion with attachments. Only mild to moderate cases were treated, not all reached positive overlap, and the authors cite Kravitz's partial success with extrusion. The paper names no absolute contraindication. Its exclusions (extraction, Class II-to-I correction, crossbite correction) were study-design choices.
+- *Source tag in the recall:* R2 exam 2019 recall (remaining questions)
 
-### Q13 · R2 end-of-year exam
+### Q13 · Promotion 2021
 
-> The best intrusion approach for children is:
->
-> - A. Anterior biteplate
-> - B. 2x4 appliance
-> - C. Full fixed
+> What is the doctor's role in ClinCheck?
 
-- **Recalled answer:** B. 2x4 appliance · ✅ matches
-- **Per the paper:** B. 2x4 appliance (the paper does not compare the three options) (Abstract; Methods pp47-48 (lever arches from molars to incisors, premolars not bonded, late mixed or early permanent dentition); Table VI p52)
-- Al-Buraiki treated children (mean 11.3 years) with molar-to-incisor lever arches that bypassed the canines and premolars, which is essentially 2x4 intrusion mechanics. Upper incisors were relatively intruded 1.5 mm vs controls. An anterior bite plate opens the bite by letting posterior teeth erupt, but the paper does not test it or full fixed appliances against this approach.
+- **Recalled answer:** Treatment adjustments for IPR and attachments · ✅ matches
+- **Per the paper:** The orthodontist designs and edits the virtual treatment plan: attachment number and position, IPR plan, overcorrection, bite ramps, trimming and staging. The paper never names ClinCheck. (Methods p692 (Invisalign Treatment Overview form listing attachments and IPR plans); Table III p697 (each clinician's strategies))
+- Khosravi's records included the treatment overview with attachment locations and IPR plans. Table III shows the three orthodontists choosing overcorrection, virtual bite ramps, attachments and aligner trimming. That supports the recalled answer, but only at topic level because ClinCheck is not discussed by name.
+- *Source tag in the recall:* numbered list 1–115, no header (p4–12)
 
 ### Q14 · Promotion 2023
 
@@ -167,20 +166,21 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 - The paper never shows aligners beating fixed appliances. Its 1.5 mm corrections for open bite and for deep bite are about half those reported for fixed treatment. Open bite is the usual exam answer because every open-bite case improved without molar extrusion or mandibular-plane opening, but the paper does not test superiority.
 - *Source tag in the recall:* Adult course
 
-### Q15 · R2 exam 2019
+### Q15 · R2 end-of-year exam
 
-> Invisalign can't be used in
+> Apparent mandibular rotation of Houston
 
-- **Recalled answer:** open bite ( poor ability in extrusion) · ⚠️ **differs from the paper**
-- **Per the paper:** Not settled by the paper. Khosravi does not support open bite as a contraindication. The best-supported reading is severe skeletal (surgical) open bite, or cases needing large extrusion, extraction space closure or a major AP or transverse change (not stated in the paper). (Abstract; Results p695 and Appendix Table III (open-bite group); Discussion p697-698; limitations p698 (surgical open-bite cases excluded))
-- The recalled 'open bite' is contradicted: overbite improved in every one of the 12 open-bite adults (median +1.5 mm), mainly by incisor extrusion with attachments. Only mild to moderate cases were treated, not all reached positive overlap, and the authors cite Kravitz's partial success with extrusion. The paper names no absolute contraindication. Its exclusions (extraction, Class II-to-I correction, crossbite correction) were study-design choices.
-- *Source tag in the recall:* R2 exam 2019 recall (remaining questions)
+- **Per the paper:** Apparent rotation: the change in inclination of the mandibular plane (lower border) relative to the anterior cranial base, Björk's matrix rotation. It understates true rotation because remodelling of the lower border masks it (not stated in the paper; Solow & Houston 1988, UNVERIFIED from memory). (Methods p320; Discussion pp322-323 (bony remodelling masked the true rotation); Table II (MPA -0.3°) vs Table V (true rotation -1.6°))
+- Sankey illustrates the idea: the mandibular plane angle barely changed (-0.3°) while true rotation was -1.6°, because lower-border remodelling hid the forward rotation. The formal definition comes from Solow & Houston (ref 62), a growth-article topic.
 
-### Q16 · Promotion 2021
+### Q16 · R2 end-of-year exam
 
-> What is the doctor's role in ClinCheck?
+> The best intrusion approach for children is:
+>
+> - A. Anterior biteplate
+> - B. 2x4 appliance
+> - C. Full fixed
 
-- **Recalled answer:** Treatment adjustments for IPR and attachments · ✅ matches
-- **Per the paper:** The orthodontist designs and edits the virtual treatment plan: attachment number and position, IPR plan, overcorrection, bite ramps, trimming and staging. The paper never names ClinCheck. (Methods p692 (Invisalign Treatment Overview form listing attachments and IPR plans); Table III p697 (each clinician's strategies))
-- Khosravi's records included the treatment overview with attachment locations and IPR plans. Table III shows the three orthodontists choosing overcorrection, virtual bite ramps, attachments and aligner trimming. That supports the recalled answer, but only at topic level because ClinCheck is not discussed by name.
-- *Source tag in the recall:* numbered list 1–115, no header (p4–12)
+- **Recalled answer:** B. 2x4 appliance · ✅ matches
+- **Per the paper:** B. 2x4 appliance (the paper does not compare the three options) (Abstract; Methods pp47-48 (lever arches from molars to incisors, premolars not bonded, late mixed or early permanent dentition); Table VI p52)
+- Al-Buraiki treated children (mean 11.3 years) with molar-to-incisor lever arches that bypassed the canines and premolars, which is essentially 2x4 intrusion mechanics. Upper incisors were relatively intruded 1.5 mm vs controls. An anterior bite plate opens the bite by letting posterior teeth erupt, but the paper does not test it or full fixed appliances against this approach.

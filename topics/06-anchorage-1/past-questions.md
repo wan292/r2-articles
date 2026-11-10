@@ -15,14 +15,18 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 - The recalled answer matches the paper's three conclusions almost exactly. Two caveats: overbite groups did differ significantly (Table III, p<0.01), and left vs right sides also differed (p<0.01). The shield was tested only at 4 mm, because its own thickness already put it 4 mm forward.
 - *Source tag in the recall:* short list 1–16 (p25–26) – same as S2-26
 
-### Q2 · Promotion 2023
+### Q2 · Promotion 2021
 
-> Which of the following is correct regarding wire vs acrylic (shield) lip bumper?
+> Figure of wire-lip bumper (A) and shield-lip bumper (B). What is the most correct?
+>
+> - A produces more force than B
+> - A produces more force when positioned mid-incisal
+> - B produces more force when positioned 2 mm anterior to incisors
 
-- **Recalled answer:** Acrylic gives more force than wire (not sure, and can't recall the other options) · ✅ matches
-- **Per the paper:** The acrylic (shield) lip bumper gives significantly more force than the wire lip bumper (Hodge 1997 abstract; Results (p616); Discussion 'Effect of a shield' (p620); Conclusion 1 (p621))
-- The recalled answer is correct. Other true statements likely to appear as options: force rises at 4 mm vs 2 mm anterior and at the gingival vs mid-crown level; swallowing gave the highest forces; sex and lip thickness did not matter.
-- *Source tag in the recall:* Literature review articles (lip bumper photos pasted)
+- **Recalled answer:** B produces more force when positioned 2 mm anterior to incisors (highlighted); handwritten: Shield has more force · ⚠️ **differs from the paper**
+- **Per the paper:** None of the three options as recalled is supported. The paper supports 'B (shield) produces more force than A (wire)'. The shield was never tested 2 mm in front of the incisors, and force was higher at 4 mm than at 2 mm, and higher gingivally than at mid-crown. (Hodge 1997 Methods (p614): shield not tested at 2M/2G; Fig 2 (p616); Results 'Comparison of forces' (p616); Discussion (p618-619): 2M to 2G +150%, 4M to 4G +70%; Conclusions 1-2 (p621))
+- The handwritten note ('shield has more force') agrees with the paper, but the highlighted option does not. The shield's thickness put it at 4 mm automatically, so it was never measured at 2 mm, and the 2 mm position gave the lowest force anyway. Option 2 is also wrong, because the gingival position gave more force than mid-crown.
+- *Source tag in the recall:* numbered list 1–98, no header, article-based (p16–25)
 
 ### Q3 · Promotion 2022
 
@@ -35,18 +39,14 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 - **Per the paper:** Neither recalled option is right. B (the shield lip bumper on Hodge's framework) gives more force than a wire bumper. Option b is false because force rises at 4 mm, not 2 mm, and the shield cannot sit at 2 mm. (Hodge 1997 Fig 1B (p615), Methods (p614), Results (p615-616), Conclusions (p621); photo A is the Crozat/lip bumper with bonded palatal expander from t17_2 Fig 1)
 - Hodge's Fig 1B shows the shield bumper on the molar force device, and the shield beat the wire at every position tested. Hodge never tested a Crozat/BPE appliance, so the paper supports A > B only if A is read as a plain wire bumper, and then that option is false too. Moving the bumper forward (2 to 4 mm) or gingivally increases force, so option b is reversed.
 
-### Q4 · Promotion 2021
+### Q4 · Promotion 2023
 
-> Figure of wire-lip bumper (A) and shield-lip bumper (B). What is the most correct?
->
-> - A produces more force than B
-> - A produces more force when positioned mid-incisal
-> - B produces more force when positioned 2 mm anterior to incisors
+> Which of the following is correct regarding wire vs acrylic (shield) lip bumper?
 
-- **Recalled answer:** B produces more force when positioned 2 mm anterior to incisors (highlighted); handwritten: Shield has more force · ⚠️ **differs from the paper**
-- **Per the paper:** None of the three options as recalled is supported. The paper supports 'B (shield) produces more force than A (wire)'. The shield was never tested 2 mm in front of the incisors, and force was higher at 4 mm than at 2 mm, and higher gingivally than at mid-crown. (Hodge 1997 Methods (p614): shield not tested at 2M/2G; Fig 2 (p616); Results 'Comparison of forces' (p616); Discussion (p618-619): 2M to 2G +150%, 4M to 4G +70%; Conclusions 1-2 (p621))
-- The handwritten note ('shield has more force') agrees with the paper, but the highlighted option does not. The shield's thickness put it at 4 mm automatically, so it was never measured at 2 mm, and the 2 mm position gave the lowest force anyway. Option 2 is also wrong, because the gingival position gave more force than mid-crown.
-- *Source tag in the recall:* numbered list 1–98, no header, article-based (p16–25)
+- **Recalled answer:** Acrylic gives more force than wire (not sure, and can't recall the other options) · ✅ matches
+- **Per the paper:** The acrylic (shield) lip bumper gives significantly more force than the wire lip bumper (Hodge 1997 abstract; Results (p616); Discussion 'Effect of a shield' (p620); Conclusion 1 (p621))
+- The recalled answer is correct. Other true statements likely to appear as options: force rises at 4 mm vs 2 mm anterior and at the gingival vs mid-crown level; swallowing gave the highest forces; sex and lip thickness did not matter.
+- *Source tag in the recall:* Literature review articles (lip bumper photos pasted)
 
 ## Factors affecting the clinical success of screw implants used as orthodontic anchorage.
 
@@ -89,7 +89,16 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 
 ## Critical factors for the success of orthodontic mini-implants a systematic review
 
-### Q8 · Promotion 2024
+### Q8 · Promotion 2021
+
+> What is the material for construction of TADs?
+
+- **Recalled answer:** Titanium · ✅ matches
+- **Per the paper:** Titanium (commercially pure Ti or Ti alloy) (Chen et al 2009, Table II 'Materials' column (p287); also Poggio 2006 Conclusions (p197), which describes the ideal titanium miniscrew; Park 2006 cites titanium microscrews)
+- All 16 studies in Chen's review used titanium mini-implants: pure Ti, Ti, or Ti alloy. The papers do not name a specific alloy grade such as Ti-6Al-4V.
+- *Source tag in the recall:* R2 Promotion Exam 2021
+
+### Q9 · Promotion 2024
 
 > Failure of miniscrew?
 >
@@ -99,15 +108,6 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 - **Per the paper:** a) Placement torque above 10 Ncm, i.e. excessive insertion torque, is associated with failure (Chen 2009 Placement methods (p288): Motoyoshi credited 85.5% success to a 5-10 Ncm peak torque; Discussion (p289): failure-group torque was significantly higher)
 - Chen reports Motoyoshi's recommended peak torque of 5-10 Ncm (printed as 'N per centimeter'). Torque was significantly higher in the failure group, which was linked to bone necrosis and ischemia when the screw is much wider than the pilot hole. The '>10' cut-off is implied by that range rather than stated as a failure threshold.
 - *Source tag in the recall:* 9, 4 Critical factors for the success of orthodontic mini-implants: A systematic review, Yan Chen (excerpt: peak placement torque of 5 to 10 N per centimeter)
-
-### Q9 · Promotion 2021
-
-> What is the material for construction of TADs?
-
-- **Recalled answer:** Titanium · ✅ matches
-- **Per the paper:** Titanium (commercially pure Ti or Ti alloy) (Chen et al 2009, Table II 'Materials' column (p287); also Poggio 2006 Conclusions (p197), which describes the ideal titanium miniscrew; Park 2006 cites titanium microscrews)
-- All 16 studies in Chen's review used titanium mini-implants: pure Ti, Ti, or Ti alloy. The papers do not name a specific alloy grade such as Ti-6Al-4V.
-- *Source tag in the recall:* R2 Promotion Exam 2021
 
 ## Topic-level questions (no single paper states the answer)
 

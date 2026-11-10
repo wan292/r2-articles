@@ -8,15 +8,7 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 
 ## An investigation of maxillary superimposition techniques using metallic implants · [Doppel 1994](#read/1994-doppel-maxillary-superimposition-implants/past-questions)
 
-### Q1 · Growth MCQ list
-
-> Malar (zygomatic) bone: according to Björk? according to Enlow?
-
-- **Recalled answer:** According to Bjork; stable (zygomatic bone). According to Enlow; resorptive. · ✅ matches
-- **Per the paper:** Björk: the anterior surface of the zygomatic process is stable (except at key ridge and the orbital floor). Enlow: that surface shows resorptive fields. (Doppel 1994 p162 (Björk & Skieller: strikingly stable in 9 cases; Kurihara, Enlow & Rangel: resorptive fields on the anterior zygomatic process) and p165 (own data variable); Nielsen 1989 p422 and p430 (no resorption seen with implants, contrary to Enlow))
-- Both papers set Björk's implant-based stability against Enlow's histological finding of resorption on the same surface. Doppel's own sample showed a mix: no change, resorption, or apparent forward movement. Strictly, the structure is the zygomatic process of the maxilla, not the malar bone itself.
-
-### Q2 · Promotion 2021
+### Q1 · Promotion 2021
 
 > What is the main structure that is the most stable in the superimposition?
 
@@ -24,6 +16,14 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 - **Per the paper:** Maxilla: the anterior (and posterior) contour of the zygomatic process (key ridge). Mandible: the anterior chin contour and the internal symphysis. The third-molar crypt and the mandibular canal are not stable. (Doppel 1994 abstract p161, Table II p164 (anterior key ridge 0.95 ± 0.57 mm, posterior 0.97 ± 0.43 mm), conclusions p167-168, Björk & Skieller stability p162; Nielsen 1989 p422; Nguyen 2018 p747 (Björk's 2D list), p749 Table (chin 0.37, symphysis 0.40, third molar 1.94 mm, P = 0.0025) and p749 (canal excluded because it changes with growth))
 - Doppel found the zygomatic process contours matched the implants most reliably, and Björk & Skieller called the anterior surface strikingly stable. The recalled mandibular list is Björk's classic 2D set (cited by Nguyen), but Nguyen's 3D data show the third-molar crypt is unstable and the canal moves with growth: only the chin and the symphysis held.
 - *Source tag in the recall:* R2 Promotion Exam 2021
+
+### Q2 · Growth MCQ list
+
+> Malar (zygomatic) bone: according to Björk? according to Enlow?
+
+- **Recalled answer:** According to Bjork; stable (zygomatic bone). According to Enlow; resorptive. · ✅ matches
+- **Per the paper:** Björk: the anterior surface of the zygomatic process is stable (except at key ridge and the orbital floor). Enlow: that surface shows resorptive fields. (Doppel 1994 p162 (Björk & Skieller: strikingly stable in 9 cases; Kurihara, Enlow & Rangel: resorptive fields on the anterior zygomatic process) and p165 (own data variable); Nielsen 1989 p422 and p430 (no resorption seen with implants, contrary to Enlow))
+- Both papers set Björk's implant-based stability against Enlow's histological finding of resorption on the same surface. Doppel's own sample showed a mix: no change, resorption, or apparent forward movement. Strictly, the structure is the zygomatic process of the maxilla, not the malar bone itself.
 
 ## Maxillary superimposition a comparison of three methods for cephalometric evaluation of growth and treatment change · [Nielsen 1989](#read/1989-nielsen-maxillary-superimposition-three-methods/past-questions)
 
@@ -104,7 +104,25 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 
 ## Topic-level questions (no single paper states the answer)
 
-### Q11 · Promotion 2023
+### Q11 · R2 exam 2019
+
+> Which structure has displacement and deposition in the same direction
+
+- **Recalled answer:** palate · ✅ matches
+- **Per the paper:** Palate (nasal floor / palatal vault). The paper's Fig 2 implies it but never says it in words. (Nielsen 1989 p422 (resorptive lowering of the nasal floor) and p423 Fig 2 (Björk & Skieller: sutural lowering Su 11.2 mm and nasal-floor resorption Re 4.6 mm both point down; orbital-floor apposition O 6.4 mm points up); Doppel 1994 p165)
+- In Fig 2 the palate is carried down by sutural displacement and also remodels downward (nasal-side resorption, oral-side deposition), so both act in the same direction. The orbital floor is the contrast: its apposition works against the displacement. The phrase 'same direction as displacement' comes from Enlow/Proffit, not from the paper.
+- *Source tag in the recall:* R2 exam 2019 recall (remaining questions)
+
+### Q12 · Promotion 2021
+
+> Picture of superimposition of treatment. What happened?
+
+- **Recalled answer:** Forward growth of mandible
+- **Per the paper:** Cannot be checked without the image. Forward mandibular growth is a plausible reading of a cranial-base superimposition (not stated in the paper). (No topic-1 paper has this figure. Doppel 1994 p162-163 describes the Björk cranial-base (S-N transfer) superimposition that such a tracing would use.)
+- The question depends on an exam picture that was not recalled, so no paper can confirm what it showed. Topic 1 only gives the general rules for reading overall and regional superimpositions.
+- *Source tag in the recall:* numbered list 1–115, no header (p4–12)
+
+### Q13 · Promotion 2023
 
 > Question about superimposition for an asymmetry case (recaller could not recall it; noted as not mentioned in Proffit).
 
@@ -112,7 +130,7 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 - Nguyen argues that asymmetric growth cannot be superimposed on 2D PA cephs and offers 3D regional mandibular registration instead, but the paper excluded asymmetric patients. The topic-13 Bailey/Cevidanes/Proffit paper shows the clinical asymmetry use.
 - *Source tag in the recall:* Orthognathic surgery
 
-### Q12 · Promotion 2023
+### Q14 · Promotion 2023
 
 > Asymmetry case (maxillary cant and mandibular deviation), asking about which superimposition to use to know the type of surgery (recaller not sure about the question).
 >
@@ -123,21 +141,3 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 - **Per the paper:** b) Overall with regional mandible (not stated in the paper) (Nguyen 2018 p748-749 (3D regional mandibular registration on chin + symphysis; PA cephs cannot superimpose asymmetric growth); Bailey, Cevidanes & Proffit 2004 (t13_2) p275-276 Figs 3-4 (cranial-base registration of an asymmetry case, then mandible isolated to show corpus vs ramus/condyle change))
 - Overall (cranial-base) registration shows how each jaw sits and moves relative to the skull. Adding a regional mandibular registration separates the mandible's own change (ramus or condyle asymmetry) from its displacement, and a validated 3D method exists only for the mandible (Nguyen). No paper poses this exact choice, and the recall itself is uncertain.
 - *Source tag in the recall:* Orthognathic surgery
-
-### Q13 · R2 exam 2019
-
-> Which structure has displacement and deposition in the same direction
-
-- **Recalled answer:** palate · ✅ matches
-- **Per the paper:** Palate (nasal floor / palatal vault). The paper's Fig 2 implies it but never says it in words. (Nielsen 1989 p422 (resorptive lowering of the nasal floor) and p423 Fig 2 (Björk & Skieller: sutural lowering Su 11.2 mm and nasal-floor resorption Re 4.6 mm both point down; orbital-floor apposition O 6.4 mm points up); Doppel 1994 p165)
-- In Fig 2 the palate is carried down by sutural displacement and also remodels downward (nasal-side resorption, oral-side deposition), so both act in the same direction. The orbital floor is the contrast: its apposition works against the displacement. The phrase 'same direction as displacement' comes from Enlow/Proffit, not from the paper.
-- *Source tag in the recall:* R2 exam 2019 recall (remaining questions)
-
-### Q14 · Promotion 2021
-
-> Picture of superimposition of treatment. What happened?
-
-- **Recalled answer:** Forward growth of mandible
-- **Per the paper:** Cannot be checked without the image. Forward mandibular growth is a plausible reading of a cranial-base superimposition (not stated in the paper). (No topic-1 paper has this figure. Doppel 1994 p162-163 describes the Björk cranial-base (S-N transfer) superimposition that such a tracing would use.)
-- The question depends on an exam picture that was not recalled, so no paper can confirm what it showed. Topic 1 only gives the general rules for reading overall and regional superimpositions.
-- *Source tag in the recall:* numbered list 1–115, no header (p4–12)

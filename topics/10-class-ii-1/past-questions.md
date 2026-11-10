@@ -8,7 +8,18 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 
 ## Burkhardt2003
 
-### Q1 · Promotion 2023
+### Q1 · Promotion 2021
+
+> Mother came with her male child and her child needs growth modification for mandible. Mother doesn't understand what this means. How best to explain the treatment?
+>
+> - Accelerated growth of mandible in a given time
+> - More mandibular growth than normal
+
+- **Per the paper:** Accelerated growth of mandible in a given time (Burkhardt 2003, Discussion 'Skeletal changes' p113 (Herbst mandibular growth 4.6 / 4.5 mm in phase I vs 1.8 / 2.3 mm in phase II; overall Co-Gn gain 6.4 mm Herbst vs 6.2 mm pendulum, NS, Table IV p112); Abstract p108)
+- Burkhardt found that the Herbst groups' extra mandibular growth was packed into the active phase, after which growth slowed, so overall mandibular length ended up no greater than with the pendulum. That means growth was sped up, not increased. Siara-Olds 2010 agrees: growth surged during functional treatment, then caught down ('mortgage' on growth, p23). The accurate thing to tell the mother is that the appliance speeds up jaw growth over a given period. It does not promise a bigger jaw than nature would give.
+- *Source tag in the recall:* numbered list 1–115, no header (p4–12)
+
+### Q2 · Promotion 2023
 
 > Pendulum vs Herbst?
 
@@ -17,7 +28,7 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 - At the end of comprehensive treatment both Herbst groups had pogonion slightly further forward than the pendulum group, even though mandibular length grew by a similar amount (~6 mm) in all three groups. The authors put the difference down to the pendulum group's slight downward-backward mandibular rotation, which hid its growth at the chin.
 - *Source tag in the recall:* Literature review articles; annotated '10,4'
 
-### Q2 · Promotion 2024
+### Q3 · Promotion 2024
 
 > Patient presented for treatment of his Class II malocclusion. You presented two options, Herbst and Pendulum appliances. Which one of the following is correct regarding the intra-arch appliance?
 >
@@ -30,17 +41,6 @@ Previous years' promotion questions as residents recalled them (R2 exam 2019; pr
 - **Per the paper:** d. Increase in mandibular plane angle exceeds Herbst (Burkhardt 2003, Abstract p108; Results p112 and Table IV p112 (MPA +1.2° pendulum vs slight closure in both Herbst groups, P<.01; Co-Gn 6.2 vs 6.4 vs 6.4 mm, NS); Conclusions p115)
 - Over the full treatment the pendulum group's mandibular plane angle opened by about 1.2°, while both Herbst groups closed slightly. The difference was significant. Mandibular length gains did not differ significantly among the three groups, so options a, b and c (less or more growth or length than Herbst) are not supported.
 - *Source tag in the recall:* 10, 4 Maxillary molar distalization or mandibular enhancement: A cephalometric comparison of comprehensive orthodontic treatment including the pendulum and the Herbst appliances, Donald R. Burkhardt
-
-### Q3 · Promotion 2021
-
-> Mother came with her male child and her child needs growth modification for mandible. Mother doesn't understand what this means. How best to explain the treatment?
->
-> - Accelerated growth of mandible in a given time
-> - More mandibular growth than normal
-
-- **Per the paper:** Accelerated growth of mandible in a given time (Burkhardt 2003, Discussion 'Skeletal changes' p113 (Herbst mandibular growth 4.6 / 4.5 mm in phase I vs 1.8 / 2.3 mm in phase II; overall Co-Gn gain 6.4 mm Herbst vs 6.2 mm pendulum, NS, Table IV p112); Abstract p108)
-- Burkhardt found that the Herbst groups' extra mandibular growth was packed into the active phase, after which growth slowed, so overall mandibular length ended up no greater than with the pendulum. That means growth was sped up, not increased. Siara-Olds 2010 agrees: growth surged during functional treatment, then caught down ('mortgage' on growth, p23). The accurate thing to tell the mother is that the appliance speeds up jaw growth over a given period. It does not promise a bigger jaw than nature would give.
-- *Source tag in the recall:* numbered list 1–115, no header (p4–12)
 
 ## Cozza2006
 
