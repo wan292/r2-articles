@@ -25,3 +25,6 @@ topics/*/kokich-figures/
 
 # Colleagues' summary PDFs shared with the user
 By Atheer*/
+
+# Patient records (scans, bonding guides): local only, never committed
+clinic/

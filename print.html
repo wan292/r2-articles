@@ -91,6 +91,8 @@
   .figs .f3 { grid-column: 1 / span 2; grid-row: 2; }
   .signoff { width: fit-content; margin: 8pt 0 0 auto; border: 1px solid #333; padding: 3pt 10pt; text-align: center; font-style: italic; font-weight: 700; }
   @media screen { body { background: #ddd; padding: 20px; } .sheet { background: #fff; padding: 14mm; box-shadow: 0 2px 12px rgba(0,0,0,.2); } }
+  /* Mixed Arabic–English documents: each paragraph takes the direction of its first letter. */
+  :where(#content) :where(p, li, h1, h2, h3, h4, td, th, blockquote) { unicode-bidi: plaintext; text-align: start; }
 </style>
 </head>
 <body>

@@ -414,4 +414,292 @@ const CARDS = [
     tags: ["superimposition", "mandible", "3d", "implants", "study design"],
     source: "2018-nguyen-3d-mandibular-regional-superimposition"
   },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-1",
+    front: "Kokich 2004 (AJO-DO): maxillary canines are the most commonly impacted permanent teeth after third molars. What share of impacted maxillary canines are labial or intra-alveolar versus palatal?",
+    back: "About one third labial or within the alveolus, two thirds palatal (p.278, citing Johnston 1969). Palatal to labial is roughly 2:1 (derived).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "prevalence", "palatal impaction", "labial impaction"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-2",
+    front: "Williams 1981 (cited in Kokich 2004): from what age can extracting the maxillary deciduous canine help a labial or intra-alveolar canine impaction self-correct?",
+    back: "As early as 8 or 9 years of age, to enhance eruption and self-correction (p.278). If this and orthodontic space opening (Olive) fail, the canine is uncovered surgically.",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "labial impaction", "deciduous canine extraction", "interceptive treatment"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-3",
+    front: "Kokich 2004: to choose between excisional uncovering, an apically positioned flap and closed eruption for a labial or intra-alveolar maxillary canine, which 4 criteria are assessed?",
+    back: "1. Labiolingual position of the crown. 2. Vertical position relative to the mucogingival junction. 3. Amount of gingiva in the area. 4. Mesiodistal position of the crown (pp.278-279).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "labial impaction", "uncovering technique", "decision criteria"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-4",
+    front: "Kokich 2004, criterion 1: how does the labiolingual position of an impacted maxillary canine crown affect the choice of uncovering technique?",
+    back: "Labial crown: any of the 3 techniques, since little if any bone covers it. Crown in the centre of the alveolus: excision and apically positioned flap are harder, as extensive labial bone may need removal (p.278).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "intra-alveolar impaction", "uncovering technique", "closed eruption"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-5",
+    front: "Kokich 2004, criterion 2: how does the canine crown's vertical position relative to the mucogingival junction (MGJ) guide uncovering?",
+    back: "Mostly coronal to the MGJ: any of the 3 techniques. Apical to the MGJ: excision is inappropriate (no gingiva left labially). Significantly apical: apically positioned flap is also inappropriate (instability, reintrusion), so use closed eruption (pp.278-279).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "mucogingival junction", "closed eruption", "apically positioned flap", "excisional uncovering"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-6",
+    front: "Kokich 2004, criterion 3: how much gingiva makes any uncovering technique acceptable, and which technique is needed when gingiva is insufficient?",
+    back: "Enough to leave at least 2 to 3 mm of attached gingiva over the canine crown after eruption: any of the 3 techniques. Insufficient gingiva: apically positioned flap, the only technique that predictably produces more gingiva (p.279).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "attached gingiva", "apically positioned flap", "uncovering technique"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-7",
+    front: "Kokich 2004, criterion 4: which uncovering technique for a labial canine whose crown lies mesially over the lateral incisor root, and how is it then moved?",
+    back: "Apically positioned flap for complete exposure; closed eruption or excision generally not recommended. An elastomeric chain directed to the centre of the edentulous ridge guides the crown into the arch (p.279; Fig 2).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "apically positioned flap", "mesiodistal position", "elastomeric chain"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-8",
+    front: "Kokich 2004: after closed-eruption uncovering of a labial canine, in which direction should it be erupted, and with what appliance?",
+    back: "Into the centre of the alveolar ridge with a vertical force, e.g. a ballista loop. Pulling the tooth labially risks a bony dehiscence, faster migration of the labial gingival margin and recession (p.279; Fig 4).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "closed eruption", "ballista loop", "gingival recession", "orthodontic mechanics"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-9",
+    front: "Vermette et al 1995 (cited in Kokich 2004): how did closed eruption and the apically positioned flap compare for labially impacted teeth?",
+    back: "No significant differences in gingival index, plaque index, pocket depth or bone level, but significant esthetic differences: apically positioned flap crowns were longer than normal; closed-eruption crowns matched contralateral teeth (p.279; no values reported).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "closed eruption", "apically positioned flap", "periodontal outcome", "esthetics"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-10",
+    front: "Kokich 2004: why do high labial canine impactions uncovered with an apically positioned flap tend to reintrude after treatment?",
+    back: "The flap heals to the mucosa next to the tooth; erupting the tooth draws that mucosa coronally, and after treatment the mucosal attachment pulls the crown apically. Not seen with closed eruption (pp.279-281).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "apically positioned flap", "reintrusion", "relapse"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-11",
+    front: "Kokich 2004: how does the buccal object (SLOB) rule locate an impacted canine crown?",
+    back: "Take 2 adjacent periapical radiographs at slightly different horizontal angles. A buccal crown moves opposite to the x-ray beam shift; a palatal crown moves the same way: Same Lingual, Opposite Buccal (p.281, citing Richards).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "buccal object rule", "slob", "radiographic localisation"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-12",
+    front: "Ericson & Kurol 1988 (cited in Kokich 2004): when does extracting the deciduous canine let a palatally displaced maxillary canine self-correct?",
+    back: "When the permanent canine crown overlaps the lateral incisor root but not past its mesial surface: self-correction with high predictability. Well beyond the mesial surface: no self-correction; surgical uncovering needed (pp.281-282; no percentage given).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "palatal impaction", "deciduous canine extraction", "interceptive treatment"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-13",
+    front: "Kokich 2004: when is a palatally impacted canine uncovered conventionally, and when in Kokich & Mathews' early approach?",
+    back: "Conventional: after the first 6 to 9 months of maxillary alignment, once space is made, then dragged toward the edentulous site (p.282). Early: before orthodontic treatment, sometimes in the late mixed dentition (p.283).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "palatal impaction", "timing", "early uncovering"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-14",
+    front: "Kokich 2004: why may a conventionally uncovered palatal canine appear not to move, mimicking ankylosis?",
+    back: "Too little bone removed over the crown. Enamel has no cells to resorb bone, so bone in contact with the crown resorbs only slowly by pressure necrosis. Ankylosis incidence of maxillary canines is low (p.282).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "palatal impaction", "ankylosis", "bone removal", "pressure necrosis"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-15",
+    front: "Woloshyn et al 1994 (cited in Kokich 2004): what happened in 32 patients whose palatal canines were conventionally uncovered and dragged across the lateral incisor roots?",
+    back: "Versus contralateral controls: bone levels more apical on the distal of the lateral incisor and mesial of the canine; root resorption of lateral incisor and canine was typical; judges could identify the previously impacted canine (p.283).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "palatal impaction", "root resorption", "bone level", "periodontal outcome"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-16",
+    front: "Kokich & Mathews' early uncovering of a palatal canine (Kokich 2004): what are the surgical steps?",
+    back: "Full-thickness mucoperiosteal flap; all bone over the crown removed down to the cementoenamel junction; flap repositioned with a hole cut over the crown; a dressing occasionally if the canine is high in the palate (p.283; Fig 5).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "palatal impaction", "early uncovering", "surgical technique"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-17",
+    front: "After early uncovering (bone removed to the CEJ), how long until a palatal canine erupts on its own to the occlusal plane, and what happens next (Kokich 2004)?",
+    back: "About 6 to 8 months, without orthodontic force. Then a bracket is placed and the root is moved through bone as the crown is translated into the arch (p.283; Fig 5E-G).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "palatal impaction", "autonomous eruption", "early uncovering"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2004-kokich-impacted-maxillary-canines-18",
+    front: "What evidence does Kokich 2004 give that early palatal uncovering beats conventional uncovering, and how strong is it?",
+    back: "Schmidt 2004, an unpublished University of Washington thesis: improved bone and attachment levels on canine and lateral incisor, little to no lateral incisor root resorption. No n or values given; shorter treatment time is stated without data (p.283).",
+    topic: "Treatment Planning",
+    tags: ["impacted canine", "early uncovering", "level of evidence", "expert opinion"],
+    source: "2004-kokich-impacted-maxillary-canines"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-1",
+    front: "Stephens 2005: what sample was studied?",
+    back: "40 white Class I and Class II patients treated by one orthodontist in one private practice: 20 four-premolar extraction and 20 nonextraction, each group 6 males and 14 females (Table I).",
+    topic: "Treatment Planning",
+    tags: ["extraction", "nonextraction", "study design", "sample"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-2",
+    front: "Stephens 2005: on what were the extraction and nonextraction groups matched?",
+    back: "Age, sex and three posttreatment ceph values: U1-SN and L1-NB (dental protrusion) and Holdaway's H-line (lip protrusion independent of nose length). Extraction cases were selected first, with values in the normal range.",
+    topic: "Treatment Planning",
+    tags: ["matching", "study design", "h-line", "incisor position"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-3",
+    front: "Stephens 2005: ages at the posttreatment and long-term records, and length of follow-up?",
+    back: "Group mean ages 14.8–15.6 y at posttreatment and 28.9–30.3 y at long-term follow-up; mean interval 14.1–15.0 y, average 15 years (Table I). Profiles were followed from about 15 to 30 years of age.",
+    topic: "Treatment Planning",
+    tags: ["long-term follow-up", "age", "study design"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-4",
+    front: "Stephens 2005: did extraction vs nonextraction treatment affect long-term soft-tissue profile change?",
+    back: "No. No group difference at posttreatment, at long-term follow-up or in change for any of the 9 measures (Table III). If finished to the same incisor position and lip line, treatment modality does not affect long-term profile change.",
+    topic: "Treatment Planning",
+    tags: ["extraction", "nonextraction", "soft tissue profile", "long-term follow-up"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-5",
+    front: "Stephens 2005: how did the soft-tissue facial convexity angle N'-Sn-Pg' change over 15 years, and what does that mean?",
+    back: "It increased: extraction +4.0 ± 3.5°, nonextraction +2.9 ± 3.7° (both P < .05; between groups P = .33; Table III). Larger angle = less convex, flatter profile. Caveat: the Results text calls this an \"increase in facial convexity\".",
+    topic: "Treatment Planning",
+    tags: ["facial convexity", "soft tissue profile", "extraction", "cephalometrics"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-6",
+    front: "Stephens 2005: long-term change in upper and lower lip to Ricketts' E-line, extraction vs nonextraction?",
+    back: "Upper lip (LS-E) −1.5 ± 1.5 mm extraction vs −1.6 ± 2.5 mm nonextraction (P = .82); lower lip (LI-E) −1.3 ± 1.5 vs −1.6 ± 2.2 mm (P = .66). All significant within groups: lips more retrusive (Table III).",
+    topic: "Treatment Planning",
+    tags: ["e-line", "lip retrusion", "extraction", "long-term follow-up"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-7",
+    front: "Stephens 2005: long-term change in upper and lower lip to Steiner's S-line, extraction vs nonextraction?",
+    back: "Upper lip (LS-S) −1.0 ± 1.4 mm extraction vs −1.2 ± 2.0 mm nonextraction (P = .70); lower lip (LI-S) −0.9 ± 1.4 vs −1.2 ± 1.8 mm (P = .56). All four within-group changes significant (Table III).",
+    topic: "Treatment Planning",
+    tags: ["s-line", "lip retrusion", "extraction", "long-term follow-up"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-8",
+    front: "Stephens 2005: which 5 of the 9 cephalometric measures changed significantly from posttreatment to long-term follow-up?",
+    back: "N'-Sn-Pg' (soft-tissue facial convexity) and the four lip measures to the E- and S-lines. Total facial convexity (N'-Pn-Pg'), H-line, U1-SN and L1-NB did not change significantly in either group (Table III).",
+    topic: "Treatment Planning",
+    tags: ["cephalometrics", "soft tissue profile", "long-term follow-up"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-9",
+    front: "Stephens 2005: why do the authors attribute the long-term lip retrusion to nose and chin growth?",
+    back: "Lip fullness on the H-line (to superior labial sulcus) did not change (extraction +0.1 mm, nonextraction −0.4 mm, NS; Table III), so lip retrusion relative to the E- and S-lines was ascribed mainly to nose and chin growth (Conclusion 2).",
+    topic: "Treatment Planning",
+    tags: ["h-line", "nose growth", "chin growth", "lip retrusion"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-10",
+    front: "Stephens 2005: sex difference in long-term lip change to the E-line?",
+    back: "Males' lips retruded more: upper lip LS-E −3.2 ± 2.1 mm vs females −0.9 ± 1.5 mm (P < .01); lower lip LI-E −3.0 ± 1.7 vs −0.8 ± 1.5 mm (P < .01) (Table IV).",
+    topic: "Treatment Planning",
+    tags: ["sex differences", "e-line", "lip retrusion", "growth"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-11",
+    front: "Stephens 2005: sex difference in the N'-Sn-Pg' angle change and long-term value?",
+    back: "Change +5.5 ± 3.6° in males vs +2.6 ± 3.3° in females (P = .02); long-term angle 169.8° vs 165.8° (P = .02), so male profiles became straighter. Posttreatment values did not differ (P = .48; Table IV).",
+    topic: "Treatment Planning",
+    tags: ["sex differences", "facial convexity", "soft tissue profile"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-12",
+    front: "Stephens 2005: how far did the soft-tissue nose and chin move forward in males vs females?",
+    back: "Pn-h (nose forward) 6.7 ± 4.8 vs 3.1 ± 3.3 mm; Pg'-h (chin forward) 7.9 ± 4.2 vs 4.0 ± 3.9 mm (both P = .01; Table V). Authors: males at ~15 y are ~1 y past peak velocity.",
+    topic: "Treatment Planning",
+    tags: ["sex differences", "nose growth", "chin growth", "growth"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-13",
+    front: "Stephens 2005: who rated the profile photos and how was perceived change scored?",
+    back: "105 orthodontists and 225 laypeople (115 laywomen, 110 laymen) compared each patient's posttreatment and long-term profile photos; perceived change = mark on a 106-mm visual analog scale ÷ 106. Each of 2 survey versions showed 20 patients.",
+    topic: "Treatment Planning",
+    tags: ["profile perception", "visual analog scale", "laypeople", "study design"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-14",
+    front: "Stephens 2005: how much profile change did raters perceive, and did it differ by treatment?",
+    back: "33.9–39.2% of the scale, small to moderate (all P < .01; Table VI). No extraction vs nonextraction difference (combined 36.5% vs 36.3%, P = .95), and no significant difference by patient sex or rater group.",
+    topic: "Treatment Planning",
+    tags: ["profile perception", "extraction", "laypeople", "orthodontists"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-15",
+    front: "Stephens 2005: how closely did orthodontists and laypeople agree on the amount of change perceived?",
+    back: "r = 0.89 (P < .001) between the amount of change perceived by orthodontists and by laypeople; the authors call it a moderately high positive correlation.",
+    topic: "Treatment Planning",
+    tags: ["profile perception", "laypeople", "orthodontists", "correlation"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-16",
+    front: "Stephens 2005: did perceived profile change relate to cephalometric change?",
+    back: "Essentially no: only 1 of 18 correlations was significant, total facial convexity N'-Pn-Pg' with orthodontists' perceived change (r = 0.34, P = .03). Patients perceived to change most were not those with the largest ceph changes.",
+    topic: "Treatment Planning",
+    tags: ["profile perception", "cephalometrics", "correlation", "facial convexity"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-17",
+    front: "Stephens 2005: did raters prefer the posttreatment or the 15-year profile photo?",
+    back: "No overall pattern: about 30% each preferred posttreatment, long-term or neither (text; Table VII cells 26.5–42.3%), with no significant difference by treatment, sex or rater group. Individual patients drew clear but case-specific preferences.",
+    topic: "Treatment Planning",
+    tags: ["profile preference", "profile perception", "extraction", "laypeople"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
+  {
+    id: "2005-stephens-long-term-profile-extraction-nonextraction-18",
+    front: "Stephens 2005: design, power and level of evidence?",
+    back: "Retrospective matched cohort (one practice, 20 per arm) plus a cross-sectional photo survey; no untreated controls, no sample-size calculation. 80% power only for d ≥ 0.91 (derived), so no difference ≠ equivalence. Appraised as Oxford CEBM level 3.",
+    topic: "Treatment Planning",
+    tags: ["critical appraisal", "study design", "power", "level of evidence"],
+    source: "2005-stephens-long-term-profile-extraction-nonextraction"
+  },
 ];
