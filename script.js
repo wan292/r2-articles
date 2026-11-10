@@ -15,6 +15,7 @@ const DOC_TYPES = [
   { key: 'discussion-questions', label: 'Questions to ask' },
   { key: 'exam-questions', label: 'Exam questions' },
   { key: 'clinical-implications', label: 'Clinical implications' },
+  { key: 'past-questions', label: 'Past exam questions' },
 ];
 
 // Topic-level documents under topics/<slug>/<key>.md (one topic = one literature-review session).
@@ -25,6 +26,7 @@ const TOPIC_DOC_TYPES = [
   { key: 'handout', label: 'Handout' },
   { key: 'prep', label: 'Prep sheet' },
   { key: 'deck-outline', label: 'Slides outline' },
+  { key: 'past-questions', label: 'Past exam questions' },
 ];
 
 function getTopics() {
@@ -218,7 +220,7 @@ function bindOpenButtons() {
 
 // ---- Topics (one literature-review session each) ----
 function topicChipClass(key) {
-  return { overview: 'c-summary', handout: 'c-handout', prep: 'c-prep', 'deck-outline': 'c-exam-questions', present: 'c-key-numbers', explainer: 'c-discussion-questions' }[key] || '';
+  return { overview: 'c-summary', handout: 'c-handout', prep: 'c-prep', 'deck-outline': 'c-exam-questions', present: 'c-key-numbers', explainer: 'c-discussion-questions', 'past-questions': 'c-past-questions' }[key] || '';
 }
 
 function topicCard(t) {
@@ -228,7 +230,7 @@ function topicCard(t) {
   return `
     <section class="card topic-card${processed ? '' : ' pending'}">
       <div class="topic-head">
-        <span class="topic-n">Topic ${t.n}</span>
+        <span class="topic-n">${escapeHtml(t.label || `Topic ${t.n}`)}</span>
         <h3 class="topic-name">${escapeHtml(t.name)}</h3>
         ${meta ? `<span class="topic-meta">${meta}</span>` : ''}
       </div>

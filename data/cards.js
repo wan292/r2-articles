@@ -702,4 +702,388 @@ const CARDS = [
     tags: ["critical appraisal", "study design", "power", "level of evidence"],
     source: "2005-stephens-long-term-profile-extraction-nonextraction"
   },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-1",
+    front: "Kokich 2006, Fig 1 (asked in the 2023 promotion exam): girl aged 12 years 4 months, lower right 5 missing, deciduous second molar submerged but with flat bone levels. What was done with it?",
+    back: "Kept: reduced in mesiodistal width, restored with composite, and the remaining space closed to Angle Class I molar and canine relationships. A single-tooth implant was planned once she stops growing (p.437).",
+    topic: "Treatment Planning",
+    tags: ["missing second premolar", "retained deciduous molar", "width reduction", "past exam 2023"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-2",
+    front: "Kokich 2006, Patient 1: mesiodistal width of her retained mandibular deciduous second molar versus an average mandibular second premolar?",
+    back: "13 mm for her deciduous molar versus 7.5 mm for an average mandibular second premolar (p.437): 5.5 mm too wide (derived).",
+    topic: "Treatment Planning",
+    tags: ["missing second premolar", "retained deciduous molar", "tooth width"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-3",
+    front: "Kokich 2006: how much is removed from a retained mandibular deciduous second molar, and what guides the cut?",
+    back: "About 2 mm from both the mesial and distal surfaces, leaving a crown about 7 to 8 mm wide (p.442). Guide: its width at the cementoenamel junction on a bitewing radiograph, marked on the occlusal surface (p.441).",
+    topic: "Treatment Planning",
+    tags: ["retained deciduous molar", "width reduction", "bitewing", "technique"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-4",
+    front: "Kokich 2006: why is light-cured composite added after reducing a deciduous second molar?",
+    back: "To cover the exposed mesial and distal dentin, which is hard to clean as spaces close and decays easily, and to build up the short occlusal surface so it occludes and prevents supereruption (p.442).",
+    topic: "Treatment Planning",
+    tags: ["retained deciduous molar", "width reduction", "composite", "caries"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-5",
+    front: "Kokich 2006: most reliable indicator of ankylosis of a mandibular deciduous second molar?",
+    back: "Alveolar bone level between it and the adjacent permanent first molar and first premolar. Flat: erupting evenly, not ankylosed. Oblique, more apical around the deciduous molar: ankylosis confirmed (p.443; Fig 2).",
+    topic: "Treatment Planning",
+    tags: ["ankylosis", "deciduous molar", "diagnosis", "bone level"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-6",
+    front: "Kokich 2006: ankylosed, submerged deciduous second molar over a missing second premolar. When is it kept and when extracted?",
+    back: "Little growth left and only slightly submerged: keep it to preserve alveolar width for the implant. Significant growth left: extract it to prevent a significant ridge defect, as vertical grafting is unpredictable and costly (pp.442-443).",
+    topic: "Treatment Planning",
+    tags: ["ankylosis", "deciduous molar", "extraction timing", "ridge preservation"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-7",
+    front: "Kokich 2006: implant timing follows the end of vertical facial growth, judged on serial cephalograms (ramus growth). At what average ages does it end?",
+    back: "About 17 years in girls; boys' vertical facial growth ends at about 21 years (p.441, citing Fudalej et al, in press at the time).",
+    topic: "Treatment Planning",
+    tags: ["implant timing", "growth cessation", "serial cephalometrics", "sex differences"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-8",
+    front: "Kokich 2006 (citing Ostler & Kokich 1994): how much does the ridge narrow after a mandibular deciduous second molar is extracted?",
+    back: "25% in the first 4 years, a further 5% by 7 years: 30% total, more facially than lingually, yet still implant-wide (p.441). Caveat: Ostler's abstract gives 25% within 3 years, then 4% over 3 more (PubMed, VERIFIED).",
+    topic: "Treatment Planning",
+    tags: ["ridge resorption", "deciduous molar extraction", "implant site", "numbers"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-9",
+    front: "Kokich 2006, Patient 5 (compare the 2024 promotion exam): girl aged 14 years 6 months, lower left 5 missing, ankylosed submerged E. What happened to the ridge once the E was extracted?",
+    back: "Substantial bone resorption with significant vertical and buccolingual narrowing of the alveolar ridge (p.440; Fig 5B). It would probably have narrowed further and needed a bone graft before an implant (p.440).",
+    topic: "Treatment Planning",
+    tags: ["ridge resorption", "deciduous molar extraction", "ankylosis", "past exam 2024"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-10",
+    front: "Kokich 2006: the E was extracted too late and the ridge is narrow with a vertical defect. What orthodontic alternative to a bone graft do they describe?",
+    back: "Push the first premolar distally into the second premolar position and place the implant in the first premolar site; a wide root can cross a narrow ridge without losing support (p.443). Patient 5: implant at 17 years, no graft (p.440).",
+    topic: "Treatment Planning",
+    tags: ["implant-site development", "ridge defect", "premolar translation", "bone graft"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-11",
+    front: "Kokich 2006: after extracting a deciduous second molar when an implant is planned, is a space maintainer placed?",
+    back: "Usually not. The first molar and first premolar drift together; pushing them apart later may lengthen treatment but the roots deposit bone behind them, giving a robust ridge: orthodontic implant-site development (p.443; Patient 2, Fig 2).",
+    topic: "Treatment Planning",
+    tags: ["space maintainer", "implant-site development", "deciduous molar extraction"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-12",
+    front: "Kokich 2006, Patient 3: woman missing the lower right 5 and 6; the space is too large for 1 tooth and too small for 2. How was it managed?",
+    back: "A second premolar implant, positioned from a diagnostic wax-up, was crowned provisionally, bracketed, and used as anchorage to move the second molar mesially into Class I: fewer restorations, no anchorage loss (p.438, p.443).",
+    topic: "Treatment Planning",
+    tags: ["implant anchorage", "space closure", "diagnostic wax-up", "interdisciplinary"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-13",
+    front: "Kokich 2006: when is simple closure of a congenitally missing second premolar space advantageous, and when does it need extra anchorage?",
+    back: "Advantageous with crowding in the opposing arch or a protrusive profile. With no crowding and a normal profile, closure needs extra anchorage: extraoral (facemask, chincup) or intraoral (miniscrews, mini-implants) (p.443).",
+    topic: "Treatment Planning",
+    tags: ["space closure", "anchorage", "facial profile", "crowding"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-14",
+    front: "Kokich 2006, Patient 4: girl aged 13 years 8 months, Class II, 5-mm overjet, 3 missing second premolars, normal profile. How were the spaces closed without retracting the incisors?",
+    back: "Chincup and elastics slid the maxillary and mandibular first molars mesially along a continuous archwire (pre-mini-implant era). 4 years of treatment; Class I molars, no restorations, profile maintained (pp.439-440).",
+    topic: "Treatment Planning",
+    tags: ["space closure", "molar protraction", "chincup", "facial profile"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-15",
+    front: "Kokich 2006: which early option lets the space of a missing mandibular second premolar close without moving the mandibular incisors?",
+    back: "Hemisecting the deciduous second molar at an early age so the permanent first molar erupts mesially; especially attractive if the patient is seen early and monitored regularly (pp.443-444, citing Northway).",
+    topic: "Treatment Planning",
+    tags: ["hemisection", "deciduous molar", "space closure", "interceptive treatment"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2006-kokich-missing-mandibular-second-premolars-16",
+    front: "Kokich 2006: first-choice restoration for a congenitally missing mandibular second premolar, and why not a bridge?",
+    back: "A single-tooth implant. Full-coverage bridges in young patients can devitalise the pulp and need root canal therapy; resin-bonded posterior bridges have questionable survival rates (p.441).",
+    topic: "Treatment Planning",
+    tags: ["missing second premolar", "single-tooth implant", "bridges", "restorative options"],
+    source: "2006-kokich-missing-mandibular-second-premolars"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-1",
+    front: "Yezdani 2020: what type of paper is it, and what evidence does it contain?",
+    back: "An unsystematic narrative review with no methods, data, tables or statistics; level 5 evidence (appraisal). 16 references, 7 of them textbooks, the newest from 2008 (derived). Eur J Mol Clin Med 2020;7(2):6432–6441.",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "study design", "narrative review", "level of evidence"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-2",
+    front: "Yezdani 2020: Bunon, Kjellgren, Nance, Hotz: who did what in the history of serial extraction?",
+    back: "Robert Bunon (1743) first explained serial extraction; Kjellgren (1929) coined the term; Nance (1940) is called its father; Hotz renamed it \"guidance of eruption\" (p 6433).",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "history"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-3",
+    front: "Yezdani 2020: how does it give Proffit's definition of serial extraction?",
+    back: "Timed extraction of primary teeth and, eventually, permanent teeth to relieve severe crowding (p 6433; matches Proffit, VERIFIED p 443). Tandon's version adds: mixed-dentition cases with dentoalveolar disproportion.",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "definition", "proffit"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-4",
+    front: "Yezdani 2020: the two basic principles serial extraction is based on?",
+    back: "1. Arch length–tooth material discrepancy. 2. Physiologic tooth movement (p 6433, citing Graber 1971).",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "principles", "arch length discrepancy"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-5",
+    front: "Yezdani 2020: crowding threshold and skeletal setting that indicate serial extraction?",
+    back: "Severe crowding with arch deficiency of 8–10 mm or more (p 6433), in Class I with no skeletal disproportion, normal overbite and good profile. Proffit: best above 10 mm per arch (VERIFIED, p 443).",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "indications", "crowding", "proffit"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-6",
+    front: "Yezdani 2020: local mixed-dentition signs listed as indications for serial extraction?",
+    back: "Absent primary spacing; permanent laterals erupting lingually or palatally; unilateral primary canine loss with midline shift; abnormal primary canine root resorption; labial stripping/recession of a lower incisor; canines erupting mesially over laterals (pp 6433–6434).",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "indications", "mixed dentition", "midline shift"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-7",
+    front: "Yezdani 2020: contraindications to serial extraction?",
+    back: "Nine listed (p 6435): congenital absence of teeth (anodontia/oligodontia), mild-to-moderate crowding, deep or open bite, severe Class II or III (dental or skeletal), cleft lip and palate, spacing or midline diastema, dilacerations.",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "contraindications"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-8",
+    front: "Yezdani 2020: advantages claimed for serial extraction?",
+    back: "Avoids psychological trauma; shorter multibanded (fixed) phase; physiological guidance of teeth into position; better oral hygiene; lower cost; more stable results; shorter retention (p 6435, citing Dewel 1959).",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "advantages", "treatment duration"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-9",
+    front: "Yezdani 2020: treatment duration and the two occlusal side effects listed among the disadvantages?",
+    back: "Prolonged treatment with multiple visits (2–3 years); tendency to deepen the overbite; residual spaces between canine and second premolar (p 6435). Proffit also lists deeper overbite and residual space (VERIFIED, pp 444, 446).",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "disadvantages", "deep bite", "residual space", "treatment duration"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-10",
+    front: "Yezdani 2020: the two phases (stages) of serial extraction?",
+    back: "Reversible: first transitory period, extraction of anterior primary teeth so the permanent incisors align. Irreversible: second transitory period, extraction of permanent teeth to correct posterior crowding (pp 6435–6436).",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "stages", "transitory period"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-11",
+    front: "Yezdani 2020: Dewel's method (CD4, 1954): sequence and timing?",
+    back: "Primary canines extracted at 8.5 years; primary first molars a year later; erupting first premolars then extracted; permanent canine erupts. A 3-step procedure (p 6438, Fig 3a).",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "dewel", "extraction sequence", "timing"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-12",
+    front: "Yezdani 2020: Tweed's method (D4C, 1966): sequence and timing as listed in the text?",
+    back: "All primary first molars extracted at 8 years; once the first premolars erupt, they are extracted together with the primary canines; permanent canines then erupt (p 6438).",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "tweed", "extraction sequence", "timing"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-13",
+    front: "Yezdani 2020: Nance method (D4C): sequence and timing?",
+    back: "All primary first molars extracted at 8 years; first premolars extracted once erupted; then the primary canines; permanent canines then erupt (p 6439, Fig 3c). No year is given for the Nance method.",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "nance", "extraction sequence", "timing"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-14",
+    front: "Yezdani 2020: caveat on telling Tweed from Nance in this paper?",
+    back: "Both are coded D4C. Tweed's bullets extract the first premolar together with the primary canine, but the Fig 3b caption gives D, then 4, then C, the same order as Nance (pp 6438–6439).",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "caveat", "tweed", "nance"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-15",
+    front: "Yezdani 2020: which facial/alveodental patterns suit serial extraction?",
+    back: "Suits Class I bimaxillary alveodental protrusion; Class II maxillary alveodental protrusion in the maxilla only. Not for alveodental retrusion (extraction dishes in the face), Class II mandibular retrognathism or Class III (pp 6436–6437).",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "diagnosis", "facial pattern", "case selection"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2020-yezdani-serial-extraction-review-16",
+    front: "Yezdani 2020: radiographs and model analyses listed as diagnostic prerequisites?",
+    back: "IOPA, lateral cephalogram and OPG (missing or supernumerary teeth, mixed-dentition analysis, dental age, root development, eruption pattern, pathology). Models: Carey's analysis in the lower arch, arch perimeter analysis in the upper (p 6437).",
+    topic: "Treatment Planning",
+    tags: ["serial extraction", "diagnostic records", "space analysis", "opg"],
+    source: "2020-yezdani-serial-extraction-review"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-1",
+    front: "Kouvelis 2018: what did this systematic review ask, and how many studies did it include?",
+    back: "Effect of 4-premolar extraction vs nonextraction fixed-appliance treatment on the skeletal vertical dimension. 927 database records → 34 full texts → 14 studies, all retrospective, 857 patients (derived). No meta-analysis: clinical heterogeneity too high (Figure, p178).",
+    topic: "Treatment Planning",
+    tags: ["systematic review", "extraction", "nonextraction", "vertical dimension", "study design"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-2",
+    front: "Kouvelis 2018: what is the 'wedge effect' that extraction for vertical control relies on?",
+    back: "Extraction spaces let the posterior teeth move forward during space closure, supposedly reducing the vertical dimension (or an open bite) by counterclockwise, anterior rotation of the mandible (pp175, 184). The authors state the concept has not been proven.",
+    topic: "Treatment Planning",
+    tags: ["wedge effect", "mandibular rotation", "vertical dimension", "extraction"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-3",
+    front: "Kouvelis 2018: what were the eligibility criteria?",
+    back: "Any design with a treated comparison: full fixed appliances with 4 premolars extracted (1 per quadrant) vs without extraction; radiographic skeletal vertical outcomes before and after treatment. Excluded: orthognathic surgery, <10 patients, animal/in-vitro studies, case reports (p176).",
+    topic: "Treatment Planning",
+    tags: ["systematic review", "eligibility", "study design"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-4",
+    front: "Kouvelis 2018: which risk-of-bias tool was used, and how were the 14 studies rated?",
+    back: "ROBINS-I. 5 moderate, 5 serious, 3 critical; Basciftci 2003 serious for its Class I group and critical for its Class II/1 group. None was low overall; no study could score low on confounding (p178, Table II).",
+    topic: "Treatment Planning",
+    tags: ["risk of bias", "ROBINS-I", "critical appraisal", "systematic review"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-5",
+    front: "Kouvelis 2018: of the 14 studies, how many found an extraction vs nonextraction difference in the vertical dimension?",
+    back: "4; ten found no difference. Two found a larger vertical increase with nonextraction (Porto 2012 SN-GoGn; Kumari & Fida 2010 N-Me) and two the opposite (Paquette 1992 FMA; Sivakumar & Valiathan 2008 N-Me) (Abstract, Table III).",
+    topic: "Treatment Planning",
+    tags: ["extraction", "nonextraction", "vertical dimension", "results"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-6",
+    front: "Kouvelis 2018: what did Porto 2012 (Class II/1 hyperdivergent, 23 per group) find for the mandibular plane?",
+    back: "SN-GoGn −0.9 ± 2.4° extraction vs +0.8 ± 2.3° nonextraction (P = 0.020), a 1.7° difference called clinically questionable; FMA did not differ (−0.3 ± 3.1° vs +0.7 ± 2.5°, P = 0.240). Moderate risk of bias (Tables II, III).",
+    topic: "Treatment Planning",
+    tags: ["mandibular plane", "SN-GoGn", "hyperdivergent", "Class II"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-7",
+    front: "Kouvelis 2018: what did Kumari & Fida 2010 (skeletal Class I hyperdivergent, 40 vs 41) find?",
+    back: "N-Me +1.5 mm extraction vs +5.5 mm nonextraction (P < 0.05), a 4 mm difference, the only one the authors called clinically significant; FMA −0.2 vs +0.6° (P > 0.050). Serious risk of bias, no SDs reported (Table III, p185).",
+    topic: "Treatment Planning",
+    tags: ["anterior face height", "N-Me", "hyperdivergent", "Class I"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-8",
+    front: "Kouvelis 2018: what did Paquette 1992 (Class II/1 normodivergent, 33 vs 30) find for FMA?",
+    back: "FMA +0.3° extraction vs −2.0° nonextraction (P < 0.010): the mandibular plane closed more without extraction, a 2.3° difference called clinically questionable. N-Me and ANS-Me did not differ. Serious risk of bias (Tables II, III).",
+    topic: "Treatment Planning",
+    tags: ["mandibular plane", "FMA", "normodivergent", "Class II"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-9",
+    front: "Kouvelis 2018: what did Sivakumar & Valiathan 2008 (Class I normodivergent, 31 vs 29) find?",
+    back: "N-Me increased more with extraction: +2.3 ± 3.0 mm vs +0.9 ± 2.1 mm (P = 0.033), a 1.4 mm difference called clinically questionable; FMA and ANS-Me did not differ. Critical risk of bias (Tables II, III).",
+    topic: "Treatment Planning",
+    tags: ["anterior face height", "N-Me", "normodivergent", "Class I"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-10",
+    front: "Kouvelis 2018: how large were the mean angular changes within the extraction and nonextraction groups?",
+    back: "Small: apart from Paquette 1992's 2.0° FMA decrease in the nonextraction group, no study showed a mean angular change above 1.2° in either group, so the authors judged the changes not clinically significant (pp183–184).",
+    topic: "Treatment Planning",
+    tags: ["mandibular plane", "clinical significance", "vertical dimension"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-11",
+    front: "Kouvelis 2018: Gkantidis 2011 (Class II/1 hyperdivergent, 29 vs 28) paired extraction with non-extrusive and nonextraction with extrusive mechanics. What were they, and the result?",
+    back: "Extraction: Nance and Goshgarian arches; no Class II elastics, low-pull headgear or bite plates. Nonextraction: low-pull headgear in all, anterior bite planes, Class II elastics. Yet SN-GoGn −0.1 ± 2.5° vs +0.1 ± 1.7°, P = 0.616 (Tables I, III).",
+    topic: "Treatment Planning",
+    tags: ["biomechanics", "extrusive mechanics", "hyperdivergent", "SN-GoGn"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-12",
+    front: "Kouvelis 2018: why might premolar extraction fail to close the mandibular plane, according to the authors?",
+    back: "Posterior teeth mesialise parallel to the occlusal plane, not along the maxillary and mandibular planes as wedge theory assumes (citing Gkantidis 2011). Factors such as neuromuscular balance and function likely matter more than tooth number (p184).",
+    topic: "Treatment Planning",
+    tags: ["wedge effect", "molar mesialisation", "occlusal plane", "vertical control"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-13",
+    front: "Kouvelis 2018: what evidence exists on extraction in hypodivergent (low-angle) patients?",
+    back: "None: no study had an all-hypodivergent extraction group (Luppanapornlarp 1993 compared normodivergent extraction with hypodivergent nonextraction). Most studied hyperdivergent patients, reflecting the belief that low angle contraindicates extraction; no difference was found in normo- or hyperdivergent patients (p185).",
+    topic: "Treatment Planning",
+    tags: ["hypodivergent", "hyperdivergent", "vertical pattern", "extraction"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-14",
+    front: "Kouvelis 2018: what did the authors conclude and recommend?",
+    back: "No specific effect of 4-premolar extraction on the facial vertical dimension, so extracting to reduce or control it is not evidence-based. Evidence quality low to moderate; prospective cohort studies recommended, as RCTs may be unfeasible (pp175, 185).",
+    topic: "Treatment Planning",
+    tags: ["conclusion", "extraction", "vertical control", "evidence-based practice"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-15",
+    front: "Kouvelis 2018: design, power and level of evidence?",
+    back: "Unregistered systematic review of 14 retrospective cohorts; narrative synthesis, no GRADE. 80% power for differences of 2.56° (15 per group) to 1.57° (40 per group) (derived, SD 2.5°), so 'no difference' ≠ equivalence. Appraised level 2a in form, nearer 3a.",
+    topic: "Treatment Planning",
+    tags: ["critical appraisal", "power", "level of evidence", "systematic review"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
+  {
+    id: "2018-kouvelis-extraction-vertical-dimension-16",
+    front: "Kouvelis 2018: caveat on the conclusion of no effect 'regardless of age, sex, malocclusion type, or vertical growth pattern'?",
+    back: "No subgroup analysis was done; sex was set aside in Methods; Class III was not reported separately; no extraction group was hypodivergent; most samples were adolescents with Class I or II. Applicability beyond these is untested (pp177, 185).",
+    topic: "Treatment Planning",
+    tags: ["critical appraisal", "external validity", "subgroups", "caveat"],
+    source: "2018-kouvelis-extraction-vertical-dimension"
+  },
 ];

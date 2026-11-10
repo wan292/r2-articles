@@ -28,3 +28,6 @@ By Atheer*/
 
 # Patient records (scans, bonding guides): local only, never committed
 clinic/
+
+# Previous years' promotion exams and MCQ collections (shared by colleagues): local only
+promotion/
