@@ -1,6 +1,6 @@
 # Treatment Rationale: Impacted Maxillary Canines and Long-Term Profile After Extraction
 
-Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents RG, Alexander RG, Buschang PH, AJODO 2005;128:450–7 (paper 5). 29 slides, about 23 min 20 s. Slides in English; presenter notes in the room's mixed Arabic–English. Everything on the slides and in the notes comes from the two articles. The built deck (`kokich-stephens-deck.pptx`, with the papers' figures) and the presenter script stay local.
+Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents RG, Alexander RG, Buschang PH, AJODO 2005;128:450–7 (paper 5). 29 slides, about 23 min 20 s. Slides and presenter notes in English. Everything on the slides and in the notes comes from the two articles. The built deck (`kokich-stephens-deck.pptx`, with the papers' figures) and the presenter script stay local.
 
 ## Slide 1 — Treatment Rationale
 - Layout: title
@@ -10,7 +10,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Stephens CK et al · Am J Orthod Dentofacial Orthop 2005;128:450–7
   - Article review · Topic 5
 - Figure: none
-- Speaker notes: السلام عليكم، صباح الخير. اليوم عندي two articles من الـ Treatment Rationale. الأول Kokich 2004، يتكلم عن الـ surgical and orthodontic management of impacted maxillary canines، يعني كيف نختار طريقة الـ uncovering الصح، وكيف نطلّع السن بعدها. والثاني Stephens وزملاؤه 2005، عن الـ long-term profile changes في الـ extraction والـ nonextraction patients، يعني هل الخلع فعلاً يخرّب البروفايل على المدى البعيد ولا لا. نبدأ بالكانين.
+- Speaker notes: Good morning. Today I have two articles from Treatment Rationale. The first is Kokich 2004, on the surgical and orthodontic management of impacted maxillary canines: how to choose the right uncovering technique, and how to bring the tooth in afterwards. The second is Stephens and colleagues 2005, on long-term profile changes in extraction and nonextraction patients: does extraction really spoil the profile in the long run? We start with the canine.
 - Time: 35 s
 
 ## Slide 2 — Today's Two Articles
@@ -19,7 +19,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - **1 · Kokich 2004:** Advances in Orthodontics & Dentofacial Surgery (AAO/AAOMS symposium); Labial vs palatal impactions; Which uncovering technique, and when; Mechanics and long-term stability
   - **2 · Stephens et al 2005:** Original article; 20 extraction vs 20 nonextraction, ≈ 15-year follow-up; Cephalometric soft-tissue profile changes; What orthodontists and laypeople perceive
 - Figure: none
-- Speaker notes: بس overview سريع. الارتكل الأول مو study بالمعنى المعروف؛ هو article كتبه Kokich من محاضرته في AAO/AAOMS symposium سنة 2004، يشرح فيه طريقته مع cases. والثاني original study: عشرين مريض extraction وعشرين nonextraction، تابعوهم تقريباً خمسطعش سنة بعد العلاج، وقاسوا الـ soft tissue profile، وسألوا orthodontists و laypeople وش يشوفون.
+- Speaker notes: A quick overview. The first article is not a study in the usual sense. Kokich wrote it from his talk at the AAO/AAOMS symposium in 2004, and he explains his approach with cases. The second is an original study: 20 extraction and 20 nonextraction patients, followed for about 15 years after treatment. They measured the soft-tissue profile and asked orthodontists and laypeople what they could see.
 - Time: 35 s
 
 ## Slide 3 — Surgical and Orthodontic Management of Impacted Maxillary Canines
@@ -27,7 +27,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
 - Content:
   - Vincent G. Kokich · Am J Orthod Dentofacial Orthop 2004;126:278–83
 - Figure: none
-- Speaker notes: نبدأ بالارتكل الأول.
+- Speaker notes: Let's start with the first article.
 - Time: 5 s
 
 ## Slide 4 — Why This Article?
@@ -39,7 +39,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Maxillary canines: most commonly impacted after third molars
   - ≈ ⅓ labial or intra-alveolar · ≈ ⅔ palatal
 - Figure: none
-- Speaker notes: الفكرة اللي يبغى يوصلها Kokich: إحنا نحوّل المريض للسيرجن عشان يسوي uncovering، ونفترض إنه يعرف أي technique يستخدم. بس لو ما وضّحنا له، ممكن يختار الـ technique الغلط، إحنا اللي بنعاني: eruption طويل وصعب، والنتيجة الـ esthetic ما تنضمن. ولو اختار الصح، كل شي يصير أسهل والنتيجة stable و esthetic. والـ maxillary canine هو أكثر سن impacted بعد الـ third molars. تقريباً ثلث الحالات labial أو intra-alveolar، وثلثين palatal.
+- Speaker notes: Kokich's main point: we refer the patient to the surgeon for uncovering and assume the surgeon knows which technique to use. If we don't instruct them, they may choose the wrong one, and we are the ones who suffer: a long, difficult eruption and an unpredictable esthetic result. If the right technique is chosen, everything is simpler and the result is stable and esthetic. The maxillary canine is the most commonly impacted tooth after the third molars. About one third are labial or intra-alveolar, and two thirds are palatal.
 - Time: 45 s
 
 ## Slide 5 — Labial Impaction: Causes and First Steps
@@ -51,7 +51,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Olive: open space with routine mechanics → may erupt on its own
   - If these fail → refer for surgical uncovering
 - Figure: none
-- Speaker notes: طيب، الـ labial impaction ليش يصير؟ يا إما الكراون حق الكانين يهاجر ectopically فوق الـ root حق الـ lateral incisor، أو الـ midline يتحرك فما يبقى space كافي. قبل الجراحة فيه محاولتين: Williams يقول اخلع الـ deciduous canine بدري، من عمر ثمان أو تسع سنين، وهذا يساعد الـ eruption والـ self-correction. و Olive يقول افتح space بالـ orthodontic mechanics وممكن يطلع لحاله. لو ما نفع، نحوّل للـ surgical uncovering.
+- Speaker notes: Why does a labial impaction happen? Either the canine crown migrates ectopically over the root of the lateral incisor, or the midline shifts and there is not enough space. Before surgery there are two options. Williams suggested extracting the primary canine early, as early as 8 or 9 years, to help eruption and self-correction. Olive suggested opening space with routine mechanics, and the canine may erupt on its own. If neither works, we refer for surgical uncovering.
 - Time: 45 s
 
 ## Slide 6 — Three Ways to Uncover a Labial Canine
@@ -66,7 +66,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
 
   - Which one? Decided by four criteria (next slide)
 - Figure: none
-- Speaker notes: عندنا ثلاث techniques للـ labial canine. الأول excisional uncovering: الـ simple option، نشيل الأنسجة اللي فوق الكراون. الثاني apically positioned flap: الـ flap يتثبّت apically، فيكشف الكراون ويزيد عرض الـ gingiva. الثالث closed eruption: نرفع labial flap ونشيل عظم كافي حول الكراون عشان يطلع بدون ما يصطدم بالعظم، وفي حالته استخدم ballista loop. السؤال: أي واحد نختار؟ هنا يجي دور الـ four criteria.
+- Speaker notes: There are three techniques for a labial canine. First, excisional uncovering: the simple option, removing the tissue over the crown. Second, the apically positioned flap: the flap is positioned apically, which exposes the crown and increases the width of gingiva. Third, closed eruption: a labial flap is raised and enough bone is removed around the crown so it can erupt without hitting bone; in his case a ballista loop was used. So which one do we choose? That is where the four criteria come in.
 - Time: 45 s
 
 ## Slide 7 — Four Criteria for Choosing the Technique
@@ -81,7 +81,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   | 4 · Mesiodistal position | Crown mesial, over the lateral incisor root → APF (full exposure); not closed or excisional |
 
 - Figure: none
-- Speaker notes: هنا أهم slide في الارتكل. Kokich يقول قيّم أربع أشياء. أول شي الـ labiolingual position: لو الكراون labial، أي technique ينفع لأن غالباً ما فوقه عظم. بس لو في نص الـ alveolus، الـ excisional والـ APF يصيرون أصعب لأنك بتشيل عظم كثير. ثاني شي الـ vertical position بالنسبة للـ mucogingival junction: لو الكراون coronal للـ MGJ، أي واحد ينفع. لو apical، لا تسوي excisional لأنه ما بيبقى gingiva على الـ labial. ولو apical بشكل كبير، حتى الـ APF لا، لأنه يسبب instability و reintrusion، فنروح للـ closed eruption. ثالث شي كمية الـ gingiva: لو قليلة، الوحيد اللي يزيدها هو الـ APF، ولو تكفي لـ two to three mm attached gingiva بعد الـ eruption، أي واحد. رابع شي الـ mesiodistal position: لو الكراون mesial فوق root الـ lateral، تحتاج تكشفه كامل بالـ APF عشان تقدر تحركه.
+- Speaker notes: This is the key slide of the article. Kokich says to assess four things. First, the labiolingual position: if the crown is labial, any technique works, because there is usually little bone over it. If it is in the middle of the alveolus, excision and the apically positioned flap become harder, because a lot of bone must be removed. Second, the vertical position relative to the mucogingival junction: if the crown is coronal to the MGJ, any technique works. If it is apical, do not excise, because no gingiva would be left on the labial surface. If it is far apical, not the flap either, because of instability and reintrusion, so we use closed eruption. Third, the amount of gingiva: if it is insufficient, only the apically positioned flap adds gingiva; if there is enough for 2 to 3 mm of attached gingiva after eruption, any technique works. Fourth, the mesiodistal position: if the crown lies mesially over the lateral incisor root, it needs full exposure with an apically positioned flap so it can be moved.
 - Time: 80 s
 
 ## Slide 8 — The Criteria as a Decision Table
@@ -98,14 +98,14 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   | Crown mesial over lateral root | ✗ | ✓ | ✗ |
 
 - Figure: none
-- Speaker notes: هذا نفس الكلام بس في جدول عشان يسهل. لاحظوا: الـ excisional بس للحالة السهلة، labial و coronal للـ MGJ والـ gingiva كافية. الـ APF هو الخيار الوحيد لما الـ gingiva قليلة، أو لما الكراون mesial فوق الـ lateral. والـ closed eruption هو الخيار لما السن في نص الـ alveolus أو high فوق الـ MGJ.
+- Speaker notes: This is the same thing as a table, to make it easier. Excision is only for the easy case: labial, coronal to the MGJ, with enough gingiva. The apically positioned flap is the only choice when gingiva is insufficient, or when the crown lies mesially over the lateral root. Closed eruption is the choice when the tooth is in the middle of the alveolus or high above the MGJ.
 - Time: 45 s
 
 ## Slide 9 — Excisional (Fig 1) and APF for Insufficient Gingiva (Fig 3)
 - Layout: figure2
 - Content:
 - Figure: Kokich Fig 1, Kokich Fig 3
-- Speaker notes: Figure 1: فتحوا space بس السن ما طلع. كان labial و coronal للـ MGJ والـ gingiva كافية، فسووا simple excisional. والنتيجة في panel D: الـ gingival margins طبيعية مع الأسنان اللي جنبه. Figure 3: الكراون labial بين الـ lateral والـ first premolar، بس الـ gingiva ما تكفي، فما ينفع excisional. صبغوا الـ mucosa بـ Schiller's iodine، وسووا APF عشان يكشفون السن ويزيدون عرض الـ gingiva، وطلع السن مع zone of gingiva كافي.
+- Speaker notes: Figure 1: space was opened but the tooth did not erupt. It was labial, coronal to the MGJ, with enough gingiva, so a simple excision was done. In panel D the gingival margins are normal compared with the neighbouring teeth. Figure 3: the crown was labial, between the lateral and the first premolar, but there was not enough gingiva, so excision was not possible. They stained the mucosa with Schiller's iodine and used an apically positioned flap to expose the tooth and increase the width of gingiva, and the tooth erupted with an adequate zone of gingiva.
 - Time: 50 s
 
 ## Slide 10 — APF for a Mesially Displaced Canine (Fig 2)
@@ -116,7 +116,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - APF chosen (D)
   - After healing: moved distally with elastomeric chain towards the centre of the ridge (E–F)
 - Figure: Kokich Fig 2
-- Speaker notes: Figure 2: الـ buccal object rule بيّن إن السن labial، فنظرياً أي technique ينفع. بس الـ cusp tip كان above الـ MGJ ومنزاح mesially، فاختاروا APF. بعد ما الأنسجة طابت، سحبوه distally بشويش بالـ elastomeric chain باتجاه نص الـ edentulous ridge، لين وصل مكانه في panel F.
+- Speaker notes: Figure 2: the buccal object rule showed the tooth was labial, so in theory any technique would work. But the cusp tip was above the MGJ and displaced mesially, so they chose an apically positioned flap. After the tissues healed, it was moved slowly distally with an elastomeric chain towards the centre of the edentulous ridge, until it reached its position in panel F.
 - Time: 45 s
 
 ## Slide 11 — Closed Eruption with a Ballista Loop (Fig 4)
@@ -127,7 +127,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Ballista loop: vertical force into the centre of the ridge (E–G)
   - Result: enough gingiva, like the other canine (H)
 - Figure: Kokich Fig 4
-- Speaker notes: Figure 4 حالة intra-alveolar. الكراون above الـ MGJ وداخل الـ alveolus، فلا excisional ولا APF. سووا closed eruption: رفعوا labial flap وشالوا العظم حول الكراون عشان يطلع بدون ما يصطدم بالعظم. وبعدين الـ ballista loop، وهو loop بسيط وما يبان، يعطي vertical force ويطلّع السن في نص الـ alveolar ridge. النتيجة في H: gingiva كافية، والسن شكله زي الكانين الثاني.
+- Speaker notes: Figure 4 is an intra-alveolar case. The crown was above the MGJ and inside the alveolus, so neither excision nor an apically positioned flap was suitable. They used closed eruption: a labial flap was raised and the bone around the crown removed so it could erupt without hitting bone. Then a ballista loop, a simple, inconspicuous loop, gave a vertical force and erupted the tooth into the centre of the alveolar ridge. The result in panel H: enough gingiva, and the tooth looks like the other canine.
 - Time: 50 s
 
 ## Slide 12 — Mechanics and Long-Term Stability
@@ -139,7 +139,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - APF: longer crown (margin migrates apically); high labial cases tend to reintrude after treatment
   - Closed eruption: crown length like the other side, no reintrusion (Becker et al: same for central incisors)
 - Figure: none
-- Speaker notes: بالنسبة للميكانيكس، القاعدة: حاكي الـ normal eruption، طلّع السن في نص الـ ridge، ولا تسحبه labially لأنه يسبب dehiscence و recession. Vermette قارن الـ closed eruption بالـ APF: ما فيه فرق في الـ gingival index ولا الـ plaque ولا الـ pocket depth ولا الـ bone level. الفرق في الـ esthetics: الـ APF يعطي crown أطول لأن الـ gingival margin يتحرك apically (يعني لفوق في الـ maxilla). والأخطر إن الـ high labial impactions مع الـ APF تميل إنها تسوي reintrusion بعد العلاج، لأن الـ flap يلتحم مع الـ mucosa، ولما نطلّع السن تنسحب الـ mucosa معه، وبعد العلاج ترجع تسحب الكراون apically. الـ closed eruption ما فيه هالمشكلة، والـ crown length زي الجهة الثانية، و Becker لقى نفس الشي مع الـ central incisors.
+- Speaker notes: For the mechanics, the rule is to mimic normal eruption: bring the tooth into the centre of the ridge, and do not pull it labially, because that causes dehiscence and recession. Vermette compared closed eruption with the apically positioned flap: no difference in gingival index, plaque, pocket depth or bone level. The difference was esthetic. The flap gives a longer crown, because the gingival margin moves apically, which is upwards in the maxilla. More importantly, high labial impactions uncovered with a flap tend to reintrude after treatment: the flap heals to the mucosa, the mucosa is pulled down as the tooth erupts, and after treatment it pulls the crown back up. Closed eruption does not have this problem, the crown length matches the other side, and Becker found the same with central incisors.
 - Time: 70 s
 
 ## Slide 13 — Where Is the Crown? Buccal Object Rule
@@ -150,7 +150,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Palatal (lingual) object moves in the same direction as the beam
   - S.L.O.B. · Same Lingual, Opposite Buccal
 - Figure: none
-- Speaker notes: قبل ما نختار أي technique، لازم نعرف الكراون وين بالضبط، labial ولا palatal. هنا الـ buccal object rule: ناخذ two periapicals بزاويتين horizontal مختلفة شوي. لو الكانين تحرك بنفس اتجاه الـ x-ray beam فهو lingual أو palatal، ولو تحرك عكسه فهو buccal. والـ mnemonic: SLOB، Same Lingual, Opposite Buccal.
+- Speaker notes: Before choosing any technique, we need to know exactly where the crown is, labial or palatal. This is the buccal object rule: take two periapical films at slightly different horizontal angles. If the canine moves in the same direction as the x-ray beam, it is lingual or palatal; if it moves the opposite way, it is buccal. The mnemonic is SLOB: Same Lingual, Opposite Buccal.
 - Time: 40 s
 
 ## Slide 14 — Palatal Impaction: When Does Interception Work?
@@ -161,7 +161,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Crown over the lateral root but not past its mesial surface → self-corrects with high predictability
   - Crown well beyond the mesial surface → no self-correction → surgical uncovering + orthodontics
 - Figure: none
-- Speaker notes: الـ palatal impaction هي أكثر impaction نشوفها كأورثودونتست. Ericson و Kurol بيّنوا إن الخلع المبكر للـ deciduous canine يخلي الكانين الـ ectopic يطلع طبيعي. بس فيه شرط مهم نشوفه في الـ periapical: لو الكراون فوق root الـ lateral بس ما تعدى الـ mesial surface حق الـ root، الـ self-correction تصير with high predictability. لو تعدى الـ mesial surface بكثير، ما بيصحح نفسه، ولازم surgery مع ortho.
+- Speaker notes: The palatal impaction is the most common impaction orthodontists see. Ericson and Kurol showed that early extraction of the primary canine lets an ectopic canine erupt normally. But there is an important condition, seen on the periapical: if the crown overlaps the lateral incisor root but has not passed its mesial surface, self-correction happens with high predictability. If it is well beyond the mesial surface, it will not self-correct, and it needs surgery and orthodontics.
 - Time: 50 s
 
 ## Slide 15 — Conventional Palatal Uncovering: The Problem
@@ -172,7 +172,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Too little bone removed → enamel has no cells to resorb bone → slow movement by pressure necrosis; looks 'ankylosed' (true ankylosis is rare)
   - Woloshyn et al (n = 32, dragged across the lateral roots): more apical bone levels, root resorption of lateral and canine, judges could tell the impacted side
 - Figure: none
-- Speaker notes: الطريقة التقليدية: أغلب الأورثودونتست يسوون alignment ستة إلى تسعة شهور، يفتحون space، يحوّلون للسيرجن، وبعد الجراحة على طول يبدون يسحبون الكراون. المشكلة إن الكراون غالباً لاصق في الـ lingual surface حق roots الـ central والـ lateral. ولو السيرجن ما شال عظم كافي، الـ enamel ما فيه خلايا تسوي resorption للعظم، فالحركة تصير بطيئة by pressure necrosis، وتحس إن السن ankylosed، مع إن الـ ankylosis في الكانين نادر. و Woloshyn درس 32 مريض انسحب فيهم الكانين بهالطريقة فوق roots الـ lateral: الـ bone levels صارت أكثر apical، وفيه root resorption في الـ lateral والكانين، والـ judges قدروا يعرفون أي كانين كان impacted.
+- Speaker notes: The conventional approach: most orthodontists align for six to nine months, open space, refer to the surgeon, and start pulling the crown soon after surgery. The problem is that the crown often lies against the palatal surfaces of the central and lateral incisor roots. If the surgeon does not remove enough bone, the enamel has no cells to resorb bone, so movement is slow, by pressure necrosis, and the tooth looks ankylosed, although true ankylosis of canines is rare. Woloshyn studied 32 patients whose canines were dragged across the lateral incisor roots this way: bone levels were more apical, there was root resorption of the lateral and the canine, and judges could tell which canine had been impacted.
 - Time: 70 s
 
 ## Slide 16 — Early Uncovering (Kokich & Mathews) · Fig 5
@@ -183,7 +183,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Flap repositioned with a hole over the crown (D); dressing if high in the palate
   - Erupts on its own: occlusal plane in ≈ 6–8 months (E–F) → then bracket, root moved (G)
 - Figure: Kokich Fig 5
-- Speaker notes: البديل اللي يقترحه Kokich و Mathews: نكشف الكانين قبل ما نبدأ الأورثو، أحياناً حتى في الـ late mixed dentition. يرفعون full-thickness mucoperiosteal flap، ويشيلون كل العظم فوق الكراون لين الـ CEJ، ويرجعون الـ flap مع فتحة فوق الكراون، ولو السن high في الـ palate يحطون dressing. بعدها الكانين يطلع بنفسه بدون أي force، وخلال ستة إلى ثمانية شهور يوصل الـ occlusal plane. وقتها نحط bracket ونحرك الـ root ونجيب الكراون للـ arch. شوفوا panel H: صعب تفرق بين الكانين اللي كان impacted والثاني.
+- Speaker notes: The alternative Kokich and Mathews propose: uncover the canine before orthodontic treatment, sometimes even in the late mixed dentition. A full-thickness mucoperiosteal flap is raised, all bone over the crown is removed down to the CEJ, and the flap is replaced with a hole over the crown, with a dressing if the tooth is high in the palate. The canine then erupts on its own, without any force, and reaches the occlusal plane in about six to eight months. At that point a bracket is placed, the root is moved, and the crown is brought into the arch. In panel H it is hard to tell the previously impacted canine from the other one.
 - Time: 60 s
 
 ## Slide 17 — Conventional vs Early Uncovering
@@ -200,7 +200,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
 
   - Article: shorter overall treatment time, superior periodontal and esthetic results
 - Figure: none
-- Speaker notes: هذا ملخص المقارنة. التقليدي: نبدأ alignment أول، ولو العظم ما انشال كفاية الحركة تصير بطيئة، والكانين ينسحب فوق roots الأسنان، والنتيجة bone levels أسوأ و root resorption، وتقدر تعرف السن اللي كان impacted. الـ early uncovering: نكشف قبل الأورثو، نشيل العظم كله لين الـ CEJ، السن يطلع بنفسه، و Schmidt لقى bone و attachment levels أحسن، و root resorption قليل أو ما فيه في الـ laterals، والـ gingiva نفس الجهة الثانية. فـ Kokich يقول: الـ treatment time أقصر، والنتيجة perio و esthetic أحسن.
+- Speaker notes: This summarises the comparison. Conventional: alignment first; if not enough bone is removed, movement is slow; the canine is dragged across the incisor roots; the result is worse bone levels, root resorption, and you can tell which tooth was impacted. Early uncovering: uncover before orthodontics, remove all bone to the CEJ, and the tooth erupts on its own. Schmidt found better bone and attachment levels, little or no root resorption of the laterals, and gingiva matching the other side. So Kokich concludes that treatment time is shorter and the periodontal and esthetic results are better.
 - Time: 55 s
 
 ## Slide 18 — Article 1: Take-Home
@@ -213,7 +213,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Erupt into the centre of the ridge; avoid labial pull
   - Palatal: crown not past the lateral root's mesial surface → early primary-canine extraction (Ericson & Kurol); well past it → early uncovering to the CEJ and autonomous eruption
 - Figure: none
-- Speaker notes: نلخص الارتكل الأول: الـ technique ما نختاره عشوائي، نختاره على أربع criteria. الـ excisional للحالة السهلة. الـ APF لما الـ gingiva قليلة أو الكراون mesial فوق الـ lateral. الـ closed eruption للـ intra-alveolar أو الـ high، والـ crown length يطلع زي الجهة الثانية وما فيه reintrusion. الميكانيكس: طلّع السن في نص الـ ridge ولا تسحبه labially. وفي الـ palatal: لو الكراون فوق root الـ lateral بس ما تعدى الـ mesial surface، اخلع الـ deciduous canine بدري؛ ولو تعداه بكثير، اكشفه بدري قبل الأورثو، وشيل العظم لين الـ CEJ، وخلّه يطلع بنفسه.
+- Speaker notes: To sum up the first article: the technique is not chosen at random; it is chosen on four criteria. Excision is for the easy case. The apically positioned flap is for insufficient gingiva or a crown lying mesially over the lateral root. Closed eruption is for intra-alveolar or high canines; the crown length matches the other side and there is no reintrusion. For the mechanics, erupt the tooth into the centre of the ridge and do not pull it labially. For palatal canines: if the crown overlaps the lateral root but has not passed its mesial surface, extract the primary canine early; if it is well past it, uncover early, before orthodontics, remove bone to the CEJ, and let it erupt on its own.
 - Time: 50 s
 
 ## Slide 19 — Long-Term Profile Changes in Extraction and Nonextraction Patients
@@ -221,7 +221,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
 - Content:
   - Stephens, Boley, Behrents, Alexander, Buschang · Am J Orthod Dentofacial Orthop 2005;128:450–7
 - Figure: none
-- Speaker notes: ننتقل للارتكل الثاني.
+- Speaker notes: Now the second article.
 - Time: 5 s
 
 ## Slide 20 — The Question
@@ -233,7 +233,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Gap: few long-term comparisons, and little or no data on how long-term profiles are perceived
   - Aim: long-term profile change in patients treated to the same incisor position and lip line
 - Figure: none
-- Speaker notes: الـ extraction versus nonextraction debate صار له تقريباً مية سنة، وكثير منه مبني على supposition مو data. اللي ضد الخلع يقولون الخلع يسوي dished-in face، واللي مع الخلع يقولون الـ nonextraction يطلّع الشفايف لقدام بسبب الـ flaring. الـ data تقول إن الـ extraction patients في نهاية العلاج أكثر flat بتقريباً two to four mm. بس السؤال: بعد سنين طويلة، هل يصير فرق؟ وهل الناس أصلاً يلاحظونه؟ فالهدف: نقارن الـ long-term profile changes لمرضى انعالجوا لنفس الـ incisor position ونفس الـ lip line.
+- Speaker notes: The extraction versus nonextraction debate has gone on for about 100 years, much of it based on supposition rather than data. Those against extraction say it dishes in the face; those in favour say nonextraction pushes the lips forward through incisor flaring. Previous studies show extraction patients finish treatment about 2 to 4 mm flatter on average. But does a difference appear years later, and can people even see it? So the aim was to compare long-term profile changes in patients treated to the same incisor position and the same lip line.
 - Time: 55 s
 
 ## Slide 21 — Sample and Matching
@@ -251,7 +251,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - 40 white Class I and II patients, one orthodontist (single private practice)
   - Matched on age, sex and 3 post-treatment measures: U1-SN, L1-NB, H-line
 - Figure: none
-- Speaker notes: الـ sample: أربعين مريض white، Class I و Class II، كلهم عالجهم نفس الأورثودونتست في private practice واحدة. عشرين four-premolar extraction وعشرين nonextraction، وفي كل group ستة ذكور وأربعطعش أنثى. الـ matching كان على العمر والجنس وثلاث قياسات من الـ posttreatment ceph: U1-SN و L1-NB للـ dental protrusion، والـ H-line للـ lip protrusion بدون تأثير طول الخشم. اختاروا الـ extraction group أول بقياسات normal، وبعدين جابوا nonextraction يطابقونهم. أعمارهم تقريباً خمسطعش في نهاية العلاج، وثلاثين في الـ follow-up، يعني follow-up تقريباً خمسطعش سنة.
+- Speaker notes: The sample: 40 white Class I and Class II patients, all treated by the same orthodontist in one private practice. 20 four-premolar extraction and 20 nonextraction, with 6 males and 14 females in each group. They were matched on age, sex and three posttreatment ceph measures: U1-SN and L1-NB for dental protrusion, and the H-line for lip protrusion independent of nose length. The extraction group was selected first, with values in the normal range, and nonextraction patients were matched to them. They were about 15 at the end of treatment and about 30 at follow-up, so roughly 15 years of follow-up.
 - Time: 60 s
 
 ## Slide 22 — Cephalometric Measures (Fig 1)
@@ -262,7 +262,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Method error 0.28–0.44 mm, 1.07–1.45° (Table II)
   - t tests between groups; paired t tests over time
 - Figure: Stephens Fig 1
-- Speaker notes: الـ cephs سووا لها tracing و digitizing بالكمبيوتر (Dentofacial Planner)، خمسطعش landmark، والـ reference line يمر بالـ sella ومايل سبع درجات عن SN، يعني SN −7°. قاسوا تسع measurements: الـ facial convexity بزاويتين، N'-Sn-Pg' و N'-Pn-Pg' اللي فيها الخشم، وبعد الشفايف عن الـ E-line والـ S-line، والـ H-line، و U1-SN و L1-NB. والـ method error صغير: للقياسات الخطية تقريباً 0.3 إلى 0.4 mm، وللزوايا تقريباً درجة إلى درجة ونص (Table II). وللإحصاء: t tests بين الـ groups، و paired t tests للتغير مع الوقت.
+- Speaker notes: The cephs were traced and digitized with Dentofacial Planner: 15 landmarks, with a reference line through sella at 7 degrees to SN, that is SN minus 7. Nine measurements: facial convexity with two angles, N'-Sn-Pg' and N'-Pn-Pg', which includes the nose; the lips to the E-line and the S-line; the H-line; and U1-SN and L1-NB. Method error was small: about 0.3 to 0.4 mm for linear measures and about 1 to 1.5 degrees for angles, Table II. Statistics: t tests between groups and paired t tests for change over time.
 - Time: 45 s
 
 ## Slide 23 — The Perception Survey (Fig 2)
@@ -272,7 +272,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Post-treatment vs long-term profile photos side by side, sides randomised
   - Which do you prefer (A, B, neither)? How different are they (106-mm VAS: same → very different)?
 - Figure: Stephens Fig 2
-- Speaker notes: الجزء الثاني survey: 105 orthodontists و 225 laypeople. يعرضون لهم صورتين profile لنفس المريض، وحدة بعد العلاج ووحدة في الـ long-term، والجهة random. ويسألونهم سؤالين: أي وحدة تفضّل، A ولا B، أو neither؟ وكم الفرق بينهم؟ على visual analog scale طوله 106 mm من same إلى very different.
+- Speaker notes: The second part was a survey: 105 orthodontists and 225 laypeople. They were shown two profile photos of the same patient, one after treatment and one at long-term follow-up, with the sides randomised. They were asked two questions: which do you prefer, A, B, or neither? And how different are they, on a 106-mm visual analogue scale from same to very different?
 - Time: 40 s
 
 ## Slide 24 — Result 1: Extraction = Nonextraction (Table III)
@@ -290,7 +290,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - No group difference at post-treatment, at follow-up, or in the changes  (* = significant change over time)
   - Both groups: lips more retruded vs E- and S-lines; N'-Sn-Pg' angle up = straighter profile
 - Figure: none
-- Speaker notes: أهم نتيجة: ما فيه فرق بين الـ extraction والـ nonextraction، لا في نهاية العلاج ولا بعد خمسطعش سنة ولا في كمية التغيير. بس الـ groups الثنين تغيروا: الشفايف صارت أكثر retruded بالنسبة للـ E-line والـ S-line، تقريباً 0.9 إلى 1.6 mm. والـ N'-Sn-Pg' زادت أربع درجات تقريباً في الـ extraction وثلاث في الـ nonextraction. انتبهوا: الـ results كاتبين increase in facial convexity، بس زيادة الزاوية معناها البروفايل صار straight أكثر، وفي الـ discussion قالوا الـ convexity decreased. والـ H-line ما تغيرت.
+- Speaker notes: The main result: no difference between extraction and nonextraction, not at the end of treatment, not after 15 years, and not in the amount of change. But both groups changed: the lips became more retruded relative to the E-line and the S-line, by about 0.9 to 1.6 mm. N'-Sn-Pg' increased by about 4 degrees in the extraction group and 3 in the nonextraction group. Note: the Results call this an increase in facial convexity, but a larger angle means a straighter profile, and the Discussion says convexity decreased. The H-line did not change.
 - Time: 60 s
 
 ## Slide 25 — Result 2: Males Changed More (Tables IV–V, Fig 3)
@@ -308,7 +308,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - No sex difference at the end of treatment
   - At ≈ 15 y, males expected to be only ≈ 1 year past peak adolescent velocity → more nose and chin growth potential
 - Figure: Stephens Fig 3
-- Speaker notes: النتيجة الثانية: الفرق الحقيقي كان بين الذكور والإناث، مو بين الخلع وعدمه. في نهاية العلاج ما فيه فرق، بس بعد خمسطعش سنة الذكور تغيروا أكثر: الخشم تقدم 6.7 mm مقابل 3.1، والـ chin تقدم 7.9 مقابل 4، والـ upper lip صار ورا الـ E-line أكثر بـ 3.2 mm مقابل 0.9 mm بس في الإناث (relative retrusion). والـ authors يفسرونها إن في عمر خمسطعش المفروض الولد يكون بس بعد الـ peak بسنة تقريباً، فباقي عنده growth potential أكثر من البنت، خصوصاً في الخشم والـ chin. شوفوا Figure 3، الأسهم أطول عند الـ male.
+- Speaker notes: The second result: the real difference was between males and females, not between extraction and nonextraction. There was no difference at the end of treatment, but after 15 years males had changed more: the nose moved forward 6.7 mm versus 3.1, the chin 7.9 versus 4, and the upper lip ended up 3.2 mm further behind the E-line versus only 0.9 mm in females, a relative retrusion. The authors explain that at 15, boys would be expected to be only about a year past their growth peak, so they have more growth potential left than girls, especially in the nose and chin. In Figure 3 the arrows are longer for the male.
 - Time: 55 s
 
 ## Slide 26 — Why Do the Lips Look Flatter with Age?
@@ -319,7 +319,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - So the change was mainly due to nose and chin growth between 15 and 30 years, not loss of lip fullness
   - Same pattern as in untreated people
 - Figure: none
-- Speaker notes: طيب ليش الشفايف صارت أكثر retruded بالنسبة للـ E-line والـ S-line؟ لأن الـ H-line، اللي يقيس امتلاء الشفة بدون ما يتأثر بطول الخشم، ما تغيرت. يعني الشفايف نفسها ما راحت لورا؛ الـ change كان mainly من growth الخشم والـ chin لقدام بين خمسطعش وثلاثين سنة. وهذا نفس الـ pattern اللي نشوفه في الناس اللي ما انعالجوا أصلاً.
+- Speaker notes: So why did the lips become more retruded relative to the E-line and the S-line? Because the H-line, which measures lip fullness independent of nose length, did not change. The lips themselves did not move back; the change came mainly from forward growth of the nose and chin between 15 and 30 years. This is the same pattern we see in untreated people.
 - Time: 45 s
 
 ## Slide 27 — Result 3: What People Saw (Tables VI–VII)
@@ -332,7 +332,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - No difference: extraction vs nonextraction, males vs females, orthodontists vs laypeople
   - Clear preferences for 87.5% of individual patients, but no consistent pattern
 - Figure: none
-- Speaker notes: النتيجة الثالثة عن الـ perception. الناس لاحظوا تغيير small to moderate، تقريباً 34 إلى 39 بالمية من الـ scale. والـ orthodontists والـ laypeople كانوا متفقين، r تقريباً 0.89. بس الغريب: من 18 correlation بين الـ ceph changes واللي لاحظوه، وحدة بس significant، r = 0.34. يعني اللي نقيسه بالـ ceph مو هو اللي الناس يشوفونه. وبالنسبة للـ preference، تقريباً 30% فضّلوا صورة بعد العلاج، و30% الـ long-term، و30% ولا وحدة، وما فيه فرق بين الخلع وعدمه.
+- Speaker notes: The third result is about perception. People noticed a small-to-moderate change, about 34 to 39 percent of the scale. Orthodontists and laypeople agreed, with r about 0.89. But interestingly, of 18 correlations between the ceph changes and what people perceived, only one was significant, r = 0.34. So what we measure on the ceph is not what people see. For preference, about 30 percent preferred the posttreatment photo, 30 percent the long-term one, and 30 percent neither, with no difference between extraction and nonextraction.
 - Time: 55 s
 
 ## Slide 28 — Article 2: Conclusions
@@ -344,7 +344,7 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - Small-to-moderate change perceived; orthodontists = laypeople; not related to ceph change
   - No pattern of preference: cannot conclude that either treatment ages better or worse
 - Figure: none
-- Speaker notes: الـ conclusions: إذا عالجت الـ extraction والـ nonextraction لنفس الـ incisor position ونفس الـ lip line، بعد خمسطعش سنة يظلون متشابهين، يعني التغيير مو بسبب نوع العلاج. الشفايف تبان retruded مع العمر لأن الخشم والـ chin يكبرون، مو لأننا خلعنا. والذكور يتغيرون أكثر. والناس يلاحظون تغيير، بس مو مرتبط بأرقام الـ ceph. وما نقدر نقول إن طريقة علاج تخلي البروفايل يتغير مع العمر للأحسن أو للأسوأ أكثر من الثانية.
+- Speaker notes: The conclusions: if extraction and nonextraction patients are treated to the same incisor position and the same lip line, they stay similar 15 years later, so the change is not due to the type of treatment. The lips look more retruded with age because the nose and chin grow, not because we extracted. Males change more. People do notice change, but it is not related to the ceph numbers. And we cannot say that either treatment makes the profile age better or worse than the other.
 - Time: 50 s
 
 ## Slide 29 — Both Articles: Take-Home
@@ -353,5 +353,5 @@ Kokich VG, AJODO 2004;126:278–83 (paper 1) and Stephens CK, Boley JC, Behrents
   - **Canines · Kokich:** Pick the uncovering technique on 4 criteria, not habit; Closed eruption: intra-alveolar or high; natural crown length, no reintrusion; Erupt into the centre of the ridge; Palatal: intercept early, or uncover early to the CEJ
   - **Profile · Stephens:** Same incisor position and lip line → extraction ≈ nonextraction 15 years later; Lips look flatter with age: nose and chin grow; Males change more than females; Ceph numbers ≠ what people perceive
 - Figure: none
-- Speaker notes: نختم بالثنين مع بعض. في الكانين: الـ technique نختاره على الأربع criteria، والـ closed eruption للـ high أو الـ intra-alveolar يعطي crown length طبيعي وما فيه reintrusion، ونطلّع السن في نص الـ ridge، وفي الـ palatal يا نسوي interception بدري يا نكشف بدري. وفي البروفايل: لو وصلنا لنفس الـ incisor position والـ lip line، الخلع ما يغير البروفايل على المدى البعيد؛ التغيير من الـ growth، والذكور أكثر، واللي نقيسه بالـ ceph مو دايماً اللي الناس يشوفونه. شكراً، وإذا فيه أسئلة تفضلوا.
+- Speaker notes: To close with both articles. For the canine: the technique is chosen on the four criteria; closed eruption for high or intra-alveolar canines gives a natural crown length with no reintrusion; erupt the tooth into the centre of the ridge; and for palatal canines, either intercept early or uncover early. For the profile: if we reach the same incisor position and lip line, extraction does not change the profile in the long term; the change comes from growth, more in males, and what we measure on the ceph is not always what people see. Thank you, and I'm happy to take questions.
 - Time: 55 s
