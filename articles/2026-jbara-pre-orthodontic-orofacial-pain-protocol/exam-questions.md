@@ -51,8 +51,8 @@ E. < 45 mm
 
 **Answer:** C
 **Rationale:**
-- The clinician records maximal interincisal opening, flag < 38 mm (Section 4.1); the same cut-off is used for trismus (Section 6).
-- D is the DC/TMD rule: assisted opening, including vertical incisal overlap, < 40 mm for DDwoR with limited opening (Schiffman 2014, VERIFIED on PMC4478082). The paper cites DC/TMD for its 38 mm value.
+- The patient is asked about limited opening and the clinician records maximal interincisal opening, flag < 38 mm (Section 4.1); Section 6 uses the same cut-off for DDwoR and trismus.
+- D is the DC/TMD rule, not the framework's: assisted opening, including vertical incisal overlap, < 40 mm for DDwoR with limited opening (Schiffman 2014, VERIFIED this run on PMC4478082). The paper cites DC/TMD for its 38 mm value without explaining the difference.
 
 ### Q4 (R). How the tool was built
 
@@ -82,7 +82,8 @@ E. 6: high risk on the total score
 - Crepitus 1 + imaging change 1 + pain 5–10/10 = 2 + occlusal change 1 = 5, the module maximum (Section 4.4.3).
 - 3–5 means manage the DJD first (Section 4.4.3).
 - E is impossible: the module range is 0–5.
-- Note: the module bands overlap (0–2, 2–3, 3–5), but a score of 5 is unambiguous.
+- Note: the module bands overlap (0–2, 2–3, 3–5), but a score of 5 (or 4) falls in the top band only.
+- Crepitus is the gate: with no crepitus the module is skipped, whatever the imaging shows (Section 4.4.3 branching, derived).
 
 ### Q6 (N). Bruxism
 
@@ -138,22 +139,24 @@ E. 2: refer for TMJ arthroscopy
 
 ### Q9 (R). Three pathways
 
-Name the three pathways and the total score for each.
+How is the score built? Name the three pathways, the total score for each and the action.
 
 **Model answer:**
-- 0–3, low risk: proceed with orthodontics without concern.
-- 4–6, moderate risk: proceed, with follow-up every 6 months (and OFP referral, Section 5.2.1).
-- ≥7, high risk: manage the TMD before orthodontics.
-(Sections 3.4, 4.2)
+- Each answer carries a weighted score for severity; the scores are summed (Sections 3.2, 4.2). Most weights are not printed (derived).
+- 0–3, low risk ("minimal symptoms"): proceed with orthodontics without concern.
+- 4–6, moderate risk ("mild to moderate symptoms"): proceed, with follow-up every 6 months, and refer to an OFP specialist for evaluation and conservative care alongside orthodontics.
+- ≥7, high risk ("severe symptoms"): manage the TMD before orthodontics starts; refer to an OFP specialist; reassess before starting (Case 3).
+- Bruxism or marked psychosocial stress can move a moderate patient to "functionally higher risk"; they add no points.
+(Sections 3.4, 4.2, 4.3, 5.2.1, 5.2.2, 5.2.3)
 
 ### Q10 (R). Pterygoid trismus after a MAD
 
 How does the framework score lateral pterygoid trismus after a mandibular advancement device for sleep apnoea, and what follows?
 
 **Model answer:**
-- MAD use for OSA = 1 point; no posterior tooth contact in centric occlusion = 1 point (Section 4.4.2).
-- 0 = proceed. 1–2 = treat the trismus first and monitor throughout orthodontics (Section 4.4.2).
-- The authors count such patients as high risk (Section 4.4.1).
+- MAD use for OSA = 1 point (no MAD history: the module is skipped); no posterior tooth contact in centric occlusion = 1 point, contact = 0 (Section 4.4.2). Range 0–2 (derived).
+- 0 = proceed. 1–2 = treat the trismus first and monitor throughout orthodontics (Section 4.4.2). So MAD history alone (1 point) already means treat first (derived).
+- The authors count such patients as high risk, to be treated before orthodontics (Section 4.4.1).
 
 ### Q11 (N). Validation
 
@@ -177,9 +180,32 @@ A 16-year-old with a Class II division 1 malocclusion is referred for fixed appl
 Prompts: How would you assess her with the Jbara framework? What would you do? What are the limits of the score you used?
 
 **Model answer:**
-- **Flags.** MAD use 1 + no posterior contact 1 = 2 on the trismus module: treat first, monitor throughout (Section 4.4.2). Opening of 36 mm is below the 38 mm flag (Sections 4.1, 6). Temple headache and masseter tenderness are scored items (Section 4.1).
-- **Decision.** Do not start orthodontics yet. The trismus module and the authors' MAD case both point to treating first (Sections 4.4.1, 4.4.2).
-- **Referral.** OFP specialist for diagnosis and conservative care (Section 5.2.1). Physical therapist for trismus and myofascial pain (Section 5.2.1). Her physician for the sleep-related breathing disorder (Section 5.2.1).
+- **Flags.**
+  - Trismus module: MAD use 1 + no posterior contact 1 = 2, so treat first and monitor throughout orthodontics (Section 4.4.2).
+  - Opening of 36 mm is below the 38 mm flag for DDwoR and trismus (Sections 4.1, 6).
+  - Temple headache on chewing and masseter tenderness are scored items (headache attributed to TMD; myalgia/myofascial pain). The same pair scored 5, moderate, in Case 2 (Sections 4.1, 4.3).
+- **Tier.** High risk. The paper places post-MAD pterygoid trismus in the high-risk group (Section 4.4.1), and the module result of 2 means treat first. Her full total cannot be computed because most weights are not printed (derived), but no route places her below moderate.
+- **Decision (high-risk pathway).** Do not start orthodontics yet. Manage the TMD first with conservative care, then reassess and rescreen before bonding (Sections 4.2, 4.3 Case 3, 4.4.2).
+- **Referral.** OFP specialist for definitive evaluation and conservative care, as for any moderate- or high-risk patient (Section 5.2.1). Physical therapist for trismus and myofascial pain (Section 5.2.1). Her primary care physician for the sleep-related breathing disorder (Section 5.2.1). The paper does not say what to do with the MAD itself; decide that with her physician.
+- **When orthodontics starts.** Monitor throughout treatment, as the trismus module asks (Section 4.4.2). The paper does not discuss Class II functional appliances that posture the mandible forward; any caution there is extrapolation (UNVERIFIED).
 - **Document.** Record the baseline findings and counsel her and her parents before consent (Sections 1, 5.4).
-- **Limits.** The score is not validated: no accuracy or reliability data (Section 7). Most item weights are not printed, so her total cannot be computed exactly (derived). The 38 mm flag differs from the DC/TMD 40 mm assisted-opening rule (Section 4.1; Schiffman 2014, VERIFIED). Final diagnosis needs a DC/TMD examination, not this screen (Section 5.2.1).
-- **Reassess.** Rescreen once symptoms settle, then plan orthodontics (Section 4.3, Case 3 logic).
+- **Limits.** The score is not validated: no accuracy or reliability data (Section 7). Most item weights are not printed, so her total cannot be computed exactly (derived). The 38 mm flag differs from the DC/TMD 40 mm assisted-opening rule (Section 4.1; Schiffman 2014, VERIFIED). Final diagnosis needs a specialist examination, not this screen (Section 5.2.1).
+
+---
+
+## Answer key
+
+| Q | Format | Tag | Answer | Main source |
+|---|---|---|---|---|
+| 1 | MCQ | R | C | Section 4.2 |
+| 2 | MCQ | A | B | Sections 4.2, 5.2.1 |
+| 3 | MCQ | R | C | Sections 4.1, 6; Schiffman 2014 (VERIFIED) |
+| 4 | MCQ | R | C | Sections 3.1, 3.2 |
+| 5 | MCQ | A | C | Section 4.4.3 (score derived) |
+| 6 | MCQ | N | C | Sections 5.2.2, 5.2.3 |
+| 7 | MCQ | N | C | Section 7 |
+| 8 | MCQ | A | B | Sections 4.2, 4.4.3 |
+| 9 | Short answer | R | Model answer | Sections 3.4, 4.2, 5.2.1 |
+| 10 | Short answer | R | Model answer | Sections 4.4.1, 4.4.2 |
+| 11 | Short answer | N | Model answer | Sections 5.5, 8 |
+| 12 | Oral case | N | Model answer: high-risk pathway | Sections 4.4.1, 4.4.2, 5.2.1, 7 |

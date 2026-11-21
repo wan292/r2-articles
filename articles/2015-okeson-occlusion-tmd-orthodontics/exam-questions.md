@@ -1,6 +1,6 @@
 # Okeson 2015 · Exam questions
 
-> **Access: partial full text.** Abstract plus the introduction and sections 1-2 of 5 read from a public web copy; sections 3-5 not read. Answers cite [Abs], [Intro], [§1], [§2], or Okeson's open-access 2018 interview [Int-2018 Q*n*]. Material from other sources is labelled and marked VERIFIED (seen this run) or UNVERIFIED.
+> **Access: partial full text.** Abstract plus the introduction and sections 1-2 of 5 read from a public web copy; sections 3-5 not read. Answers cite [Abs], [Intro], [§1], [§2], or Okeson's open-access 2018 interview [Int-2018 Q*n*]. Reference numbers (ref *n*) come from the paper's reference list on Crossref. Material from other sources is labelled and marked VERIFIED (seen this run) or UNVERIFIED.
 
 Source: Okeson JP. Evolution of occlusion and temporomandibular disorder in orthodontics: past, present, and future. Am J Orthod Dentofacial Orthop 2015;147(5 Suppl):S216-S223. doi:10.1016/j.ajodo.2015.02.007. An invited narrative review by one author, with no data.
 
@@ -25,7 +25,7 @@ E. The condyles look centred in the glenoid fossae on CBCT.
 
 ### Q2 (R). The five etiologic factors
 
-Okeson lists five etiologic factors that can be associated with TMD. Which option gives the correct five and the one that orthodontics routinely changes?
+Okeson lists at least five major etiologic factors that can be associated with TMD. Which option gives the correct five and the one that orthodontics routinely changes?
 
 A. Occlusion, trauma, emotional stress, deep pain input, parafunction; orthodontics changes occlusion.
 B. Occlusion, trauma, emotional stress, genetics, parafunction; orthodontics changes occlusion.
@@ -38,7 +38,7 @@ E. Occlusion, age, sex, trauma, stress; orthodontics changes occlusion.
 
 ### Q3 (A). Occlusal features and TMD risk
 
-An adult is assessed for orthodontics. In Pullinger 1993, the occlusal data usually set beside Okeson's view, which finding did NOT increase the odds of TMD?
+An adult is assessed for orthodontics. In Pullinger 1993 (a multiple logistic regression of 11 occlusal features), which finding did NOT increase the odds of TMD?
 
 A. Anterior open bite
 B. Unilateral maxillary lingual crossbite
@@ -47,7 +47,7 @@ D. Deep overbite of 6 mm
 E. RCP-ICP slide of 3 mm
 
 **Answer:** D
-**Rationale:** In Pullinger 1993 (VERIFIED, PubMed abstract), anterior open bite, unilateral maxillary lingual crossbite, overjet over 6-7 mm, 5-6 or more missing posterior teeth and slides over 2 mm raised the odds; deep overbite and minimal overjet did not. This comes from outside the Okeson sections read. A 2024 promotion recall in the hub's exam bank asked which type of malocclusion carries the most risk.
+**Rationale:** In Pullinger 1993 (VERIFIED, PubMed abstract), anterior open bite, unilateral maxillary lingual crossbite, overjet over 6-7 mm, 5-6 or more missing posterior teeth and slides over 2 mm raised the odds; deep overbite and minimal overjet did not. Pullinger 1993 is not in Okeson 2015's reference list (Crossref); the paper cites McNamara, Seligman and Okeson 1995 (ref 18), whose similar list sets the slide at over 4 mm (VERIFIED, PubMed abstract). A 2024 promotion recall in the hub's exam bank asked which type of malocclusion carries the most risk.
 
 ### Q4 (A). A small slide at debond
 
@@ -73,7 +73,7 @@ D. The long-term studies followed patients for less than 1 year after debond.
 E. Pain sensitivity varies with genotype, so the patient may matter more than the treatment.
 
 **Answer:** D
-**Rationale:** [§2] gives A, B, C and E (the COMT cohort of 186 post-orthodontic women). Follow-up length is not among his reasons in the sections read.
+**Rationale:** [§2] gives A, B, C and E (the COMT cohort he describes as 186 post-orthodontic women). Follow-up length is not among his reasons in the sections read.
 
 ### Q6 (N). Strength of the main recommendation
 
@@ -102,9 +102,9 @@ Define orthopedic stability as Okeson uses it, explain why it concerns orthodont
   - Stable occlusal position: maximum intercuspation.
 - **Why orthodontists [Intro; §2].** Orthodontics changes the whole occlusion, mostly in young patients, for life. Of the five etiologic factors it routinely changes only occlusion. Finishing in orthopedic stability keeps down the one dental risk factor it controls, and the abstract makes this a routine goal.
 - **When occlusion may matter:**
-  1. A large slide from the stable joint position to intercuspation: over 3-4 mm per Okeson [Int-2018 Q3]; RCP-ICP over 2 mm per Pullinger 1993 (VERIFIED abstract).
-  2. Pullinger's other features: anterior open bite, unilateral maxillary lingual crossbite, overjet over 6-7 mm, 5-6 or more missing posterior teeth (VERIFIED abstract).
-  3. Low adaptability: the COMT pain-sensitive cluster in 186 post-orthodontic women [§2].
+  1. A large slide from the stable joint position to intercuspation: over 3-4 mm per Okeson [Int-2018 Q3]; over 4 mm per McNamara 1995 (ref 18); RCP-ICP over 2 mm per Pullinger 1993, which the paper does not cite (both VERIFIED abstracts).
+  2. The other features: skeletal anterior open bite, unilateral lingual crossbite, overjet over 6-7 mm, 5 or more missing posterior teeth (McNamara 1995; Pullinger 1993 similar; VERIFIED abstracts). Open bite, large overjet and large slides may result from joint disease (McNamara 1995).
+  3. Low adaptability: the COMT pain-sensitive cluster, in the cohort he describes as 186 post-orthodontic women [§2].
   4. Poorly finished treatment, which the university-based studies did not test [§2].
   5. Loading by parafunction, or an acute occlusal change (Okeson textbook, UNVERIFIED).
 - **Caveats.**
@@ -117,7 +117,7 @@ Define orthopedic stability as Okeson uses it, explain why it concerns orthodont
 2. The MS position described.
 3. The one-of-five-factors argument.
 4. A slide threshold, with its source.
-5. At least two Pullinger features.
+5. At least two McNamara or Pullinger features, with the cause-or-consequence caveat.
 6. The caveat that stability is not prevention.
 
 ### Q8 (N). The history, and how to read the evidence
@@ -129,7 +129,7 @@ Outline the history of occlusion and TMD in orthodontics as Okeson tells it. Exp
   - 1900: Angle's school; malocclusion and Classes I to III. The focus was esthetics and a stable intercuspation.
   - Andrews' six keys: finishing guidelines with no reference to joint position. Casts were trimmed and set in maximum intercuspation.
   - Mid-1970s to early 1980s: Roth adds functional occlusion to his five goals and urges articulators, which was controversial.
-  - 1987: a patient wins a lawsuit claiming her orthodontist caused TMD, and orthodontic organisations fund research. A 1988 AJODO report gives a Michigan award of $850,000 (VERIFIED, citation title only).
+  - 1987: a patient wins a lawsuit claiming her orthodontist caused TMD, and orthodontic organisations fund research. The paper cites a 1988 AJODO report of a Michigan award of $850,000 (ref 9; title VERIFIED on Crossref).
   - Mid-1990s: studies show orthodontics is not a significant risk factor, and anxiety falls [§2].
 - **Why not 'unrelated' [§2].**
   1. Nearly all long-term studies came from supervised university programmes; poorly finished treatment may differ.
@@ -140,6 +140,7 @@ Outline the history of occlusion and TMD in orthodontics as Okeson tells it. Exp
 - **Weaknesses of his argument.**
   - Expert opinion: one author, no systematic search, selective citation.
   - His alternative, that orthopedic stability lowers TMD risk, is also untested by trials in the sections read; the same null studies do not support it directly.
+  - His genetic example is read one way. The cohort matches Slade 2008 (ref 22), whose abstract describes 186 females, treated and untreated: in carriers of a COMT variant, orthodontic history raised TMD risk (P = 0.04). That is a gene-treatment interaction, not proof that treatment did not matter (VERIFIED abstract).
   - Newer guidance moves away from occlusal treatment for chronic TMD pain: the 2023 BMJ guideline is conditionally against reversible occlusal splints and strongly against irreversible oral splints (VERIFIED abstract).
   - The MS position is hard to locate reliably at the chair (UNVERIFIED).
 
@@ -170,14 +171,14 @@ Outline the history of occlusion and TMD in orthodontics as Okeson tells it. Exp
 - Painless clicking is common at her age and often fluctuates [Int-2018 Q4]. On its own it needs no treatment (Okeson textbook, UNVERIFIED; matches a 2021 promotion recall).
 
 **Examiner question 3. Does her occlusion matter?**
-- She has three of Pullinger's features: overjet over 6-7 mm, a unilateral maxillary lingual crossbite and an RCP-ICP slide over 2 mm (Pullinger 1993, VERIFIED abstract). Her 3 mm slide is at the edge of Okeson's 3-4 mm range [Int-2018 Q3].
+- She has three of Pullinger's features: overjet over 6-7 mm, a unilateral maxillary lingual crossbite and an RCP-ICP slide over 2 mm (Pullinger 1993, VERIFIED abstract; not cited by Okeson 2015). Her 3 mm slide sits at the lower edge of Okeson's 'over 3-4 mm' [Int-2018 Q3] and below McNamara 1995's over 4 mm (ref 18, VERIFIED abstract).
 - But occlusion is one of five factors, and parafunction and emotional stress are visible here [§2]. Occlusion explains little of the variation in TMD (Pullinger 1993).
 - So her occlusion is a possible contributor, not a proven cause.
 
 **Examiner question 4. TMD first, or orthodontics first?**
-- TMD first. Okeson manages significant symptoms before orthodontics. A stabilisation appliance can help, and once the symptoms settle, a stable joint position can be found to plan the occlusion around [Int-2018 Q5].
-- First-line care is explanation, reassurance, self-care, jaw exercises and habit awareness. For chronic pain, the 2023 BMJ guideline strongly favours CBT, supervised jaw exercise and usual care (VERIFIED abstract).
-- Her pain is 2 months old and the guideline covers pain of 3 months or more, so a splint is still a reasonable short-term option.
+- TMD first. Okeson manages significant symptoms before orthodontics. A stabilisation appliance may help, and once the symptoms resolve, a stable joint position can be found to plan the occlusion around [Int-2018 Q5].
+- First-line care is explanation, reassurance, self-care, jaw exercises and habit awareness (general practice, UNVERIFIED as Okeson's wording). For chronic pain, the 2023 BMJ guideline strongly favours CBT, supervised jaw exercise and usual care (VERIFIED abstract).
+- Her pain is 2 months old and the guideline covers only pain of 3 months or more, so its conditional recommendation against reversible splints does not strictly apply; a short splint trial remains an option (derived).
 - A 2024 promotion recall tested the same point: do not start until the pain is controlled.
 
 **Examiner question 5. Will braces fix her pain? What do you tell her?**
@@ -207,10 +208,10 @@ Outline the history of occlusion and TMD in orthodontics as Okeson tells it. Exp
 |---|---|---|---|---|
 | 1 | MCQ | Recall | B | [Abs]; [Int-2018 Q2]; [§1] |
 | 2 | MCQ | Recall | A | [§2] |
-| 3 | MCQ | Application | D | Pullinger 1993 abstract (VERIFIED) |
+| 3 | MCQ | Application | D | Pullinger 1993 abstract (VERIFIED; not cited by Okeson 2015) |
 | 4 | MCQ | Application | B | [Int-2018 Q3]; Pullinger 1993 |
 | 5 | MCQ | Analysis | D | [§2] |
 | 6 | MCQ | Analysis | B | Design; [§2]; sections 3-5 not read |
-| 7 | Short answer | Application | Model answer | [Abs]; [§2]; [Int-2018 Q2-Q3]; Pullinger 1993 |
-| 8 | Short answer | Analysis | Model answer | [§1]; [§2]; BMJ 2023 abstract |
+| 7 | Short answer | Application | Model answer | [Abs]; [§2]; [Int-2018 Q2-Q3]; McNamara 1995; Pullinger 1993 |
+| 8 | Short answer | Analysis | Model answer | [§1]; [§2]; Slade 2008 and BMJ 2023 abstracts |
 | 9 | Oral case | Application | Model answers 1-8 | [§2]; [Int-2018 Q2-Q5, Q13]; Pullinger 1993; BMJ 2023 |

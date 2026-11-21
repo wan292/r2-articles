@@ -1,4 +1,4 @@
-# Jbara 2026 · Summary
+# Jbara 2026 · Proposed protocol for orofacial pain assessment prior to orthodontic treatment: an expert-informed framework
 
 Jbara J, Baghdadi ZD. Proposed protocol for orofacial pain assessment prior to orthodontic treatment: an expert-informed framework. Adolescents 2026;6(1):3. doi:10.3390/adolescents6010003
 
@@ -58,7 +58,7 @@ Jbara J, Baghdadi ZD. Proposed protocol for orofacial pain assessment prior to o
 
 | Module | Points | Range | Reading |
 |---|---|---|---|
-| Pterygoid trismus after MAD for sleep apnoea | MAD use 1; no posterior contact in centric occlusion 1 | 0–2 | 0 proceed; 1–2 treat first, monitor throughout |
+| Pterygoid trismus after MAD for sleep apnoea | MAD use 1; no posterior contact in centric occlusion 1 | 0–2 (derived: sum of the points) | 0 proceed; 1–2 treat first, monitor throughout |
 | Degenerative joint disease | Crepitus 1; degenerative change on panoramic/CBCT 1; function pain 1 (0–4/10) or 2 (5–10/10); related occlusal change 1 | 0–5 | 0–2 proceed; 2–3 proceed with 6-month OFP review; 3–5 manage first |
 | Arthralgia/capsulitis | TMJ tender to palpation 1; trauma as cause 1 | 0–2 | 0 proceed; 1–2 treat first, follow up during treatment |
 
