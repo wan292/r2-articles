@@ -37,9 +37,11 @@ function getTopic(slug) {
   return getTopics().find(t => t.slug === slug) || null;
 }
 
+// A topic (or course) can rename its tabs with `docLabels`, e.g. { overview: 'Course map' }.
 function topicDocsFor(topic) {
   const list = topic && topic.docs ? topic.docs : [];
-  return TOPIC_DOC_TYPES.filter(d => list.includes(d.key));
+  const labels = (topic && topic.docLabels) || {};
+  return TOPIC_DOC_TYPES.filter(d => list.includes(d.key)).map(d => (labels[d.key] ? { ...d, label: labels[d.key] } : d));
 }
 
 // ---- State ----
@@ -247,12 +249,23 @@ function topicCard(t) {
 }
 
 function libraryBody(articles, articleCard) {
-  const topics = getTopics();
-  const inTopic = new Set(topics.flatMap(t => t.articles || []));
+  const all = getTopics();
+  const courses = all.filter(t => t.kind === 'course');
+  const topics = all.filter(t => t.kind !== 'course');
+  const inTopic = new Set(all.flatMap(t => t.articles || []));
   const isDone = t => !!((t.articles && t.articles.length) || (t.docs && t.docs.length));
   const processedTopics = topics.filter(isDone);
   const pendingTopics = topics.filter(t => !isDone(t));
   let html = '';
+  // Courses (a course day with its own pre-reading list) sit apart from the literature-review topics.
+  if (courses.length) {
+    html += `<h2 class="section-title">Courses</h2>`;
+    for (const c of courses) {
+      html += topicCard(c);
+      html += (c.articles || []).map(s => getArticle(s)).filter(Boolean).map(articleCard).join('');
+    }
+  }
+  html += `<h2 class="section-title">Literature review</h2>`;
   for (const t of processedTopics) {
     html += topicCard(t);
     html += (t.articles || []).map(s => getArticle(s)).filter(Boolean).map(articleCard).join('');
@@ -318,7 +331,7 @@ function renderLibrary() {
         </article>`;
   };
 
-  app.innerHTML = hero + `<h2 class="section-title">Library</h2>` + libraryBody(articles, articleCard);
+  app.innerHTML = hero + libraryBody(articles, articleCard);
   const startBtn = document.getElementById('start-review');
   if (startBtn) startBtn.addEventListener('click', () => setView('review'));
   bindOpenButtons();
@@ -529,7 +542,7 @@ async function renderReader() {
   let heading;
   if (isTopic) {
     heading = topic
-      ? `<div class="article-meta"><span>Topic ${escapeHtml(topic.n)}</span>${topic.articles ? `<span>${topic.articles.length} papers</span>` : ''}${topic.date ? `<span>${escapeHtml(topic.date)}</span>` : ''}</div><h2 class="reader-title">${escapeHtml(topic.name)}</h2>`
+      ? `<div class="article-meta"><span>${escapeHtml(topic.label || `Topic ${topic.n}`)}</span>${topic.articles && topic.articles.length ? `<span>${topic.articles.length} papers</span>` : ''}${topic.presenter ? `<span>${escapeHtml(topic.presenter)}</span>` : ''}${topic.date ? `<span>${escapeHtml(topic.date)}</span>` : ''}</div><h2 class="reader-title">${escapeHtml(topic.name)}</h2>`
       : `<h2 class="reader-title">${escapeHtml(slug)}</h2>`;
   } else {
     heading = article

@@ -1086,4 +1086,460 @@ const CARDS = [
     tags: ["critical appraisal", "external validity", "subgroups", "caveat"],
     source: "2018-kouvelis-extraction-vertical-dimension"
   },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-1",
+    front: "Okeson 2015: what single treatment goal does the paper recommend for every orthodontic case?",
+    back: "Orthopedic stability of the masticatory structures, as a routine goal, to help reduce the risk factors for developing TMD (abstract).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "orthopedic-stability"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-2",
+    front: "Okeson 2015: what did early orthodontics emphasise about occlusion?",
+    back: "Tooth alignment, a stable intercuspal position and the esthetic value of good tooth positions. Still important, but orthopedic principles of jaw function must be added (abstract).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "history"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-3",
+    front: "Okeson: what is orthopedic stability?",
+    back: "The stable joint position and the stable occlusal position coincide: the teeth reach maximum intercuspation while the condyles sit in the musculoskeletally stable position (2018 interview, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "orthopedic-stability"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-4",
+    front: "Okeson: define the musculoskeletally stable (MS) joint position.",
+    back: "Condyles in their most superior and anterior position in the fossae, resting against the posterior slopes of the articular eminences, with the discs properly interposed; set by the elevator muscles (2018 interview, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "orthopedic-stability"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-5",
+    front: "Okeson: what is the most stable occlusal position?",
+    back: "Maximum intercuspation (2018 interview, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "orthopedic-stability"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-6",
+    front: "Okeson: name the five etiologic risk factors for TMD, and the factor that can override them.",
+    back: "Occlusion, trauma, emotional stress, deep pain input, parafunction. The patient's adaptability can override them, so many exposed patients have no TMD (2018 interview, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "etiology"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-7",
+    front: "Okeson: which TMD risk factor can orthodontic treatment change?",
+    back: "Only occlusion, one of the five. So orthodontics has only a minimal effect on TMD (2018 interview, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "etiology"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-8",
+    front: "Okeson: does achieving orthopedic stability guarantee the patient will not develop TMD?",
+    back: "No. It reduces one risk factor. Trauma or stress can still trigger TMD, so patients should not be told orthodontics prevents TMD (2018 interview, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "orthopedic-stability"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-9",
+    front: "Okeson: how large is the usual joint-to-tooth (stable joint to intercuspal) discrepancy, and when does it start to matter?",
+    back: "Most people have 1-2 mm, not correlated with TMD. Slides over 3-4 mm correlate more with symptoms, mainly in epidemiological studies (2018 interview, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "occlusal-factors"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-10",
+    front: "McNamara, Seligman, Okeson 1995: the five occlusal features linked to TMD groups?",
+    back: "Skeletal anterior open bite; overjet over 6-7 mm; RCP-ICP slide over 4 mm; unilateral lingual crossbite; five or more missing posterior teeth (PubMed abstract, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "occlusal-factors"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-11",
+    front: "McNamara 1995: which of the five occlusal features may be a result of joint disease rather than a cause?",
+    back: "The first three: skeletal anterior open bite, overjet over 6-7 mm and slides over 4 mm. They often go with TMJ arthropathies and may follow bony or ligament changes (PubMed abstract, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "occlusal-factors"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-12",
+    front: "McNamara 1995 (cited by Okeson 2015): does orthodontic treatment in adolescence change later TMD risk?",
+    back: "No. It generally neither increases nor decreases the odds of TMD later in life; no extra risk from any mechanics or from extraction (PubMed abstract, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "ortho-tmd-evidence"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-13",
+    front: "RCP-ICP slide cut-off linked to TMD: Pullinger 1993 vs Okeson 2018 vs McNamara 1995?",
+    back: "Over 2 mm (Pullinger 1993); over 3-4 mm (Okeson 2018 interview); over 4 mm (McNamara 1995). Pullinger 1993 is not in Okeson 2015's reference list (VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "occlusal-factors"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-14",
+    front: "The 1987 Brimm case: what happened?",
+    back: "Michigan, 16-year-old, Class II division 1, 7 mm overjet; two upper first premolars extracted, fixed appliances, headgear; pain after debond. Jury awarded $850,000 against the orthodontist (Kandasamy 2022 report; Okeson ref 9).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "medico-legal"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-15",
+    front: "What research followed the Brimm verdict, and where was it published?",
+    back: "Research prompted by the AAO, published in a special TMJ issue of AJODO in January 1992 (vol 101, no 1), e.g. Rendell and Kremenak (VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "history"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-16",
+    front: "Rendell 1992 (cited by Okeson 2015): result in symptom-free orthodontic patients?",
+    back: "Of 451 symptom-free patients followed for 18 months of treatment, none developed TMJ signs or symptoms; 11 with TMD at entry showed no consistent change (PubMed abstract, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "ortho-tmd-evidence"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-17",
+    front: "Beattie 1994 (cited by Okeson 2015): extraction vs nonextraction and TMD?",
+    back: "63 borderline Class II patients (33 extraction, 30 nonextraction), about 14 years after treatment, 62 signs and symptoms: no difference. Premolar extraction does not cause TMD (PubMed abstract, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "ortho-tmd-evidence"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-18",
+    front: "Slade 2008 (cited by Okeson 2015): gene-environment finding?",
+    back: "In 186 females, carriers of a COMT gene variant who had orthodontic treatment had a higher risk of TMD onset than carriers without it (P = 0.04) (PubMed abstract, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "genetics"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-19",
+    front: "Okeson: what should be done before starting orthodontics, TMD-wise?",
+    back: "A short screening history plus palpation of masticatory muscles and TMJs and range of jaw movement; record it as a baseline and discuss findings with patient or parents (2018 interview, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "screening"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-20",
+    front: "Okeson: TMD symptoms are significant before orthodontics. What next?",
+    back: "Manage them first (a stabilization appliance may help), then build the occlusion to the stable joint position. If the splint does not resolve them, occlusion is probably not the cause (2018 interview, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "management"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2015-okeson-occlusion-tmd-orthodontics-21",
+    front: "Okeson: features of a stabilization appliance?",
+    back: "Hard, maxillary, full arch. With condyles in the MS position the teeth contact evenly and simultaneously, forces go along long axes, with adequate anterior guidance in eccentric movements (2018 interview, VERIFIED).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "okeson-2015", "management"],
+    source: "2015-okeson-occlusion-tmd-orthodontics"
+  },
+  {
+    id: "2010-michelotti-orthodontics-tmd-1",
+    front: "Michelotti 2010: in which age band is TMD prevalence increased?",
+    back: "15 to 45 years. TMD signs, especially TMJ sounds, are already frequent in children and adolescents (abstract).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "michelotti-2010", "epidemiology"],
+    source: "2010-michelotti-orthodontics-tmd"
+  },
+  {
+    id: "2010-michelotti-orthodontics-tmd-2",
+    front: "Michelotti 2010: why do orthodontists get blamed for TMD?",
+    back: "Treatment lasts about 2 years, while TMD signs are common in adolescents and rise from 15 to 45 years. Signs may appear during or after treatment, unhappy patients blame the orthodontist, and legal cases follow (abstract).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "michelotti-2010", "medico-legal"],
+    source: "2010-michelotti-orthodontics-tmd"
+  },
+  {
+    id: "2010-michelotti-orthodontics-tmd-3",
+    front: "Michelotti 2010: how does the review describe TMD aetiology?",
+    back: "Poorly understood and multifactorial, with many direct and indirect causal factors. Occlusion is often cited as a major factor, which the review set out to test (abstract).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "michelotti-2010", "aetiology"],
+    source: "2010-michelotti-orthodontics-tmd"
+  },
+  {
+    id: "2010-michelotti-orthodontics-tmd-4",
+    front: "Michelotti 2010: which TMJ diseases can cause malocclusion (section 'Does TMD cause malocclusion?')?",
+    back: "Condylar hyperplasia, osteochondroma and rheumatoid arthritis: relatively uncommon, often aggressive joint diseases. Verified through a 2018 interview that names this section; how each changes the bite is UNVERIFIED.",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "michelotti-2010", "tmd-causes-malocclusion"],
+    source: "2010-michelotti-orthodontics-tmd"
+  },
+  {
+    id: "2010-michelotti-orthodontics-tmd-5",
+    front: "Michelotti 2010: does orthodontic treatment cause, prevent or cure TMD?",
+    back: "None of the three, on current evidence. The 2010 verdict is UNVERIFIED (full text not read). The author states it in her 2025 lecture, and Macfarlane 2009's 20-year cohort agrees.",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "michelotti-2010", "cause-prevent-cure"],
+    source: "2010-michelotti-orthodontics-tmd"
+  },
+  {
+    id: "2010-michelotti-orthodontics-tmd-6",
+    front: "Michelotti 2010: the patient has TMD facial pain at the first orthodontic visit. Start treatment?",
+    back: "No. Treat the pain first; start orthodontics only once pain is controlled and stable. Fernández-González 2015 attributes this to the review; the review's own wording is UNVERIFIED.",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "michelotti-2010", "management"],
+    source: "2010-michelotti-orthodontics-tmd"
+  },
+  {
+    id: "2010-michelotti-orthodontics-tmd-7",
+    front: "Michelotti 2010: TMD pain appears during fixed-appliance treatment. What are the steps?",
+    back: "1. Differential diagnosis. 2. Pause active treatment. 3. Conservative care: medication, counselling, exercises, physical therapy, splint if needed. 4. Resume or modify once pain-free. The author's 2018 protocol; 2010 wording UNVERIFIED.",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "michelotti-2010", "management"],
+    source: "2010-michelotti-orthodontics-tmd"
+  },
+  {
+    id: "2010-michelotti-orthodontics-tmd-8",
+    front: "Michelotti 2010: what did the author's own 2005 occlusal-interference experiment show?",
+    back: "11 healthy women, gold-foil interference for 8 days: masseter activity periods and amplitude fell (avoidance) and nobody developed TMD. Michelotti 2005 abstract; cited in the review (ref 30).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "michelotti-2010", "occlusal-interference"],
+    source: "2010-michelotti-orthodontics-tmd"
+  },
+  {
+    id: "2010-michelotti-orthodontics-tmd-9",
+    front: "Michelotti 2010: who reacts worse to an artificial occlusal interference?",
+    back: "Women with a past TMD history. A true interference raised clinical signs significantly over 2 weeks; women without a history adapted. Le Bell 2002 (21 vs 26 women); cited in the review (ref 31).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "michelotti-2010", "occlusal-interference"],
+    source: "2010-michelotti-orthodontics-tmd"
+  },
+  {
+    id: "2010-michelotti-orthodontics-tmd-10",
+    front: "Michelotti 2010: which occlusal features carried TMD risk in Pullinger 1993?",
+    back: "Anterior open bite, unilateral maxillary lingual crossbite, overjet >6-7 mm, ≥5-6 missing posterior teeth, RCP-ICP slide >2 mm. Most variation was not occlusal. Pullinger 1993 abstract; cited in the review (ref 60).",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "michelotti-2010", "occlusal-factors"],
+    source: "2010-michelotti-orthodontics-tmd"
+  },
+  {
+    id: "2010-michelotti-orthodontics-tmd-11",
+    front: "Macfarlane 2009 (cited in Michelotti 2010): what does the 20-year cohort show?",
+    back: "1,018 children aged 11-12 (337 at 20 years). TMD 3.2 % to 17.6 % (19-20 y) to 9.9 % (30-31 y). No link with orthodontics. Predictors: female OR 3.0, adolescent TMD OR 4.5.",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "michelotti-2010", "cohort-evidence"],
+    source: "2010-michelotti-orthodontics-tmd"
+  },
+  {
+    id: "2010-michelotti-orthodontics-tmd-12",
+    front: "Michelotti 2010: what should be recorded before orthodontic treatment, and why?",
+    back: "Any TMD finding: joint sounds, deviation during jaw movement, pain. Records are needed for medico-legal reasons, since TMD fluctuates and may appear during treatment. Author's 2018 interview; 2010 wording UNVERIFIED.",
+    topic: "TMD & Occlusion",
+    tags: ["tmd-course", "michelotti-2010", "screening"],
+    source: "2010-michelotti-orthodontics-tmd"
+  },
+  {
+    id: "2023-busse-chronic-tmd-pain-guideline-1",
+    front: "Busse 2023: Which treatments get a STRONG recommendation in favour for chronic TMD pain?",
+    back: "CBT (with or without biofeedback or relaxation), therapist-assisted jaw mobilisation, manual trigger point therapy, supervised postural exercise, supervised jaw exercise and stretching (with or without trigger point therapy), and usual care.",
+    topic: "TMD & Occlusion",
+    tags: ["TMD", "guideline", "strong-for"],
+    source: "2023-busse-chronic-tmd-pain-guideline"
+  },
+  {
+    id: "2023-busse-chronic-tmd-pain-guideline-2",
+    front: "Busse 2023: What is the recommendation for removable (reversible) occlusal splints?",
+    back: "Conditional recommendation against, alone or combined with other treatments. Linked NMA pain effect vs placebo: −1.81 cm on a 10 cm VAS (RD 29 %), low certainty (Yao 2023 Fig 3).",
+    topic: "TMD & Occlusion",
+    tags: ["TMD", "guideline", "occlusal splint"],
+    source: "2023-busse-chronic-tmd-pain-guideline"
+  },
+  {
+    id: "2023-busse-chronic-tmd-pain-guideline-3",
+    front: "Busse 2023: Which three treatments get a STRONG recommendation against?",
+    back: "Irreversible oral splints, discectomy, and NSAIDs combined with opioids: uncertain benefit with possible serious harm (permanent change in jaw motion, facial nerve weakness; GI bleeding, addiction, overdose).",
+    topic: "TMD & Occlusion",
+    tags: ["TMD", "guideline", "strong-against"],
+    source: "2023-busse-chronic-tmd-pain-guideline"
+  },
+  {
+    id: "2023-busse-chronic-tmd-pain-guideline-4",
+    front: "Busse 2023: Irreversible oral splints reduced pain by how much in the linked NMA, and why still strong against?",
+    back: "−2.67 cm on a 10 cm VAS (RD 37 %), low certainty. Strong against under a GRADE exception: low-certainty benefit plus panel confidence that serious harm (permanent change in jaw motion, facial nerve weakness) is possible.",
+    topic: "TMD & Occlusion",
+    tags: ["TMD", "guideline", "occlusal splint", "GRADE"],
+    source: "2023-busse-chronic-tmd-pain-guideline"
+  },
+  {
+    id: "2023-busse-chronic-tmd-pain-guideline-5",
+    front: "Busse 2023: Why are removable splints conditional against despite a −1.81 cm pain estimate?",
+    back: "Pain evidence is only low certainty, with no serious harm expected. Yao 2023 subgroups: high risk-of-bias splint trials showed larger effects; longer follow-up showed smaller effects vs usual care (moderate credibility).",
+    topic: "TMD & Occlusion",
+    tags: ["TMD", "occlusal splint", "risk of bias"],
+    source: "2023-busse-chronic-tmd-pain-guideline"
+  },
+  {
+    id: "2023-busse-chronic-tmd-pain-guideline-6",
+    front: "Busse 2023: What minimally important difference (MID) was used for pain and for function?",
+    back: "Pain: 1 cm on a 10 cm visual analogue scale. Physical function: 5 points on the 100-point SF-36 physical component summary score (Yao 2023, Data synthesis).",
+    topic: "TMD & Occlusion",
+    tags: ["TMD", "MID", "methods"],
+    source: "2023-busse-chronic-tmd-pain-guideline"
+  },
+  {
+    id: "2023-busse-chronic-tmd-pain-guideline-7",
+    front: "Busse 2023: How much pain improvement would patients want before accepting an invasive or irreversible procedure?",
+    back: "About three times the MID, about 3 cm on a 10 cm VAS (3 cm derived). For conservative care and most drugs, about one MID (1 cm) (Values and preferences).",
+    topic: "TMD & Occlusion",
+    tags: ["TMD", "values and preferences"],
+    source: "2023-busse-chronic-tmd-pain-guideline"
+  },
+  {
+    id: "2023-busse-chronic-tmd-pain-guideline-8",
+    front: "Busse 2023: To whom does the guideline apply?",
+    back: "Adults with chronic TMD pain lasting ≥3 months, of moderate severity (4-6 cm on a 10 cm scale), all subtypes treated as one group. It does not cover acute TMD pain (<3 months).",
+    topic: "TMD & Occlusion",
+    tags: ["TMD", "scope"],
+    source: "2023-busse-chronic-tmd-pain-guideline"
+  },
+  {
+    id: "2023-busse-chronic-tmd-pain-guideline-9",
+    front: "Busse 2023: How large is the evidence base behind the guideline?",
+    back: "Linked NMA (Yao 2023): 153 RCTs, 8713 patients, 59 interventions or combinations vs placebo or sham. Median trial: 46 patients, 12 weeks of follow-up, mean age 35 years, 83 % women.",
+    topic: "TMD & Occlusion",
+    tags: ["TMD", "evidence base"],
+    source: "2023-busse-chronic-tmd-pain-guideline"
+  },
+  {
+    id: "2023-busse-chronic-tmd-pain-guideline-10",
+    front: "Busse 2023: Where do NSAIDs sit in the recommendations?",
+    back: "NSAIDs alone: conditional against (−0.76 cm, RD 14 %, low certainty). NSAIDs with CBT: conditional for. NSAIDs with opioids: strong against.",
+    topic: "TMD & Occlusion",
+    tags: ["TMD", "pharmacology"],
+    source: "2023-busse-chronic-tmd-pain-guideline"
+  },
+  {
+    id: "2023-busse-chronic-tmd-pain-guideline-11",
+    front: "Busse 2023: In what order should treatment options be considered?",
+    back: "Strong for first, then conditional for, then conditional against. Never offer strong-against options. Choose by shared decision making: values, what has been tried, and access.",
+    topic: "TMD & Occlusion",
+    tags: ["TMD", "guideline", "shared decision making"],
+    source: "2023-busse-chronic-tmd-pain-guideline"
+  },
+  {
+    id: "2023-busse-chronic-tmd-pain-guideline-12",
+    front: "Busse 2023: What was the 5-year course of chronic TMD pain in the cohort the guideline cites?",
+    back: "234 of 368 followed (36 % lost): 49 % fully recovered, 14 % >50 % relief, 8 % 20-50 % relief, 13 % unchanged, 16 % ≥20 % worse (Ohrbach 1998, as cited).",
+    topic: "TMD & Occlusion",
+    tags: ["TMD", "prognosis"],
+    source: "2023-busse-chronic-tmd-pain-guideline"
+  },
+  {
+    id: "2026-jbara-pre-orthodontic-orofacial-pain-protocol-1",
+    front: "Jbara 2026: How was the pre-orthodontic TMD protocol developed?",
+    back: "Expert-informed: DC/TMD criteria, a targeted non-systematic narrative review (PubMed, Google Scholar, English only) and the authors' clinical experience. No Delphi, no expert panel, no pilot, no patient data (Sections 3.1, 3.2, 7; Data Availability).",
+    topic: "TMD & Occlusion",
+    tags: ["Jbara 2026", "TMD", "pre-orthodontic screening", "OFP & TMD course"],
+    source: "2026-jbara-pre-orthodontic-orofacial-pain-protocol"
+  },
+  {
+    id: "2026-jbara-pre-orthodontic-orofacial-pain-protocol-2",
+    front: "Jbara 2026: What are the three score bands of the pre-orthodontic TMD screen?",
+    back: "Low risk 0–3 points; moderate risk 4–6 points; high risk ≥7 points (Section 4.2).",
+    topic: "TMD & Occlusion",
+    tags: ["Jbara 2026", "TMD", "pre-orthodontic screening", "OFP & TMD course"],
+    source: "2026-jbara-pre-orthodontic-orofacial-pain-protocol"
+  },
+  {
+    id: "2026-jbara-pre-orthodontic-orofacial-pain-protocol-3",
+    front: "Jbara 2026: What action goes with each risk tier?",
+    back: "Low: start orthodontics without concern. Moderate: start, with follow-up every 6 months. High: manage the TMD first, then reassess. Moderate and high: refer to an orofacial pain specialist (Sections 4.2, 4.3, 5.2.1).",
+    topic: "TMD & Occlusion",
+    tags: ["Jbara 2026", "TMD", "pre-orthodontic screening", "OFP & TMD course"],
+    source: "2026-jbara-pre-orthodontic-orofacial-pain-protocol"
+  },
+  {
+    id: "2026-jbara-pre-orthodontic-orofacial-pain-protocol-4",
+    front: "Jbara 2026: What opening cut-off does the protocol use for disc displacement without reduction?",
+    back: "Clinician-measured maximal interincisal opening below 38 mm; the same cut-off is applied to trismus (Sections 4.1, 6).",
+    topic: "TMD & Occlusion",
+    tags: ["Jbara 2026", "TMD", "mouth opening", "OFP & TMD course"],
+    source: "2026-jbara-pre-orthodontic-orofacial-pain-protocol"
+  },
+  {
+    id: "2026-jbara-pre-orthodontic-orofacial-pain-protocol-5",
+    front: "Jbara 2026: How does its 38 mm opening cut-off differ from DC/TMD?",
+    back: "DC/TMD defines DDwoR 'with limited opening' as assisted opening, including vertical incisal overlap, below 40 mm (Schiffman 2014, verified on PMC4478082). Jbara uses interincisal opening below 38 mm and cites DC/TMD for it (Section 4.1).",
+    topic: "TMD & Occlusion",
+    tags: ["Jbara 2026", "TMD", "DC/TMD", "mouth opening", "OFP & TMD course"],
+    source: "2026-jbara-pre-orthodontic-orofacial-pain-protocol"
+  },
+  {
+    id: "2026-jbara-pre-orthodontic-orofacial-pain-protocol-6",
+    front: "Jbara 2026: What scores did the three illustrative cases get?",
+    back: "17 years, clicking without pain: 2 (low). 19 years, temple headaches plus mild masseter tenderness: 5 (moderate). 18 years, restricted opening (DDwoR) plus joint pain: 8 (high, orthodontics postponed) (Section 4.3).",
+    topic: "TMD & Occlusion",
+    tags: ["Jbara 2026", "TMD", "pre-orthodontic screening", "OFP & TMD course"],
+    source: "2026-jbara-pre-orthodontic-orofacial-pain-protocol"
+  },
+  {
+    id: "2026-jbara-pre-orthodontic-orofacial-pain-protocol-7",
+    front: "Jbara 2026: How is the degenerative joint disease module scored?",
+    back: "Crepitus 1; degenerative change on panoramic/CBCT 1; function pain 1 (0–4/10) or 2 (5–10/10); related occlusal change 1. Range 0–5. Overlapping bands: 0–2 proceed; 2–3 proceed, 6-month OFP review; 3–5 manage first (Section 4.4.3).",
+    topic: "TMD & Occlusion",
+    tags: ["Jbara 2026", "TMD", "degenerative joint disease", "OFP & TMD course"],
+    source: "2026-jbara-pre-orthodontic-orofacial-pain-protocol"
+  },
+  {
+    id: "2026-jbara-pre-orthodontic-orofacial-pain-protocol-8",
+    front: "Jbara 2026: What does TMJ tenderness on palpation score in the arthralgia/capsulitis module, and what follows?",
+    back: "1 point (trauma as the cause adds 1; range 0–2). Any score of 1–2 means the arthralgia is addressed before orthodontics, with follow-up during treatment (Section 4.4.3).",
+    topic: "TMD & Occlusion",
+    tags: ["Jbara 2026", "TMD", "arthralgia", "OFP & TMD course"],
+    source: "2026-jbara-pre-orthodontic-orofacial-pain-protocol"
+  },
+  {
+    id: "2026-jbara-pre-orthodontic-orofacial-pain-protocol-9",
+    front: "Jbara 2026: How is pterygoid trismus after a mandibular advancement device scored?",
+    back: "MAD use for sleep apnoea 1 point; no posterior tooth contact in centric occlusion 1 point. 0 = start orthodontics; 1–2 = treat the trismus first and monitor throughout (Section 4.4.2).",
+    topic: "TMD & Occlusion",
+    tags: ["Jbara 2026", "TMD", "trismus", "OFP & TMD course"],
+    source: "2026-jbara-pre-orthodontic-orofacial-pain-protocol"
+  },
+  {
+    id: "2026-jbara-pre-orthodontic-orofacial-pain-protocol-10",
+    front: "Jbara 2026: How are bruxism and psychosocial (Axis II) factors handled in the score?",
+    back: "Not scored. They are contextual modifiers: a moderate-risk patient with active bruxism or marked stress may be managed as functionally higher risk, with closer review, earlier referral or TMD care first (Sections 5.2.2, 5.2.3).",
+    topic: "TMD & Occlusion",
+    tags: ["Jbara 2026", "TMD", "bruxism", "biopsychosocial", "OFP & TMD course"],
+    source: "2026-jbara-pre-orthodontic-orofacial-pain-protocol"
+  },
+  {
+    id: "2026-jbara-pre-orthodontic-orofacial-pain-protocol-11",
+    front: "Jbara 2026: What validity data exist for the screening score?",
+    back: "None: no sensitivity, specificity, diagnostic accuracy or reproducibility data, and no pilot testing. The three cases are illustrative, not outcome evidence (Section 7).",
+    topic: "TMD & Occlusion",
+    tags: ["Jbara 2026", "TMD", "validation", "OFP & TMD course"],
+    source: "2026-jbara-pre-orthodontic-orofacial-pain-protocol"
+  },
+  {
+    id: "2026-jbara-pre-orthodontic-orofacial-pain-protocol-12",
+    front: "Jbara 2026: Which medico-legal case does it cite as the reason to document baseline TMD?",
+    back: "A Michigan jury award of $850,000 against an orthodontist accused of causing TMD (Pollack). The authors call the protocol's liability benefit theoretical, not demonstrated (Sections 2.2, 5.4).",
+    topic: "TMD & Occlusion",
+    tags: ["Jbara 2026", "TMD", "medico-legal", "OFP & TMD course"],
+    source: "2026-jbara-pre-orthodontic-orofacial-pain-protocol"
+  },
 ];

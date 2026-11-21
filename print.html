@@ -117,7 +117,7 @@
   const a = isTopic ? null : (typeof ARTICLES !== 'undefined' ? ARTICLES : []).find(x => x.slug === slug);
   const t = isTopic ? (typeof TOPICS !== 'undefined' ? TOPICS : []).find(x => x.slug === slug) : null;
   const el = document.getElementById('content');
-  document.getElementById('top-right').textContent = a ? `${a.authors} · ${a.journal} ${a.year}` : (t ? `Literature review · Topic ${t.n}` : (slug || ''));
+  document.getElementById('top-right').textContent = a ? `${a.authors} · ${a.journal} ${a.year}` : (t ? (t.kind === 'course' ? `${t.label || 'Course'}${t.presenter ? ` · ${t.presenter}` : ''}` : (t.label || `Literature review · Topic ${t.n}`)) : (slug || ''));
   document.getElementById('top-left').textContent = `Ortho Study Hub · ${doc.replace(/-/g, ' ')}`;
   document.getElementById('foot').textContent = a ? `${a.citation} · ${slug}/${doc}.md` : (t ? `${t.name} · topics/${slug}/${doc}.md` : '');
   document.title = a ? `${a.short || slug} — ${doc}` : (t ? `${t.name} — ${doc}` : doc);
